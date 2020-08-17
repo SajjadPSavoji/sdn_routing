@@ -201,9 +201,12 @@ class SimpleSwitch(app_manager.RyuApp):
 	def get_topology_data(self, ev):
 		print 'entered event.EvnetSwitchEnter'
 		temp_dict = load_wights()
+		print 'temp_dict', temp_dict
 		self.weights = {}
-		for key in temp_dict:
-			self.weights[int(key)] = int(temp_dict[key])
+		for key1 in temp_dict:
+			self.weights[int(key1)] = {}
+			for key2 in temp_dict[key1]:
+				self.weights[int(key1)][int(key2)] = float(temp_dict[key1][key2])
 			
 		switch_list = get_switch(self.topology_api_app, None)
 		switches=[switch.dp.id for switch in switch_list]
@@ -231,7 +234,7 @@ class SimpleSwitch(app_manager.RyuApp):
 			#@TODO add real costs to self.weights
 			if (not s1 in self.weights) or (not s2 in self.weights[s1]):
 				self.weights[s1][s2]=1
-			if (not s2 in self.weights) or (not s1 in self.weights[s2])
+			if (not s2 in self.weights) or (not s1 in self.weights[s2]):
 				self.weights[s2][s1]=1
 
 		print 'switches = ', self.switches

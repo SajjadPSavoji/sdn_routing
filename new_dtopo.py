@@ -8,6 +8,7 @@ import time
 
 import json
 import numpy as np
+import os
 
 def MyRandom():
 	return np.random.uniform()*4+1
@@ -19,9 +20,9 @@ def save_weights(weights):
 c0 = RemoteController( 'c0', ip='127.0.0.1', port=6633 )
 
 # 5
-num_runs = 1
+num_runs = 2
 # 6
-num_net_up = 1
+num_net_up = 2
 
 switches = ['s1', 's2', 's3', 's4']
 for i in range(num_runs):
