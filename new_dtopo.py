@@ -6,15 +6,54 @@ from mininet.node import RemoteController #remote controller
 import random
 import time
 
+import json
+import numpy as np
+
+def MyRandom():
+	return np.random.uniform()*4+1
+
+def save_weights(weights):
+	with open("weights.config", "w") as f:
+		json.dump(weights,f) 
+
 c0 = RemoteController( 'c0', ip='127.0.0.1', port=6633 )
 
 # 5
 num_runs = 1
 # 6
-num_net_up = 2
+num_net_up = 1
 
+switches = ['s1', 's2', 's3', 's4']
 for i in range(num_runs):
 	for j in range(num_net_up):
+
+		# all possible connections between switches
+		mask = {}
+		for s1 in switches:
+			mask[s1] = {}
+			for s2 in switches:
+				mask[s1][s2] = False
+
+		# costumize links mask
+		mask['s1']['s2'] = True
+		mask['s2']['s3'] = True
+		mask['s3']['s4'] = True
+
+		weights = {}
+		bws = {}
+		for i, s in enumerate(switches):
+			weights[i+1] = {}
+			bws[s] = {}
+		for i in range(len(switches)):
+			for j in range(i+1, len(switches)):
+				if not mask[switches[i]][switches[j]]:
+					continue
+				rand = MyRandom()
+				bws[switches[i]][switches[j]] = rand
+				bws[switches[j]][switches[i]] = rand
+				weights[i+1][j+1] = 1/rand
+				weights[j+1][i+1] = 1/rand
+		save_weights(weights)
 
 		topo = Topo()  # Create an empty topology
 

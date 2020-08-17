@@ -32,6 +32,11 @@ from ryu.topology.api import get_switch, get_link, get_host
 from ryu.app.wsgi import ControllerBase
 from ryu.topology import event, switches
 
+import json
+def load_wights():
+	with open('weights.config') as f:
+		return json.load(f)
+
 
 class SimpleSwitch(app_manager.RyuApp):
 	OFP_VERSIONS = [ofproto_v1_0.OFP_VERSION]
@@ -195,6 +200,11 @@ class SimpleSwitch(app_manager.RyuApp):
 	@set_ev_cls(event.EventSwitchEnter)
 	def get_topology_data(self, ev):
 		print 'entered event.EvnetSwitchEnter'
+		temp_dict = load_wights()
+		self.weights = {}
+		for key in temp_dict:
+			self.weights[int(key)] = int(temp_dict[key])
+			
 		switch_list = get_switch(self.topology_api_app, None)
 		switches=[switch.dp.id for switch in switch_list]
 		self.switches = [switch.dp.id for switch in switch_list]
@@ -219,8 +229,11 @@ class SimpleSwitch(app_manager.RyuApp):
 			self.adjacency[s2][s1]=port2
 
 			#@TODO add real costs to self.weights
-			self.weights[s1][s2]=1
-			self.weights[s2][s1]=1
+			if (not s1 in self.weights) or (not s2 in self.weights[s1]):
+				self.weights[s1][s2]=1
+			if (not s2 in self.weights) or (not s1 in self.weights[s2])
+				self.weights[s2][s1]=1
 
 		print 'switches = ', self.switches
 		print 'adjecency = ', self.adjacency
+		print 'weights = ', self.weights
