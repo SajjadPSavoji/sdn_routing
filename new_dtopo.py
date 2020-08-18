@@ -10,6 +10,20 @@ import json
 import numpy as np
 import os
 
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
+# import pickle
+
+class DataPacket(dict):
+	def __init__(self, host, dest, rtt, time):
+		self.host = host
+		self.dest = dest
+		self.rtt = rtt
+		self.time = time
+
+
 def MyRandom():
 	return np.random.uniform()*4+1
 
@@ -17,16 +31,43 @@ def save_weights(weights):
 	with open("weights.config", "w") as f:
 		json.dump(weights,f) 
 
+def draw_plot(history, index):
+	fig, ax = plt.subplots()
+	for i in range(num_hosts):
+		y = []
+		x = []
+		if i != index:
+			for data in history:
+				if data.dest == i:
+					y.append(data.rtt)
+					x.append(float(data.time))
+			
+			if y != []:
+				# print(y)
+				# ax.scatter(x, y, label=i)
+				x, y = zip(*sorted(zip(x, y)))
+				ax.plot(x, y, label=i+1)
+
+
+	plt.xlabel('time s')	
+	plt.ylabel('rtt ms')
+	ax.legend()
+	plt.savefig("pics/plt" + str(index) + ".png")
+	plt.close() 
+
 c0 = RemoteController( 'c0', ip='127.0.0.1', port=6633 )
 
 # 5
-num_runs = 1
+num_runs = 5
 # 6
-num_net_up = 1
+num_net_up = 6
 # num hosts
 num_hosts = 7
 
+history = [[] for i in range(num_hosts)]
 switches = ['s1', 's2', 's3', 's4']
+base_time = time.time()
+
 for i in range(num_runs):
 	for j in range(num_net_up):
 
@@ -113,18 +154,34 @@ for i in range(num_runs):
 			hosts.append(net.get('h'+str(i+1)))
 		# print(hosts)
 
-		# need to change connections every 100 ms
-		start_time = time.time()
+		# need to change links every 10 secs
+		begin_time = time.time()
+		while time.time() - begin_time < 10:
 
-		# random destinations for every host
-		rand_index = [0] * num_hosts
-		for rand_dest in range(num_hosts):
-			rand_index[rand_dest] = random.randint(0, 6)
+			# random destinations for every host
+			rand_index = [0] * num_hosts
+			for rand_dest in range(num_hosts):
+				rand_index[rand_dest] = random.randint(0, 6)
 
-		# seding tcp packets with size 100000 bytes for 100 ms
-		while time.time() - start_time < 0.1:
-			for host_num in range(num_hosts):
-				print(hosts[host_num].cmd('hping3 -d 100000 -c 1', hosts[rand_index[host_num]].IP()))
+			
+			# need to change connections every 100 ms
+			start_time = time.time()
+			# seding tcp packets with size 100000 bytes for 100 ms
+			while time.time() - start_time < 0.1:
+				for host_num in range(num_hosts):
+					log = hosts[host_num].cmd('hping3 -d 100000 -c 1', hosts[rand_index[host_num]].IP())
+					log_split =  log.split()
+					rtt = log_split[23]
+					if (rtt[0:3] == 'rtt'):
+						rtt_number = rtt[4:]
+						history[host_num].append(DataPacket(host_num, rand_index[host_num], float(rtt_number)/ 2, float(time.time() - base_time)))
+						
+
 
 		# CLI(net)  # Bring up the mininet CLI
 		net.stop()	
+
+for i in range(num_hosts):
+	print('creating plot #' + str(i+1))
+	draw_plot(history[i], i)
+
