@@ -76,27 +76,27 @@ for i in range(num_runs):
 		s4 = topo.addSwitch( 's4' )
 
 		# Add links
-		bw = random.randint(0, 4) + 1
+		bw = MyRandom()
 		topo.addLink('h1', 's1', bw=bw, use_htb=True, cls=TCLink)
-		bw = random.randint(0, 4) + 1
+		bw = MyRandom()
 		topo.addLink('h2', 's2', bw=bw, use_htb=True, cls=TCLink)
-		bw = random.randint(0, 4) + 1
+		bw = MyRandom()
 		topo.addLink('h3', 's3', bw=bw, use_htb=True, cls=TCLink)
-		bw = random.randint(0, 4) + 1
+		bw = MyRandom()
 		topo.addLink('h4', 's3', bw=bw, use_htb=True, cls=TCLink)
-		bw = random.randint(0, 4) + 1
+		bw = MyRandom()
 		topo.addLink('h5', 's4', bw=bw, use_htb=True, cls=TCLink)
-		bw = random.randint(0, 4) + 1
+		bw = MyRandom()
 		topo.addLink('h6', 's4', bw=bw, use_htb=True, cls=TCLink)
-		bw = random.randint(0, 4) + 1
+		bw = MyRandom()
 		topo.addLink('h7', 's4', bw=bw, use_htb=True, cls=TCLink)
 
-		bw = random.randint(0, 4) + 1
+		bw = weights[1][2]
 		topo.addLink('s1', 's2', bw=bw, use_htb=True, cls=TCLink)
-		bw = random.randint(0, 4) + 1
+		bw = weights[2][3]
 		topo.addLink('s2', 's3', bw=bw, use_htb=True, cls=TCLink)
 		# topo.addLink('s1', 's3')
-		bw = random.randint(0, 4) + 1
+		bw = weights[3][4]
 		topo.addLink('s3', 's4', bw=bw, use_htb=True, cls=TCLink)
 		# topo.addLink('s2', 's4')
 
