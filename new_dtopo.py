@@ -20,9 +20,11 @@ def save_weights(weights):
 c0 = RemoteController( 'c0', ip='127.0.0.1', port=6633 )
 
 # 5
-num_runs = 2
+num_runs = 1
 # 6
-num_net_up = 2
+num_net_up = 1
+# num hosts
+num_hosts = 7
 
 switches = ['s1', 's2', 's3', 's4']
 for i in range(num_runs):
@@ -104,6 +106,25 @@ for i in range(num_runs):
 
 		time.sleep(2)
 		net.pingAll()
+		
+		# Getting hosts from network
+		hosts = []
+		for i in range(num_hosts):
+			hosts.append(net.get('h'+str(i+1)))
+		# print(hosts)
+
+		# need to change connections every 100 ms
+		start_time = time.time()
+
+		# random destinations for every host
+		rand_index = [0] * num_hosts
+		for rand_dest in range(num_hosts):
+			rand_index[rand_dest] = random.randint(0, 6)
+
+		# seding tcp packets with size 100000 bytes for 100 ms
+		while time.time() - start_time < 0.1:
+			for host_num in range(num_hosts):
+				print(hosts[host_num].cmd('hping3 -d 100000 -c 1', hosts[rand_index[host_num]].IP()))
 
 		# CLI(net)  # Bring up the mininet CLI
 		net.stop()	
