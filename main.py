@@ -32,10 +32,25 @@ from ryu.topology.api import get_switch, get_link, get_host
 from ryu.app.wsgi import ControllerBase
 from ryu.topology import event, switches
 
+import time
+
+T0 = time.time()
 import json
 def load_wights():
 	with open('weights.config') as f:
 		return json.load(f)
+
+def make_flow_trace(ft):
+	# ft = [datapath.id, src, dst, in_port, out_port, time.time()]
+	SPACE = " "
+	EQUAL = "="
+	names = ['dpid', 'src', 'dst', 'in_port', 'out_port', 'time']
+	ENDL = '\n'
+	rep = ''
+	for i in range(len(names)):
+		rep = rep + names[i] + EQUAL + str(ft[i]) + SPACE
+	return rep + ENDL
+
 
 
 class SimpleSwitch(app_manager.RyuApp):
@@ -100,11 +115,15 @@ class SimpleSwitch(app_manager.RyuApp):
 			path.append(x)
 		# print 'after loop kiri'
 		path.append(src)
-		# print 'path= ', path[::-1]
+		# print 'path= ', path[::-1] 
 
-		return self.adjacency[src][x]
+		return self.adjacency[src][x], path
 
-	def add_flow(self, datapath, in_port, dst, src, actions):
+	def add_flow(self, datapath, in_port, dst, src, actions, out_port):
+		flowtabeltrace = [datapath.id, src, dst, in_port, out_port, float(time.time()-T0)]
+		with open('flowtable.trace', 'a') as f:
+			f.write(make_flow_trace(flowtabeltrace))
+
 		ofproto = datapath.ofproto
 
 		match = datapath.ofproto_parser.OFPMatch(
@@ -149,6 +168,17 @@ class SimpleSwitch(app_manager.RyuApp):
 			# self.logger.info("packet in %s %s %s %s", dpid, src, dst, msg.in_port)
 			# print 'my mac', self.mymac
 			out_port = self.mymac[dst][1]
+			if self.mymac[src] == (dpid, msg.in_port):
+				with open('path.trace', 'a') as f:
+					SPACE = " "
+					rep = "SEND" + SPACE + 'time=' +str(time.time()-T0) + SPACE +"src=" + src + SPACE + "dst=" + dst + SPACE + 'path='+str([dpid]) + '\n' 
+					f.write(rep)
+
+			with open('path.trace', 'a') as f:
+				SPACE = " "
+				rep = "RECV" + SPACE + 'time=' +str(time.time()-T0) + SPACE +"src=" + src + SPACE + "dst=" + dst + SPACE+ '\n' 
+				f.write(rep)
+
 		elif dst in self.mymac:
 			print '___________ perform dijkestra ___________'
 			# self.logger.info("packet in %s %s %s %s", dpid, src, dst, msg.in_port)
@@ -158,7 +188,12 @@ class SimpleSwitch(app_manager.RyuApp):
 			sw_dst = self.mymac[dst][0]
 			# print 'sw_srd: ', sw_src, 'sw_dst:', sw_dst
 			# print '*********befor dij'
-			out_port = self.dijkestra(sw_src, sw_dst)
+			out_port, path = self.dijkestra(sw_src, sw_dst)
+			if self.mymac[src] == (dpid, msg.in_port):
+				with open('path.trace', 'a') as f:
+					SPACE = " "
+					rep = "SEND" + SPACE + 'time=' +str(time.time()-T0) + SPACE +"src=" + src + SPACE + "dst=" + dst + SPACE + 'path='+str(path) + '\n' 
+					f.write(rep)
 			# print '*********after dij'
 			# print 'dij out port', out_port
 
@@ -169,7 +204,7 @@ class SimpleSwitch(app_manager.RyuApp):
 
 		# install a flow to avoid packet_in next time
 		if out_port != ofproto.OFPP_FLOOD:
-			self.add_flow(datapath, msg.in_port, dst, src, actions)
+			self.add_flow(datapath, msg.in_port, dst, src, actions, out_port)
 
 		data = None
 		if msg.buffer_id == ofproto.OFP_NO_BUFFER:
