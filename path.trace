@@ -1,0 +1,2520 @@
+SEND time=450.114620924 src=26:2b:3f:9b:be:d6 dst=26:cc:32:68:c7:1c path=[1, 2]
+RECV time=450.11894989 src=26:2b:3f:9b:be:d6 dst=26:cc:32:68:c7:1c 
+SEND time=450.121764898 src=26:cc:32:68:c7:1c dst=26:2b:3f:9b:be:d6 path=[2, 1]
+RECV time=450.123954058 src=26:cc:32:68:c7:1c dst=26:2b:3f:9b:be:d6 
+SEND time=450.13696599 src=d2:d6:fb:b9:b9:c5 dst=26:cc:32:68:c7:1c path=[1, 2, 3]
+RECV time=450.138993025 src=d2:d6:fb:b9:b9:c5 dst=26:cc:32:68:c7:1c 
+SEND time=450.13993597 src=26:cc:32:68:c7:1c dst=d2:d6:fb:b9:b9:c5 path=[3, 2, 1]
+RECV time=450.141680002 src=26:cc:32:68:c7:1c dst=d2:d6:fb:b9:b9:c5 
+SEND time=450.148109913 src=42:bf:d0:06:71:97 dst=26:cc:32:68:c7:1c path=[1, 2, 3]
+RECV time=450.150363922 src=42:bf:d0:06:71:97 dst=26:cc:32:68:c7:1c 
+SEND time=450.151200056 src=26:cc:32:68:c7:1c dst=42:bf:d0:06:71:97 path=[3, 2, 1]
+RECV time=450.152841091 src=26:cc:32:68:c7:1c dst=42:bf:d0:06:71:97 
+SEND time=450.157900095 src=1e:0c:1c:37:ea:e6 dst=26:cc:32:68:c7:1c path=[1, 2, 3, 4]
+RECV time=450.160562992 src=1e:0c:1c:37:ea:e6 dst=26:cc:32:68:c7:1c 
+SEND time=450.161580086 src=26:cc:32:68:c7:1c dst=1e:0c:1c:37:ea:e6 path=[4, 3, 2, 1]
+RECV time=450.165616989 src=26:cc:32:68:c7:1c dst=1e:0c:1c:37:ea:e6 
+SEND time=450.170851946 src=ca:61:72:17:da:af dst=26:cc:32:68:c7:1c path=[1, 2, 3, 4]
+RECV time=450.173242092 src=ca:61:72:17:da:af dst=26:cc:32:68:c7:1c 
+SEND time=450.174025059 src=26:cc:32:68:c7:1c dst=ca:61:72:17:da:af path=[4, 3, 2, 1]
+RECV time=450.176486015 src=26:cc:32:68:c7:1c dst=ca:61:72:17:da:af 
+SEND time=450.181515932 src=6a:07:51:cd:92:f0 dst=26:cc:32:68:c7:1c path=[1, 2, 3, 4]
+RECV time=450.183887959 src=6a:07:51:cd:92:f0 dst=26:cc:32:68:c7:1c 
+SEND time=450.184865952 src=26:cc:32:68:c7:1c dst=6a:07:51:cd:92:f0 path=[4, 3, 2, 1]
+RECV time=450.187267065 src=26:cc:32:68:c7:1c dst=6a:07:51:cd:92:f0 
+SEND time=450.193768024 src=d2:d6:fb:b9:b9:c5 dst=26:2b:3f:9b:be:d6 path=[2, 3]
+RECV time=450.195157051 src=d2:d6:fb:b9:b9:c5 dst=26:2b:3f:9b:be:d6 
+SEND time=450.1967659 src=26:2b:3f:9b:be:d6 dst=d2:d6:fb:b9:b9:c5 path=[3, 2]
+RECV time=450.198216915 src=26:2b:3f:9b:be:d6 dst=d2:d6:fb:b9:b9:c5 
+SEND time=450.203289032 src=42:bf:d0:06:71:97 dst=26:2b:3f:9b:be:d6 path=[2, 3]
+RECV time=450.204156876 src=42:bf:d0:06:71:97 dst=26:2b:3f:9b:be:d6 
+SEND time=450.205189943 src=26:2b:3f:9b:be:d6 dst=42:bf:d0:06:71:97 path=[3, 2]
+RECV time=450.206078053 src=26:2b:3f:9b:be:d6 dst=42:bf:d0:06:71:97 
+SEND time=450.210860014 src=1e:0c:1c:37:ea:e6 dst=26:2b:3f:9b:be:d6 path=[2, 3, 4]
+RECV time=450.21250391 src=1e:0c:1c:37:ea:e6 dst=26:2b:3f:9b:be:d6 
+SEND time=450.213572979 src=26:2b:3f:9b:be:d6 dst=1e:0c:1c:37:ea:e6 path=[4, 3, 2]
+RECV time=450.215301037 src=26:2b:3f:9b:be:d6 dst=1e:0c:1c:37:ea:e6 
+SEND time=450.220401049 src=ca:61:72:17:da:af dst=26:2b:3f:9b:be:d6 path=[2, 3, 4]
+RECV time=450.222649097 src=ca:61:72:17:da:af dst=26:2b:3f:9b:be:d6 
+SEND time=450.223917007 src=26:2b:3f:9b:be:d6 dst=ca:61:72:17:da:af path=[4, 3, 2]
+RECV time=450.226500034 src=26:2b:3f:9b:be:d6 dst=ca:61:72:17:da:af 
+SEND time=450.233170986 src=6a:07:51:cd:92:f0 dst=26:2b:3f:9b:be:d6 path=[2, 3, 4]
+RECV time=450.236363888 src=6a:07:51:cd:92:f0 dst=26:2b:3f:9b:be:d6 
+SEND time=450.237494946 src=26:2b:3f:9b:be:d6 dst=6a:07:51:cd:92:f0 path=[4, 3, 2]
+RECV time=450.239152908 src=26:2b:3f:9b:be:d6 dst=6a:07:51:cd:92:f0 
+SEND time=450.24584198 src=42:bf:d0:06:71:97 dst=d2:d6:fb:b9:b9:c5 path=[3]
+RECV time=450.245876074 src=42:bf:d0:06:71:97 dst=d2:d6:fb:b9:b9:c5 
+SEND time=450.247395039 src=d2:d6:fb:b9:b9:c5 dst=42:bf:d0:06:71:97 path=[3]
+RECV time=450.247421026 src=d2:d6:fb:b9:b9:c5 dst=42:bf:d0:06:71:97 
+SEND time=450.25235796 src=1e:0c:1c:37:ea:e6 dst=d2:d6:fb:b9:b9:c5 path=[3, 4]
+RECV time=450.253304958 src=1e:0c:1c:37:ea:e6 dst=d2:d6:fb:b9:b9:c5 
+SEND time=450.25423193 src=d2:d6:fb:b9:b9:c5 dst=1e:0c:1c:37:ea:e6 path=[4, 3]
+RECV time=450.255059958 src=d2:d6:fb:b9:b9:c5 dst=1e:0c:1c:37:ea:e6 
+SEND time=450.259901047 src=ca:61:72:17:da:af dst=d2:d6:fb:b9:b9:c5 path=[3, 4]
+RECV time=450.260854959 src=ca:61:72:17:da:af dst=d2:d6:fb:b9:b9:c5 
+SEND time=450.262142897 src=d2:d6:fb:b9:b9:c5 dst=ca:61:72:17:da:af path=[4, 3]
+RECV time=450.263953924 src=d2:d6:fb:b9:b9:c5 dst=ca:61:72:17:da:af 
+SEND time=450.270834923 src=6a:07:51:cd:92:f0 dst=d2:d6:fb:b9:b9:c5 path=[3, 4]
+RECV time=450.272609949 src=6a:07:51:cd:92:f0 dst=d2:d6:fb:b9:b9:c5 
+SEND time=450.27373004 src=d2:d6:fb:b9:b9:c5 dst=6a:07:51:cd:92:f0 path=[4, 3]
+RECV time=450.274668932 src=d2:d6:fb:b9:b9:c5 dst=6a:07:51:cd:92:f0 
+SEND time=450.283207893 src=1e:0c:1c:37:ea:e6 dst=42:bf:d0:06:71:97 path=[3, 4]
+RECV time=450.284656048 src=1e:0c:1c:37:ea:e6 dst=42:bf:d0:06:71:97 
+SEND time=450.285647869 src=42:bf:d0:06:71:97 dst=1e:0c:1c:37:ea:e6 path=[4, 3]
+RECV time=450.286484003 src=42:bf:d0:06:71:97 dst=1e:0c:1c:37:ea:e6 
+SEND time=450.291239023 src=ca:61:72:17:da:af dst=42:bf:d0:06:71:97 path=[3, 4]
+RECV time=450.292435884 src=ca:61:72:17:da:af dst=42:bf:d0:06:71:97 
+SEND time=450.293389082 src=42:bf:d0:06:71:97 dst=ca:61:72:17:da:af path=[4, 3]
+RECV time=450.294694901 src=42:bf:d0:06:71:97 dst=ca:61:72:17:da:af 
+SEND time=450.301521063 src=6a:07:51:cd:92:f0 dst=42:bf:d0:06:71:97 path=[3, 4]
+RECV time=450.303133965 src=6a:07:51:cd:92:f0 dst=42:bf:d0:06:71:97 
+SEND time=450.304151058 src=42:bf:d0:06:71:97 dst=6a:07:51:cd:92:f0 path=[4, 3]
+RECV time=450.305053949 src=42:bf:d0:06:71:97 dst=6a:07:51:cd:92:f0 
+SEND time=450.31400609 src=ca:61:72:17:da:af dst=1e:0c:1c:37:ea:e6 path=[4]
+RECV time=450.314039946 src=ca:61:72:17:da:af dst=1e:0c:1c:37:ea:e6 
+SEND time=450.315285921 src=1e:0c:1c:37:ea:e6 dst=ca:61:72:17:da:af path=[4]
+RECV time=450.315310955 src=1e:0c:1c:37:ea:e6 dst=ca:61:72:17:da:af 
+SEND time=450.319271088 src=6a:07:51:cd:92:f0 dst=1e:0c:1c:37:ea:e6 path=[4]
+RECV time=450.319302082 src=6a:07:51:cd:92:f0 dst=1e:0c:1c:37:ea:e6 
+SEND time=450.320851088 src=1e:0c:1c:37:ea:e6 dst=6a:07:51:cd:92:f0 path=[4]
+RECV time=450.320921898 src=1e:0c:1c:37:ea:e6 dst=6a:07:51:cd:92:f0 
+SEND time=450.331414938 src=6a:07:51:cd:92:f0 dst=ca:61:72:17:da:af path=[4]
+RECV time=450.331451893 src=6a:07:51:cd:92:f0 dst=ca:61:72:17:da:af 
+SEND time=450.332943916 src=ca:61:72:17:da:af dst=6a:07:51:cd:92:f0 path=[4]
+RECV time=450.332992077 src=ca:61:72:17:da:af dst=6a:07:51:cd:92:f0 
+SEND time=473.326833963 src=fa:29:62:a0:e3:fc dst=56:0b:82:aa:e9:a8 path=[1, 2]
+RECV time=473.335915089 src=fa:29:62:a0:e3:fc dst=56:0b:82:aa:e9:a8 
+SEND time=473.342714071 src=56:0b:82:aa:e9:a8 dst=fa:29:62:a0:e3:fc path=[2, 1]
+RECV time=473.347058058 src=56:0b:82:aa:e9:a8 dst=fa:29:62:a0:e3:fc 
+SEND time=473.357552052 src=06:16:6b:4d:bc:89 dst=56:0b:82:aa:e9:a8 path=[1, 2, 3]
+RECV time=473.362408876 src=06:16:6b:4d:bc:89 dst=56:0b:82:aa:e9:a8 
+SEND time=473.364799976 src=56:0b:82:aa:e9:a8 dst=06:16:6b:4d:bc:89 path=[3, 2, 1]
+RECV time=473.367889881 src=56:0b:82:aa:e9:a8 dst=06:16:6b:4d:bc:89 
+SEND time=473.37864995 src=a6:76:63:4a:9a:94 dst=56:0b:82:aa:e9:a8 path=[1, 2, 3]
+RECV time=473.381921053 src=a6:76:63:4a:9a:94 dst=56:0b:82:aa:e9:a8 
+SEND time=473.383411884 src=56:0b:82:aa:e9:a8 dst=a6:76:63:4a:9a:94 path=[3, 2, 1]
+RECV time=473.386810064 src=56:0b:82:aa:e9:a8 dst=a6:76:63:4a:9a:94 
+SEND time=473.395391941 src=ba:ee:d0:e9:1d:20 dst=56:0b:82:aa:e9:a8 path=[1, 2, 3, 4]
+RECV time=473.398375034 src=ba:ee:d0:e9:1d:20 dst=56:0b:82:aa:e9:a8 
+SEND time=473.399270058 src=56:0b:82:aa:e9:a8 dst=ba:ee:d0:e9:1d:20 path=[4, 3, 2, 1]
+RECV time=473.402405024 src=56:0b:82:aa:e9:a8 dst=ba:ee:d0:e9:1d:20 
+SEND time=473.407772064 src=b6:15:c1:7f:9c:83 dst=56:0b:82:aa:e9:a8 path=[1, 2, 3, 4]
+RECV time=473.41021204 src=b6:15:c1:7f:9c:83 dst=56:0b:82:aa:e9:a8 
+SEND time=473.411055088 src=56:0b:82:aa:e9:a8 dst=b6:15:c1:7f:9c:83 path=[4, 3, 2, 1]
+RECV time=473.413491011 src=56:0b:82:aa:e9:a8 dst=b6:15:c1:7f:9c:83 
+SEND time=473.418570995 src=ee:67:e6:d0:dd:7a dst=56:0b:82:aa:e9:a8 path=[1, 2, 3, 4]
+RECV time=473.423861027 src=ee:67:e6:d0:dd:7a dst=56:0b:82:aa:e9:a8 
+SEND time=473.424764872 src=56:0b:82:aa:e9:a8 dst=ee:67:e6:d0:dd:7a path=[4, 3, 2, 1]
+RECV time=473.428920984 src=56:0b:82:aa:e9:a8 dst=ee:67:e6:d0:dd:7a 
+SEND time=473.43614006 src=06:16:6b:4d:bc:89 dst=fa:29:62:a0:e3:fc path=[2, 3]
+RECV time=473.439054966 src=06:16:6b:4d:bc:89 dst=fa:29:62:a0:e3:fc 
+SEND time=473.440358877 src=fa:29:62:a0:e3:fc dst=06:16:6b:4d:bc:89 path=[3, 2]
+RECV time=473.441293955 src=fa:29:62:a0:e3:fc dst=06:16:6b:4d:bc:89 
+SEND time=473.446573019 src=a6:76:63:4a:9a:94 dst=fa:29:62:a0:e3:fc path=[2, 3]
+RECV time=473.447612047 src=a6:76:63:4a:9a:94 dst=fa:29:62:a0:e3:fc 
+SEND time=473.448591948 src=fa:29:62:a0:e3:fc dst=a6:76:63:4a:9a:94 path=[3, 2]
+RECV time=473.449501038 src=fa:29:62:a0:e3:fc dst=a6:76:63:4a:9a:94 
+SEND time=473.457238913 src=ba:ee:d0:e9:1d:20 dst=fa:29:62:a0:e3:fc path=[2, 3, 4]
+RECV time=473.460195065 src=ba:ee:d0:e9:1d:20 dst=fa:29:62:a0:e3:fc 
+SEND time=473.461452961 src=fa:29:62:a0:e3:fc dst=ba:ee:d0:e9:1d:20 path=[4, 3, 2]
+RECV time=473.463469028 src=fa:29:62:a0:e3:fc dst=ba:ee:d0:e9:1d:20 
+SEND time=473.469773054 src=b6:15:c1:7f:9c:83 dst=fa:29:62:a0:e3:fc path=[2, 3, 4]
+RECV time=473.473793983 src=b6:15:c1:7f:9c:83 dst=fa:29:62:a0:e3:fc 
+SEND time=473.474848032 src=fa:29:62:a0:e3:fc dst=b6:15:c1:7f:9c:83 path=[4, 3, 2]
+RECV time=473.476615906 src=fa:29:62:a0:e3:fc dst=b6:15:c1:7f:9c:83 
+SEND time=473.481945992 src=ee:67:e6:d0:dd:7a dst=fa:29:62:a0:e3:fc path=[2, 3, 4]
+RECV time=473.483807087 src=ee:67:e6:d0:dd:7a dst=fa:29:62:a0:e3:fc 
+SEND time=473.484750986 src=fa:29:62:a0:e3:fc dst=ee:67:e6:d0:dd:7a path=[4, 3, 2]
+RECV time=473.48645401 src=fa:29:62:a0:e3:fc dst=ee:67:e6:d0:dd:7a 
+SEND time=473.494009018 src=a6:76:63:4a:9a:94 dst=06:16:6b:4d:bc:89 path=[3]
+RECV time=473.494042873 src=a6:76:63:4a:9a:94 dst=06:16:6b:4d:bc:89 
+SEND time=473.495671034 src=06:16:6b:4d:bc:89 dst=a6:76:63:4a:9a:94 path=[3]
+RECV time=473.495694876 src=06:16:6b:4d:bc:89 dst=a6:76:63:4a:9a:94 
+SEND time=473.501733065 src=ba:ee:d0:e9:1d:20 dst=06:16:6b:4d:bc:89 path=[3, 4]
+RECV time=473.50437808 src=ba:ee:d0:e9:1d:20 dst=06:16:6b:4d:bc:89 
+SEND time=473.50680089 src=06:16:6b:4d:bc:89 dst=ba:ee:d0:e9:1d:20 path=[4, 3]
+RECV time=473.507744074 src=06:16:6b:4d:bc:89 dst=ba:ee:d0:e9:1d:20 
+SEND time=473.512620926 src=b6:15:c1:7f:9c:83 dst=06:16:6b:4d:bc:89 path=[3, 4]
+RECV time=473.513571978 src=b6:15:c1:7f:9c:83 dst=06:16:6b:4d:bc:89 
+SEND time=473.514533997 src=06:16:6b:4d:bc:89 dst=b6:15:c1:7f:9c:83 path=[4, 3]
+RECV time=473.515311003 src=06:16:6b:4d:bc:89 dst=b6:15:c1:7f:9c:83 
+SEND time=473.52224493 src=ee:67:e6:d0:dd:7a dst=06:16:6b:4d:bc:89 path=[3, 4]
+RECV time=473.523787975 src=ee:67:e6:d0:dd:7a dst=06:16:6b:4d:bc:89 
+SEND time=473.524681091 src=06:16:6b:4d:bc:89 dst=ee:67:e6:d0:dd:7a path=[4, 3]
+RECV time=473.525688887 src=06:16:6b:4d:bc:89 dst=ee:67:e6:d0:dd:7a 
+SEND time=473.534480095 src=ba:ee:d0:e9:1d:20 dst=a6:76:63:4a:9a:94 path=[3, 4]
+RECV time=473.53638196 src=ba:ee:d0:e9:1d:20 dst=a6:76:63:4a:9a:94 
+SEND time=473.538884878 src=a6:76:63:4a:9a:94 dst=ba:ee:d0:e9:1d:20 path=[4, 3]
+RECV time=473.540121078 src=a6:76:63:4a:9a:94 dst=ba:ee:d0:e9:1d:20 
+SEND time=473.545300961 src=b6:15:c1:7f:9c:83 dst=a6:76:63:4a:9a:94 path=[3, 4]
+RECV time=473.546377897 src=b6:15:c1:7f:9c:83 dst=a6:76:63:4a:9a:94 
+SEND time=473.547298908 src=a6:76:63:4a:9a:94 dst=b6:15:c1:7f:9c:83 path=[4, 3]
+RECV time=473.548150063 src=a6:76:63:4a:9a:94 dst=b6:15:c1:7f:9c:83 
+SEND time=473.557682991 src=ee:67:e6:d0:dd:7a dst=a6:76:63:4a:9a:94 path=[3, 4]
+RECV time=473.559346914 src=ee:67:e6:d0:dd:7a dst=a6:76:63:4a:9a:94 
+SEND time=473.56071806 src=a6:76:63:4a:9a:94 dst=ee:67:e6:d0:dd:7a path=[4, 3]
+RECV time=473.562021971 src=a6:76:63:4a:9a:94 dst=ee:67:e6:d0:dd:7a 
+SEND time=473.572783947 src=b6:15:c1:7f:9c:83 dst=ba:ee:d0:e9:1d:20 path=[4]
+RECV time=473.572824001 src=b6:15:c1:7f:9c:83 dst=ba:ee:d0:e9:1d:20 
+SEND time=473.574321032 src=ba:ee:d0:e9:1d:20 dst=b6:15:c1:7f:9c:83 path=[4]
+RECV time=473.574352026 src=ba:ee:d0:e9:1d:20 dst=b6:15:c1:7f:9c:83 
+SEND time=473.578278065 src=ee:67:e6:d0:dd:7a dst=ba:ee:d0:e9:1d:20 path=[4]
+RECV time=473.57831192 src=ee:67:e6:d0:dd:7a dst=ba:ee:d0:e9:1d:20 
+SEND time=473.579618931 src=ba:ee:d0:e9:1d:20 dst=ee:67:e6:d0:dd:7a path=[4]
+RECV time=473.579645872 src=ba:ee:d0:e9:1d:20 dst=ee:67:e6:d0:dd:7a 
+SEND time=473.590764046 src=ee:67:e6:d0:dd:7a dst=b6:15:c1:7f:9c:83 path=[4]
+RECV time=473.590807915 src=ee:67:e6:d0:dd:7a dst=b6:15:c1:7f:9c:83 
+SEND time=473.592097998 src=b6:15:c1:7f:9c:83 dst=ee:67:e6:d0:dd:7a path=[4]
+RECV time=473.592139959 src=b6:15:c1:7f:9c:83 dst=ee:67:e6:d0:dd:7a 
+SEND time=496.690067053 src=56:7e:9f:cd:04:f6 dst=f6:3d:f6:d9:75:84 path=[1, 2]
+RECV time=496.696531057 src=56:7e:9f:cd:04:f6 dst=f6:3d:f6:d9:75:84 
+SEND time=496.699595928 src=f6:3d:f6:d9:75:84 dst=56:7e:9f:cd:04:f6 path=[2, 1]
+RECV time=496.705513954 src=f6:3d:f6:d9:75:84 dst=56:7e:9f:cd:04:f6 
+SEND time=496.726747036 src=0e:cd:2f:c6:29:2b dst=f6:3d:f6:d9:75:84 path=[1, 2, 3]
+RECV time=496.737375975 src=0e:cd:2f:c6:29:2b dst=f6:3d:f6:d9:75:84 
+SEND time=496.740575075 src=f6:3d:f6:d9:75:84 dst=0e:cd:2f:c6:29:2b path=[3, 2, 1]
+RECV time=496.743884087 src=f6:3d:f6:d9:75:84 dst=0e:cd:2f:c6:29:2b 
+SEND time=496.753108978 src=86:23:c5:03:8f:5d dst=f6:3d:f6:d9:75:84 path=[1, 2, 3]
+RECV time=496.755239964 src=86:23:c5:03:8f:5d dst=f6:3d:f6:d9:75:84 
+SEND time=496.756188869 src=f6:3d:f6:d9:75:84 dst=86:23:c5:03:8f:5d path=[3, 2, 1]
+RECV time=496.758004904 src=f6:3d:f6:d9:75:84 dst=86:23:c5:03:8f:5d 
+SEND time=496.763680935 src=f2:46:fb:cf:d7:73 dst=f6:3d:f6:d9:75:84 path=[1, 2, 3, 4]
+RECV time=496.766597986 src=f2:46:fb:cf:d7:73 dst=f6:3d:f6:d9:75:84 
+SEND time=496.767549992 src=f6:3d:f6:d9:75:84 dst=f2:46:fb:cf:d7:73 path=[4, 3, 2, 1]
+RECV time=496.770392895 src=f6:3d:f6:d9:75:84 dst=f2:46:fb:cf:d7:73 
+SEND time=496.775791883 src=1a:46:78:ec:95:6f dst=f6:3d:f6:d9:75:84 path=[1, 2, 3, 4]
+RECV time=496.778471947 src=1a:46:78:ec:95:6f dst=f6:3d:f6:d9:75:84 
+SEND time=496.779682875 src=f6:3d:f6:d9:75:84 dst=1a:46:78:ec:95:6f path=[4, 3, 2, 1]
+RECV time=496.785284996 src=f6:3d:f6:d9:75:84 dst=1a:46:78:ec:95:6f 
+SEND time=496.790976048 src=7e:dd:e0:8e:88:28 dst=f6:3d:f6:d9:75:84 path=[1, 2, 3, 4]
+RECV time=496.794256926 src=7e:dd:e0:8e:88:28 dst=f6:3d:f6:d9:75:84 
+SEND time=496.795614004 src=f6:3d:f6:d9:75:84 dst=7e:dd:e0:8e:88:28 path=[4, 3, 2, 1]
+RECV time=496.80211401 src=f6:3d:f6:d9:75:84 dst=7e:dd:e0:8e:88:28 
+SEND time=496.809051037 src=0e:cd:2f:c6:29:2b dst=56:7e:9f:cd:04:f6 path=[2, 3]
+RECV time=496.81002903 src=0e:cd:2f:c6:29:2b dst=56:7e:9f:cd:04:f6 
+SEND time=496.81099987 src=56:7e:9f:cd:04:f6 dst=0e:cd:2f:c6:29:2b path=[3, 2]
+RECV time=496.811913967 src=56:7e:9f:cd:04:f6 dst=0e:cd:2f:c6:29:2b 
+SEND time=496.818018913 src=86:23:c5:03:8f:5d dst=56:7e:9f:cd:04:f6 path=[2, 3]
+RECV time=496.818895102 src=86:23:c5:03:8f:5d dst=56:7e:9f:cd:04:f6 
+SEND time=496.819739103 src=56:7e:9f:cd:04:f6 dst=86:23:c5:03:8f:5d path=[3, 2]
+RECV time=496.820561886 src=56:7e:9f:cd:04:f6 dst=86:23:c5:03:8f:5d 
+SEND time=496.82645607 src=f2:46:fb:cf:d7:73 dst=56:7e:9f:cd:04:f6 path=[2, 3, 4]
+RECV time=496.829416037 src=f2:46:fb:cf:d7:73 dst=56:7e:9f:cd:04:f6 
+SEND time=496.830928087 src=56:7e:9f:cd:04:f6 dst=f2:46:fb:cf:d7:73 path=[4, 3, 2]
+RECV time=496.835356951 src=56:7e:9f:cd:04:f6 dst=f2:46:fb:cf:d7:73 
+SEND time=496.841356039 src=1a:46:78:ec:95:6f dst=56:7e:9f:cd:04:f6 path=[2, 3, 4]
+RECV time=496.843204021 src=1a:46:78:ec:95:6f dst=56:7e:9f:cd:04:f6 
+SEND time=496.844130039 src=56:7e:9f:cd:04:f6 dst=1a:46:78:ec:95:6f path=[4, 3, 2]
+RECV time=496.846405029 src=56:7e:9f:cd:04:f6 dst=1a:46:78:ec:95:6f 
+SEND time=496.851521015 src=7e:dd:e0:8e:88:28 dst=56:7e:9f:cd:04:f6 path=[2, 3, 4]
+RECV time=496.853261948 src=7e:dd:e0:8e:88:28 dst=56:7e:9f:cd:04:f6 
+SEND time=496.854147911 src=56:7e:9f:cd:04:f6 dst=7e:dd:e0:8e:88:28 path=[4, 3, 2]
+RECV time=496.85620594 src=56:7e:9f:cd:04:f6 dst=7e:dd:e0:8e:88:28 
+SEND time=496.863653898 src=86:23:c5:03:8f:5d dst=0e:cd:2f:c6:29:2b path=[3]
+RECV time=496.863697052 src=86:23:c5:03:8f:5d dst=0e:cd:2f:c6:29:2b 
+SEND time=496.867053032 src=0e:cd:2f:c6:29:2b dst=86:23:c5:03:8f:5d path=[3]
+RECV time=496.86710906 src=0e:cd:2f:c6:29:2b dst=86:23:c5:03:8f:5d 
+SEND time=496.87233305 src=f2:46:fb:cf:d7:73 dst=0e:cd:2f:c6:29:2b path=[3, 4]
+RECV time=496.873336077 src=f2:46:fb:cf:d7:73 dst=0e:cd:2f:c6:29:2b 
+SEND time=496.87431097 src=0e:cd:2f:c6:29:2b dst=f2:46:fb:cf:d7:73 path=[4, 3]
+RECV time=496.875241995 src=0e:cd:2f:c6:29:2b dst=f2:46:fb:cf:d7:73 
+SEND time=496.880848885 src=1a:46:78:ec:95:6f dst=0e:cd:2f:c6:29:2b path=[3, 4]
+RECV time=496.882348061 src=1a:46:78:ec:95:6f dst=0e:cd:2f:c6:29:2b 
+SEND time=496.883682013 src=0e:cd:2f:c6:29:2b dst=1a:46:78:ec:95:6f path=[4, 3]
+RECV time=496.884912968 src=0e:cd:2f:c6:29:2b dst=1a:46:78:ec:95:6f 
+SEND time=496.889951944 src=7e:dd:e0:8e:88:28 dst=0e:cd:2f:c6:29:2b path=[3, 4]
+RECV time=496.890871048 src=7e:dd:e0:8e:88:28 dst=0e:cd:2f:c6:29:2b 
+SEND time=496.891743898 src=0e:cd:2f:c6:29:2b dst=7e:dd:e0:8e:88:28 path=[4, 3]
+RECV time=496.892668962 src=0e:cd:2f:c6:29:2b dst=7e:dd:e0:8e:88:28 
+SEND time=496.903347015 src=f2:46:fb:cf:d7:73 dst=86:23:c5:03:8f:5d path=[3, 4]
+RECV time=496.904633045 src=f2:46:fb:cf:d7:73 dst=86:23:c5:03:8f:5d 
+SEND time=496.905616999 src=86:23:c5:03:8f:5d dst=f2:46:fb:cf:d7:73 path=[4, 3]
+RECV time=496.906461 src=86:23:c5:03:8f:5d dst=f2:46:fb:cf:d7:73 
+SEND time=496.911570072 src=1a:46:78:ec:95:6f dst=86:23:c5:03:8f:5d path=[3, 4]
+RECV time=496.912486076 src=1a:46:78:ec:95:6f dst=86:23:c5:03:8f:5d 
+SEND time=496.913508892 src=86:23:c5:03:8f:5d dst=1a:46:78:ec:95:6f path=[4, 3]
+RECV time=496.914479017 src=86:23:c5:03:8f:5d dst=1a:46:78:ec:95:6f 
+SEND time=496.920167923 src=7e:dd:e0:8e:88:28 dst=86:23:c5:03:8f:5d path=[3, 4]
+RECV time=496.921151876 src=7e:dd:e0:8e:88:28 dst=86:23:c5:03:8f:5d 
+SEND time=496.922057867 src=86:23:c5:03:8f:5d dst=7e:dd:e0:8e:88:28 path=[4, 3]
+RECV time=496.922892094 src=86:23:c5:03:8f:5d dst=7e:dd:e0:8e:88:28 
+SEND time=496.932549953 src=1a:46:78:ec:95:6f dst=f2:46:fb:cf:d7:73 path=[4]
+RECV time=496.932590008 src=1a:46:78:ec:95:6f dst=f2:46:fb:cf:d7:73 
+SEND time=496.934443951 src=f2:46:fb:cf:d7:73 dst=1a:46:78:ec:95:6f path=[4]
+RECV time=496.934485912 src=f2:46:fb:cf:d7:73 dst=1a:46:78:ec:95:6f 
+SEND time=496.938723087 src=7e:dd:e0:8e:88:28 dst=f2:46:fb:cf:d7:73 path=[4]
+RECV time=496.938764095 src=7e:dd:e0:8e:88:28 dst=f2:46:fb:cf:d7:73 
+SEND time=496.940190077 src=f2:46:fb:cf:d7:73 dst=7e:dd:e0:8e:88:28 path=[4]
+RECV time=496.940216064 src=f2:46:fb:cf:d7:73 dst=7e:dd:e0:8e:88:28 
+SEND time=496.95032692 src=7e:dd:e0:8e:88:28 dst=1a:46:78:ec:95:6f path=[4]
+RECV time=496.950361013 src=7e:dd:e0:8e:88:28 dst=1a:46:78:ec:95:6f 
+SEND time=496.95203805 src=1a:46:78:ec:95:6f dst=7e:dd:e0:8e:88:28 path=[4]
+RECV time=496.952066898 src=1a:46:78:ec:95:6f dst=7e:dd:e0:8e:88:28 
+SEND time=519.578799963 src=1e:f6:75:8b:80:59 dst=3a:a2:97:71:2e:00 path=[1, 2]
+RECV time=519.586067915 src=1e:f6:75:8b:80:59 dst=3a:a2:97:71:2e:00 
+SEND time=519.591125011 src=3a:a2:97:71:2e:00 dst=1e:f6:75:8b:80:59 path=[2, 1]
+RECV time=519.59427309 src=3a:a2:97:71:2e:00 dst=1e:f6:75:8b:80:59 
+SEND time=519.606249094 src=42:13:af:09:89:57 dst=3a:a2:97:71:2e:00 path=[1, 2, 3]
+RECV time=519.609596968 src=42:13:af:09:89:57 dst=3a:a2:97:71:2e:00 
+SEND time=519.611157894 src=3a:a2:97:71:2e:00 dst=42:13:af:09:89:57 path=[3, 2, 1]
+RECV time=519.614520073 src=3a:a2:97:71:2e:00 dst=42:13:af:09:89:57 
+SEND time=519.623661995 src=36:75:5d:47:cd:e0 dst=3a:a2:97:71:2e:00 path=[1, 2, 3]
+RECV time=519.627140999 src=36:75:5d:47:cd:e0 dst=3a:a2:97:71:2e:00 
+SEND time=519.629415035 src=3a:a2:97:71:2e:00 dst=36:75:5d:47:cd:e0 path=[3, 2, 1]
+RECV time=519.632827997 src=3a:a2:97:71:2e:00 dst=36:75:5d:47:cd:e0 
+SEND time=519.64104104 src=c2:4c:fb:0f:12:f8 dst=3a:a2:97:71:2e:00 path=[1, 2, 3, 4]
+RECV time=519.645010948 src=c2:4c:fb:0f:12:f8 dst=3a:a2:97:71:2e:00 
+SEND time=519.646342993 src=3a:a2:97:71:2e:00 dst=c2:4c:fb:0f:12:f8 path=[4, 3, 2, 1]
+RECV time=519.650115967 src=3a:a2:97:71:2e:00 dst=c2:4c:fb:0f:12:f8 
+SEND time=519.657866955 src=92:a3:55:bc:a7:26 dst=3a:a2:97:71:2e:00 path=[1, 2, 3, 4]
+RECV time=519.662867069 src=92:a3:55:bc:a7:26 dst=3a:a2:97:71:2e:00 
+SEND time=519.664819956 src=3a:a2:97:71:2e:00 dst=92:a3:55:bc:a7:26 path=[4, 3, 2, 1]
+RECV time=519.668565989 src=3a:a2:97:71:2e:00 dst=92:a3:55:bc:a7:26 
+SEND time=519.676172018 src=06:96:db:2e:12:fd dst=3a:a2:97:71:2e:00 path=[1, 2, 3, 4]
+RECV time=519.679770947 src=06:96:db:2e:12:fd dst=3a:a2:97:71:2e:00 
+SEND time=519.680783033 src=3a:a2:97:71:2e:00 dst=06:96:db:2e:12:fd path=[4, 3, 2, 1]
+RECV time=519.683732033 src=3a:a2:97:71:2e:00 dst=06:96:db:2e:12:fd 
+SEND time=519.690370083 src=42:13:af:09:89:57 dst=1e:f6:75:8b:80:59 path=[2, 3]
+RECV time=519.691236019 src=42:13:af:09:89:57 dst=1e:f6:75:8b:80:59 
+SEND time=519.692277908 src=1e:f6:75:8b:80:59 dst=42:13:af:09:89:57 path=[3, 2]
+RECV time=519.693305016 src=1e:f6:75:8b:80:59 dst=42:13:af:09:89:57 
+SEND time=519.700637102 src=36:75:5d:47:cd:e0 dst=1e:f6:75:8b:80:59 path=[2, 3]
+RECV time=519.701622963 src=36:75:5d:47:cd:e0 dst=1e:f6:75:8b:80:59 
+SEND time=519.702805996 src=1e:f6:75:8b:80:59 dst=36:75:5d:47:cd:e0 path=[3, 2]
+RECV time=519.703566074 src=1e:f6:75:8b:80:59 dst=36:75:5d:47:cd:e0 
+SEND time=519.708430052 src=c2:4c:fb:0f:12:f8 dst=1e:f6:75:8b:80:59 path=[2, 3, 4]
+RECV time=519.710211992 src=c2:4c:fb:0f:12:f8 dst=1e:f6:75:8b:80:59 
+SEND time=519.711107016 src=1e:f6:75:8b:80:59 dst=c2:4c:fb:0f:12:f8 path=[4, 3, 2]
+RECV time=519.712754011 src=1e:f6:75:8b:80:59 dst=c2:4c:fb:0f:12:f8 
+SEND time=519.71816206 src=92:a3:55:bc:a7:26 dst=1e:f6:75:8b:80:59 path=[2, 3, 4]
+RECV time=519.719933033 src=92:a3:55:bc:a7:26 dst=1e:f6:75:8b:80:59 
+SEND time=519.720921993 src=1e:f6:75:8b:80:59 dst=92:a3:55:bc:a7:26 path=[4, 3, 2]
+RECV time=519.722738028 src=1e:f6:75:8b:80:59 dst=92:a3:55:bc:a7:26 
+SEND time=519.731375933 src=06:96:db:2e:12:fd dst=1e:f6:75:8b:80:59 path=[2, 3, 4]
+RECV time=519.73308301 src=06:96:db:2e:12:fd dst=1e:f6:75:8b:80:59 
+SEND time=519.733916998 src=1e:f6:75:8b:80:59 dst=06:96:db:2e:12:fd path=[4, 3, 2]
+RECV time=519.735781908 src=1e:f6:75:8b:80:59 dst=06:96:db:2e:12:fd 
+SEND time=519.742143869 src=36:75:5d:47:cd:e0 dst=42:13:af:09:89:57 path=[3]
+RECV time=519.74217391 src=36:75:5d:47:cd:e0 dst=42:13:af:09:89:57 
+SEND time=519.743608952 src=42:13:af:09:89:57 dst=36:75:5d:47:cd:e0 path=[3]
+RECV time=519.743637085 src=42:13:af:09:89:57 dst=36:75:5d:47:cd:e0 
+SEND time=519.748574018 src=c2:4c:fb:0f:12:f8 dst=42:13:af:09:89:57 path=[3, 4]
+RECV time=519.749562979 src=c2:4c:fb:0f:12:f8 dst=42:13:af:09:89:57 
+SEND time=519.750441074 src=42:13:af:09:89:57 dst=c2:4c:fb:0f:12:f8 path=[4, 3]
+RECV time=519.75139308 src=42:13:af:09:89:57 dst=c2:4c:fb:0f:12:f8 
+SEND time=519.756058931 src=92:a3:55:bc:a7:26 dst=42:13:af:09:89:57 path=[3, 4]
+RECV time=519.757034063 src=92:a3:55:bc:a7:26 dst=42:13:af:09:89:57 
+SEND time=519.758038998 src=42:13:af:09:89:57 dst=92:a3:55:bc:a7:26 path=[4, 3]
+RECV time=519.759059906 src=42:13:af:09:89:57 dst=92:a3:55:bc:a7:26 
+SEND time=519.765644073 src=06:96:db:2e:12:fd dst=42:13:af:09:89:57 path=[3, 4]
+RECV time=519.766648054 src=06:96:db:2e:12:fd dst=42:13:af:09:89:57 
+SEND time=519.767550945 src=42:13:af:09:89:57 dst=06:96:db:2e:12:fd path=[4, 3]
+RECV time=519.768425941 src=42:13:af:09:89:57 dst=06:96:db:2e:12:fd 
+SEND time=519.776526928 src=c2:4c:fb:0f:12:f8 dst=36:75:5d:47:cd:e0 path=[3, 4]
+RECV time=519.777806997 src=c2:4c:fb:0f:12:f8 dst=36:75:5d:47:cd:e0 
+SEND time=519.778708935 src=36:75:5d:47:cd:e0 dst=c2:4c:fb:0f:12:f8 path=[4, 3]
+RECV time=519.779541969 src=36:75:5d:47:cd:e0 dst=c2:4c:fb:0f:12:f8 
+SEND time=519.784162045 src=92:a3:55:bc:a7:26 dst=36:75:5d:47:cd:e0 path=[3, 4]
+RECV time=519.785063982 src=92:a3:55:bc:a7:26 dst=36:75:5d:47:cd:e0 
+SEND time=519.785947084 src=36:75:5d:47:cd:e0 dst=92:a3:55:bc:a7:26 path=[4, 3]
+RECV time=519.78677702 src=36:75:5d:47:cd:e0 dst=92:a3:55:bc:a7:26 
+SEND time=519.791595936 src=06:96:db:2e:12:fd dst=36:75:5d:47:cd:e0 path=[3, 4]
+RECV time=519.793689966 src=06:96:db:2e:12:fd dst=36:75:5d:47:cd:e0 
+SEND time=519.795964956 src=36:75:5d:47:cd:e0 dst=06:96:db:2e:12:fd path=[4, 3]
+RECV time=519.797486067 src=36:75:5d:47:cd:e0 dst=06:96:db:2e:12:fd 
+SEND time=519.806086063 src=92:a3:55:bc:a7:26 dst=c2:4c:fb:0f:12:f8 path=[4]
+RECV time=519.806120872 src=92:a3:55:bc:a7:26 dst=c2:4c:fb:0f:12:f8 
+SEND time=519.80735898 src=c2:4c:fb:0f:12:f8 dst=92:a3:55:bc:a7:26 path=[4]
+RECV time=519.807384968 src=c2:4c:fb:0f:12:f8 dst=92:a3:55:bc:a7:26 
+SEND time=519.812941074 src=06:96:db:2e:12:fd dst=c2:4c:fb:0f:12:f8 path=[4]
+RECV time=519.812988043 src=06:96:db:2e:12:fd dst=c2:4c:fb:0f:12:f8 
+SEND time=519.81437397 src=c2:4c:fb:0f:12:f8 dst=06:96:db:2e:12:fd path=[4]
+RECV time=519.814399004 src=c2:4c:fb:0f:12:f8 dst=06:96:db:2e:12:fd 
+SEND time=519.825414896 src=06:96:db:2e:12:fd dst=92:a3:55:bc:a7:26 path=[4]
+RECV time=519.825452089 src=06:96:db:2e:12:fd dst=92:a3:55:bc:a7:26 
+SEND time=519.827115059 src=92:a3:55:bc:a7:26 dst=06:96:db:2e:12:fd path=[4]
+RECV time=519.827141047 src=92:a3:55:bc:a7:26 dst=06:96:db:2e:12:fd 
+SEND time=544.199321985 src=16:ec:81:fc:9a:d4 dst=3e:ab:b7:d6:10:42 path=[1, 2]
+RECV time=544.20320797 src=16:ec:81:fc:9a:d4 dst=3e:ab:b7:d6:10:42 
+SEND time=544.204537868 src=3e:ab:b7:d6:10:42 dst=16:ec:81:fc:9a:d4 path=[2, 1]
+RECV time=544.205817938 src=3e:ab:b7:d6:10:42 dst=16:ec:81:fc:9a:d4 
+SEND time=544.211137056 src=72:6f:3c:d1:86:9b dst=3e:ab:b7:d6:10:42 path=[1, 2, 3]
+RECV time=544.213303089 src=72:6f:3c:d1:86:9b dst=3e:ab:b7:d6:10:42 
+SEND time=544.214287996 src=3e:ab:b7:d6:10:42 dst=72:6f:3c:d1:86:9b path=[3, 2, 1]
+RECV time=544.215962887 src=3e:ab:b7:d6:10:42 dst=72:6f:3c:d1:86:9b 
+SEND time=544.223901033 src=7e:fc:40:0a:e4:90 dst=3e:ab:b7:d6:10:42 path=[1, 2, 3]
+RECV time=544.225903988 src=7e:fc:40:0a:e4:90 dst=3e:ab:b7:d6:10:42 
+SEND time=544.226867914 src=3e:ab:b7:d6:10:42 dst=7e:fc:40:0a:e4:90 path=[3, 2, 1]
+RECV time=544.228652954 src=3e:ab:b7:d6:10:42 dst=7e:fc:40:0a:e4:90 
+SEND time=544.23415494 src=86:eb:e2:91:c8:ac dst=3e:ab:b7:d6:10:42 path=[1, 2, 3, 4]
+RECV time=544.236943007 src=86:eb:e2:91:c8:ac dst=3e:ab:b7:d6:10:42 
+SEND time=544.23854804 src=3e:ab:b7:d6:10:42 dst=86:eb:e2:91:c8:ac path=[4, 3, 2, 1]
+RECV time=544.241261005 src=3e:ab:b7:d6:10:42 dst=86:eb:e2:91:c8:ac 
+SEND time=544.246959925 src=42:0d:58:52:e3:25 dst=3e:ab:b7:d6:10:42 path=[1, 2, 3, 4]
+RECV time=544.249528885 src=42:0d:58:52:e3:25 dst=3e:ab:b7:d6:10:42 
+SEND time=544.250488043 src=3e:ab:b7:d6:10:42 dst=42:0d:58:52:e3:25 path=[4, 3, 2, 1]
+RECV time=544.252939939 src=3e:ab:b7:d6:10:42 dst=42:0d:58:52:e3:25 
+SEND time=544.259362936 src=2a:82:ae:1f:77:56 dst=3e:ab:b7:d6:10:42 path=[1, 2, 3, 4]
+RECV time=544.263200045 src=2a:82:ae:1f:77:56 dst=3e:ab:b7:d6:10:42 
+SEND time=544.26406002 src=3e:ab:b7:d6:10:42 dst=2a:82:ae:1f:77:56 path=[4, 3, 2, 1]
+RECV time=544.266674995 src=3e:ab:b7:d6:10:42 dst=2a:82:ae:1f:77:56 
+SEND time=544.273127079 src=72:6f:3c:d1:86:9b dst=16:ec:81:fc:9a:d4 path=[2, 3]
+RECV time=544.274209023 src=72:6f:3c:d1:86:9b dst=16:ec:81:fc:9a:d4 
+SEND time=544.275201082 src=16:ec:81:fc:9a:d4 dst=72:6f:3c:d1:86:9b path=[3, 2]
+RECV time=544.276058912 src=16:ec:81:fc:9a:d4 dst=72:6f:3c:d1:86:9b 
+SEND time=544.280822992 src=7e:fc:40:0a:e4:90 dst=16:ec:81:fc:9a:d4 path=[2, 3]
+RECV time=544.281830072 src=7e:fc:40:0a:e4:90 dst=16:ec:81:fc:9a:d4 
+SEND time=544.282685041 src=16:ec:81:fc:9a:d4 dst=7e:fc:40:0a:e4:90 path=[3, 2]
+RECV time=544.283875942 src=16:ec:81:fc:9a:d4 dst=7e:fc:40:0a:e4:90 
+SEND time=544.288783073 src=86:eb:e2:91:c8:ac dst=16:ec:81:fc:9a:d4 path=[2, 3, 4]
+RECV time=544.291851997 src=86:eb:e2:91:c8:ac dst=16:ec:81:fc:9a:d4 
+SEND time=544.294275999 src=16:ec:81:fc:9a:d4 dst=86:eb:e2:91:c8:ac path=[4, 3, 2]
+RECV time=544.296199083 src=16:ec:81:fc:9a:d4 dst=86:eb:e2:91:c8:ac 
+SEND time=544.301975012 src=42:0d:58:52:e3:25 dst=16:ec:81:fc:9a:d4 path=[2, 3, 4]
+RECV time=544.30604887 src=42:0d:58:52:e3:25 dst=16:ec:81:fc:9a:d4 
+SEND time=544.309597969 src=16:ec:81:fc:9a:d4 dst=42:0d:58:52:e3:25 path=[4, 3, 2]
+RECV time=544.312126875 src=16:ec:81:fc:9a:d4 dst=42:0d:58:52:e3:25 
+SEND time=544.318141937 src=2a:82:ae:1f:77:56 dst=16:ec:81:fc:9a:d4 path=[2, 3, 4]
+RECV time=544.320309877 src=2a:82:ae:1f:77:56 dst=16:ec:81:fc:9a:d4 
+SEND time=544.321264982 src=16:ec:81:fc:9a:d4 dst=2a:82:ae:1f:77:56 path=[4, 3, 2]
+RECV time=544.323680878 src=16:ec:81:fc:9a:d4 dst=2a:82:ae:1f:77:56 
+SEND time=544.331389904 src=7e:fc:40:0a:e4:90 dst=72:6f:3c:d1:86:9b path=[3]
+RECV time=544.331424952 src=7e:fc:40:0a:e4:90 dst=72:6f:3c:d1:86:9b 
+SEND time=544.332853079 src=72:6f:3c:d1:86:9b dst=7e:fc:40:0a:e4:90 path=[3]
+RECV time=544.332936049 src=72:6f:3c:d1:86:9b dst=7e:fc:40:0a:e4:90 
+SEND time=544.338476896 src=86:eb:e2:91:c8:ac dst=72:6f:3c:d1:86:9b path=[3, 4]
+RECV time=544.339718103 src=86:eb:e2:91:c8:ac dst=72:6f:3c:d1:86:9b 
+SEND time=544.340740919 src=72:6f:3c:d1:86:9b dst=86:eb:e2:91:c8:ac path=[4, 3]
+RECV time=544.342132092 src=72:6f:3c:d1:86:9b dst=86:eb:e2:91:c8:ac 
+SEND time=544.349575996 src=42:0d:58:52:e3:25 dst=72:6f:3c:d1:86:9b path=[3, 4]
+RECV time=544.350547075 src=42:0d:58:52:e3:25 dst=72:6f:3c:d1:86:9b 
+SEND time=544.351551056 src=72:6f:3c:d1:86:9b dst=42:0d:58:52:e3:25 path=[4, 3]
+RECV time=544.352446079 src=72:6f:3c:d1:86:9b dst=42:0d:58:52:e3:25 
+SEND time=544.35769701 src=2a:82:ae:1f:77:56 dst=72:6f:3c:d1:86:9b path=[3, 4]
+RECV time=544.35864687 src=2a:82:ae:1f:77:56 dst=72:6f:3c:d1:86:9b 
+SEND time=544.359575987 src=72:6f:3c:d1:86:9b dst=2a:82:ae:1f:77:56 path=[4, 3]
+RECV time=544.360421896 src=72:6f:3c:d1:86:9b dst=2a:82:ae:1f:77:56 
+SEND time=544.368490934 src=86:eb:e2:91:c8:ac dst=7e:fc:40:0a:e4:90 path=[3, 4]
+RECV time=544.369663 src=86:eb:e2:91:c8:ac dst=7e:fc:40:0a:e4:90 
+SEND time=544.37052989 src=7e:fc:40:0a:e4:90 dst=86:eb:e2:91:c8:ac path=[4, 3]
+RECV time=544.371314049 src=7e:fc:40:0a:e4:90 dst=86:eb:e2:91:c8:ac 
+SEND time=544.378004074 src=42:0d:58:52:e3:25 dst=7e:fc:40:0a:e4:90 path=[3, 4]
+RECV time=544.379011869 src=42:0d:58:52:e3:25 dst=7e:fc:40:0a:e4:90 
+SEND time=544.379973888 src=7e:fc:40:0a:e4:90 dst=42:0d:58:52:e3:25 path=[4, 3]
+RECV time=544.380847931 src=7e:fc:40:0a:e4:90 dst=42:0d:58:52:e3:25 
+SEND time=544.386069059 src=2a:82:ae:1f:77:56 dst=7e:fc:40:0a:e4:90 path=[3, 4]
+RECV time=544.38736701 src=2a:82:ae:1f:77:56 dst=7e:fc:40:0a:e4:90 
+SEND time=544.388217926 src=7e:fc:40:0a:e4:90 dst=2a:82:ae:1f:77:56 path=[4, 3]
+RECV time=544.389079094 src=7e:fc:40:0a:e4:90 dst=2a:82:ae:1f:77:56 
+SEND time=544.397397041 src=42:0d:58:52:e3:25 dst=86:eb:e2:91:c8:ac path=[4]
+RECV time=544.397429943 src=42:0d:58:52:e3:25 dst=86:eb:e2:91:c8:ac 
+SEND time=544.398927927 src=86:eb:e2:91:c8:ac dst=42:0d:58:52:e3:25 path=[4]
+RECV time=544.398952007 src=86:eb:e2:91:c8:ac dst=42:0d:58:52:e3:25 
+SEND time=544.402620077 src=2a:82:ae:1f:77:56 dst=86:eb:e2:91:c8:ac path=[4]
+RECV time=544.402652025 src=2a:82:ae:1f:77:56 dst=86:eb:e2:91:c8:ac 
+SEND time=544.40379405 src=86:eb:e2:91:c8:ac dst=2a:82:ae:1f:77:56 path=[4]
+RECV time=544.403816938 src=86:eb:e2:91:c8:ac dst=2a:82:ae:1f:77:56 
+SEND time=544.415719032 src=2a:82:ae:1f:77:56 dst=42:0d:58:52:e3:25 path=[4]
+RECV time=544.41575408 src=2a:82:ae:1f:77:56 dst=42:0d:58:52:e3:25 
+SEND time=544.417088985 src=42:0d:58:52:e3:25 dst=2a:82:ae:1f:77:56 path=[4]
+RECV time=544.417120934 src=42:0d:58:52:e3:25 dst=2a:82:ae:1f:77:56 
+SEND time=569.002570868 src=3a:cb:19:76:35:6d dst=52:e5:1d:51:55:67 path=[1, 2]
+RECV time=569.00919199 src=3a:cb:19:76:35:6d dst=52:e5:1d:51:55:67 
+SEND time=569.012712955 src=52:e5:1d:51:55:67 dst=3a:cb:19:76:35:6d path=[2, 1]
+RECV time=569.016128063 src=52:e5:1d:51:55:67 dst=3a:cb:19:76:35:6d 
+SEND time=569.03323698 src=ca:33:71:e4:6d:e0 dst=52:e5:1d:51:55:67 path=[1, 2, 3]
+RECV time=569.037219048 src=ca:33:71:e4:6d:e0 dst=52:e5:1d:51:55:67 
+SEND time=569.038697004 src=52:e5:1d:51:55:67 dst=ca:33:71:e4:6d:e0 path=[3, 2, 1]
+RECV time=569.04143405 src=52:e5:1d:51:55:67 dst=ca:33:71:e4:6d:e0 
+SEND time=569.048537016 src=ae:30:f5:a1:10:34 dst=52:e5:1d:51:55:67 path=[1, 2, 3]
+RECV time=569.050555944 src=ae:30:f5:a1:10:34 dst=52:e5:1d:51:55:67 
+SEND time=569.05150795 src=52:e5:1d:51:55:67 dst=ae:30:f5:a1:10:34 path=[3, 2, 1]
+RECV time=569.053153038 src=52:e5:1d:51:55:67 dst=ae:30:f5:a1:10:34 
+SEND time=569.05982399 src=be:04:13:d4:28:a6 dst=52:e5:1d:51:55:67 path=[1, 2, 3, 4]
+RECV time=569.062752008 src=be:04:13:d4:28:a6 dst=52:e5:1d:51:55:67 
+SEND time=569.063565969 src=52:e5:1d:51:55:67 dst=be:04:13:d4:28:a6 path=[4, 3, 2, 1]
+RECV time=569.066341877 src=52:e5:1d:51:55:67 dst=be:04:13:d4:28:a6 
+SEND time=569.073843002 src=0e:06:39:73:84:78 dst=52:e5:1d:51:55:67 path=[1, 2, 3, 4]
+RECV time=569.076601028 src=0e:06:39:73:84:78 dst=52:e5:1d:51:55:67 
+SEND time=569.077558994 src=52:e5:1d:51:55:67 dst=0e:06:39:73:84:78 path=[4, 3, 2, 1]
+RECV time=569.079844952 src=52:e5:1d:51:55:67 dst=0e:06:39:73:84:78 
+SEND time=569.084822893 src=3e:93:24:b2:3d:96 dst=52:e5:1d:51:55:67 path=[1, 2, 3, 4]
+RECV time=569.087719917 src=3e:93:24:b2:3d:96 dst=52:e5:1d:51:55:67 
+SEND time=569.088677883 src=52:e5:1d:51:55:67 dst=3e:93:24:b2:3d:96 path=[4, 3, 2, 1]
+RECV time=569.093395948 src=52:e5:1d:51:55:67 dst=3e:93:24:b2:3d:96 
+SEND time=569.09997797 src=ca:33:71:e4:6d:e0 dst=3a:cb:19:76:35:6d path=[2, 3]
+RECV time=569.100817919 src=ca:33:71:e4:6d:e0 dst=3a:cb:19:76:35:6d 
+SEND time=569.10177803 src=3a:cb:19:76:35:6d dst=ca:33:71:e4:6d:e0 path=[3, 2]
+RECV time=569.102655888 src=3a:cb:19:76:35:6d dst=ca:33:71:e4:6d:e0 
+SEND time=569.107810974 src=ae:30:f5:a1:10:34 dst=3a:cb:19:76:35:6d path=[2, 3]
+RECV time=569.108678102 src=ae:30:f5:a1:10:34 dst=3a:cb:19:76:35:6d 
+SEND time=569.109610081 src=3a:cb:19:76:35:6d dst=ae:30:f5:a1:10:34 path=[3, 2]
+RECV time=569.110428095 src=3a:cb:19:76:35:6d dst=ae:30:f5:a1:10:34 
+SEND time=569.115385056 src=be:04:13:d4:28:a6 dst=3a:cb:19:76:35:6d path=[2, 3, 4]
+RECV time=569.117177963 src=be:04:13:d4:28:a6 dst=3a:cb:19:76:35:6d 
+SEND time=569.11806488 src=3a:cb:19:76:35:6d dst=be:04:13:d4:28:a6 path=[4, 3, 2]
+RECV time=569.11975193 src=3a:cb:19:76:35:6d dst=be:04:13:d4:28:a6 
+SEND time=569.126390934 src=0e:06:39:73:84:78 dst=3a:cb:19:76:35:6d path=[2, 3, 4]
+RECV time=569.12828207 src=0e:06:39:73:84:78 dst=3a:cb:19:76:35:6d 
+SEND time=569.129172087 src=3a:cb:19:76:35:6d dst=0e:06:39:73:84:78 path=[4, 3, 2]
+RECV time=569.130994081 src=3a:cb:19:76:35:6d dst=0e:06:39:73:84:78 
+SEND time=569.135840893 src=3e:93:24:b2:3d:96 dst=3a:cb:19:76:35:6d path=[2, 3, 4]
+RECV time=569.138137102 src=3e:93:24:b2:3d:96 dst=3a:cb:19:76:35:6d 
+SEND time=569.139277935 src=3a:cb:19:76:35:6d dst=3e:93:24:b2:3d:96 path=[4, 3, 2]
+RECV time=569.142638922 src=3a:cb:19:76:35:6d dst=3e:93:24:b2:3d:96 
+SEND time=569.150285959 src=ae:30:f5:a1:10:34 dst=ca:33:71:e4:6d:e0 path=[3]
+RECV time=569.150320053 src=ae:30:f5:a1:10:34 dst=ca:33:71:e4:6d:e0 
+SEND time=569.151925087 src=ca:33:71:e4:6d:e0 dst=ae:30:f5:a1:10:34 path=[3]
+RECV time=569.151949883 src=ca:33:71:e4:6d:e0 dst=ae:30:f5:a1:10:34 
+SEND time=569.157094002 src=be:04:13:d4:28:a6 dst=ca:33:71:e4:6d:e0 path=[3, 4]
+RECV time=569.15803194 src=be:04:13:d4:28:a6 dst=ca:33:71:e4:6d:e0 
+SEND time=569.15904808 src=ca:33:71:e4:6d:e0 dst=be:04:13:d4:28:a6 path=[4, 3]
+RECV time=569.15991807 src=ca:33:71:e4:6d:e0 dst=be:04:13:d4:28:a6 
+SEND time=569.165096045 src=0e:06:39:73:84:78 dst=ca:33:71:e4:6d:e0 path=[3, 4]
+RECV time=569.166059971 src=0e:06:39:73:84:78 dst=ca:33:71:e4:6d:e0 
+SEND time=569.16699791 src=ca:33:71:e4:6d:e0 dst=0e:06:39:73:84:78 path=[4, 3]
+RECV time=569.16802907 src=ca:33:71:e4:6d:e0 dst=0e:06:39:73:84:78 
+SEND time=569.1736691 src=3e:93:24:b2:3d:96 dst=ca:33:71:e4:6d:e0 path=[3, 4]
+RECV time=569.175239086 src=3e:93:24:b2:3d:96 dst=ca:33:71:e4:6d:e0 
+SEND time=569.176759005 src=ca:33:71:e4:6d:e0 dst=3e:93:24:b2:3d:96 path=[4, 3]
+RECV time=569.177862883 src=ca:33:71:e4:6d:e0 dst=3e:93:24:b2:3d:96 
+SEND time=569.185672998 src=be:04:13:d4:28:a6 dst=ae:30:f5:a1:10:34 path=[3, 4]
+RECV time=569.186862946 src=be:04:13:d4:28:a6 dst=ae:30:f5:a1:10:34 
+SEND time=569.187696934 src=ae:30:f5:a1:10:34 dst=be:04:13:d4:28:a6 path=[4, 3]
+RECV time=569.188432932 src=ae:30:f5:a1:10:34 dst=be:04:13:d4:28:a6 
+SEND time=569.193005085 src=0e:06:39:73:84:78 dst=ae:30:f5:a1:10:34 path=[3, 4]
+RECV time=569.193809032 src=0e:06:39:73:84:78 dst=ae:30:f5:a1:10:34 
+SEND time=569.19463706 src=ae:30:f5:a1:10:34 dst=0e:06:39:73:84:78 path=[4, 3]
+RECV time=569.195372105 src=ae:30:f5:a1:10:34 dst=0e:06:39:73:84:78 
+SEND time=569.200165033 src=3e:93:24:b2:3d:96 dst=ae:30:f5:a1:10:34 path=[3, 4]
+RECV time=569.201009989 src=3e:93:24:b2:3d:96 dst=ae:30:f5:a1:10:34 
+SEND time=569.201909065 src=ae:30:f5:a1:10:34 dst=3e:93:24:b2:3d:96 path=[4, 3]
+RECV time=569.202898979 src=ae:30:f5:a1:10:34 dst=3e:93:24:b2:3d:96 
+SEND time=569.214139938 src=0e:06:39:73:84:78 dst=be:04:13:d4:28:a6 path=[4]
+RECV time=569.2141819 src=0e:06:39:73:84:78 dst=be:04:13:d4:28:a6 
+SEND time=569.215656996 src=be:04:13:d4:28:a6 dst=0e:06:39:73:84:78 path=[4]
+RECV time=569.21568203 src=be:04:13:d4:28:a6 dst=0e:06:39:73:84:78 
+SEND time=569.219244957 src=3e:93:24:b2:3d:96 dst=be:04:13:d4:28:a6 path=[4]
+RECV time=569.219280005 src=3e:93:24:b2:3d:96 dst=be:04:13:d4:28:a6 
+SEND time=569.220604897 src=be:04:13:d4:28:a6 dst=3e:93:24:b2:3d:96 path=[4]
+RECV time=569.220628977 src=be:04:13:d4:28:a6 dst=3e:93:24:b2:3d:96 
+SEND time=569.230125904 src=3e:93:24:b2:3d:96 dst=0e:06:39:73:84:78 path=[4]
+RECV time=569.230158091 src=3e:93:24:b2:3d:96 dst=0e:06:39:73:84:78 
+SEND time=569.231715918 src=0e:06:39:73:84:78 dst=3e:93:24:b2:3d:96 path=[4]
+RECV time=569.231749058 src=0e:06:39:73:84:78 dst=3e:93:24:b2:3d:96 
+SEND time=592.197726965 src=e2:66:7e:86:02:e0 dst=fa:a9:28:f8:10:2b path=[1, 2]
+RECV time=592.199677944 src=e2:66:7e:86:02:e0 dst=fa:a9:28:f8:10:2b 
+SEND time=592.201459885 src=fa:a9:28:f8:10:2b dst=e2:66:7e:86:02:e0 path=[2, 1]
+RECV time=592.202970028 src=fa:a9:28:f8:10:2b dst=e2:66:7e:86:02:e0 
+SEND time=592.209402084 src=2a:6f:49:f4:cf:9e dst=fa:a9:28:f8:10:2b path=[1, 2, 3]
+RECV time=592.21142292 src=2a:6f:49:f4:cf:9e dst=fa:a9:28:f8:10:2b 
+SEND time=592.212424994 src=fa:a9:28:f8:10:2b dst=2a:6f:49:f4:cf:9e path=[3, 2, 1]
+RECV time=592.214715004 src=fa:a9:28:f8:10:2b dst=2a:6f:49:f4:cf:9e 
+SEND time=592.227660894 src=96:e6:1e:27:6f:1b dst=fa:a9:28:f8:10:2b path=[1, 2, 3]
+RECV time=592.229851007 src=96:e6:1e:27:6f:1b dst=fa:a9:28:f8:10:2b 
+SEND time=592.230791092 src=fa:a9:28:f8:10:2b dst=96:e6:1e:27:6f:1b path=[3, 2, 1]
+RECV time=592.232537031 src=fa:a9:28:f8:10:2b dst=96:e6:1e:27:6f:1b 
+SEND time=592.243892908 src=6a:a7:58:ac:31:db dst=fa:a9:28:f8:10:2b path=[1, 2, 3, 4]
+RECV time=592.246918917 src=6a:a7:58:ac:31:db dst=fa:a9:28:f8:10:2b 
+SEND time=592.247812986 src=fa:a9:28:f8:10:2b dst=6a:a7:58:ac:31:db path=[4, 3, 2, 1]
+RECV time=592.250825882 src=fa:a9:28:f8:10:2b dst=6a:a7:58:ac:31:db 
+SEND time=592.256797075 src=06:43:e2:ff:01:8c dst=fa:a9:28:f8:10:2b path=[1, 2, 3, 4]
+RECV time=592.26184392 src=06:43:e2:ff:01:8c dst=fa:a9:28:f8:10:2b 
+SEND time=592.262727022 src=fa:a9:28:f8:10:2b dst=06:43:e2:ff:01:8c path=[4, 3, 2, 1]
+RECV time=592.265445948 src=fa:a9:28:f8:10:2b dst=06:43:e2:ff:01:8c 
+SEND time=592.27193594 src=8a:7c:17:f6:df:23 dst=fa:a9:28:f8:10:2b path=[1, 2, 3, 4]
+RECV time=592.277391911 src=8a:7c:17:f6:df:23 dst=fa:a9:28:f8:10:2b 
+SEND time=592.278308868 src=fa:a9:28:f8:10:2b dst=8a:7c:17:f6:df:23 path=[4, 3, 2, 1]
+RECV time=592.281188011 src=fa:a9:28:f8:10:2b dst=8a:7c:17:f6:df:23 
+SEND time=592.288259029 src=2a:6f:49:f4:cf:9e dst=e2:66:7e:86:02:e0 path=[2, 3]
+RECV time=592.289197922 src=2a:6f:49:f4:cf:9e dst=e2:66:7e:86:02:e0 
+SEND time=592.29041791 src=e2:66:7e:86:02:e0 dst=2a:6f:49:f4:cf:9e path=[3, 2]
+RECV time=592.291419029 src=e2:66:7e:86:02:e0 dst=2a:6f:49:f4:cf:9e 
+SEND time=592.296638966 src=96:e6:1e:27:6f:1b dst=e2:66:7e:86:02:e0 path=[2, 3]
+RECV time=592.29762888 src=96:e6:1e:27:6f:1b dst=e2:66:7e:86:02:e0 
+SEND time=592.298521042 src=e2:66:7e:86:02:e0 dst=96:e6:1e:27:6f:1b path=[3, 2]
+RECV time=592.299436092 src=e2:66:7e:86:02:e0 dst=96:e6:1e:27:6f:1b 
+SEND time=592.306632996 src=6a:a7:58:ac:31:db dst=e2:66:7e:86:02:e0 path=[2, 3, 4]
+RECV time=592.309416056 src=6a:a7:58:ac:31:db dst=e2:66:7e:86:02:e0 
+SEND time=592.310545921 src=e2:66:7e:86:02:e0 dst=6a:a7:58:ac:31:db path=[4, 3, 2]
+RECV time=592.312334061 src=e2:66:7e:86:02:e0 dst=6a:a7:58:ac:31:db 
+SEND time=592.317787886 src=06:43:e2:ff:01:8c dst=e2:66:7e:86:02:e0 path=[2, 3, 4]
+RECV time=592.319585085 src=06:43:e2:ff:01:8c dst=e2:66:7e:86:02:e0 
+SEND time=592.320486069 src=e2:66:7e:86:02:e0 dst=06:43:e2:ff:01:8c path=[4, 3, 2]
+RECV time=592.325980902 src=e2:66:7e:86:02:e0 dst=06:43:e2:ff:01:8c 
+SEND time=592.331791878 src=8a:7c:17:f6:df:23 dst=e2:66:7e:86:02:e0 path=[2, 3, 4]
+RECV time=592.334089041 src=8a:7c:17:f6:df:23 dst=e2:66:7e:86:02:e0 
+SEND time=592.335299015 src=e2:66:7e:86:02:e0 dst=8a:7c:17:f6:df:23 path=[4, 3, 2]
+RECV time=592.337056875 src=e2:66:7e:86:02:e0 dst=8a:7c:17:f6:df:23 
+SEND time=592.346747875 src=96:e6:1e:27:6f:1b dst=2a:6f:49:f4:cf:9e path=[3]
+RECV time=592.346781015 src=96:e6:1e:27:6f:1b dst=2a:6f:49:f4:cf:9e 
+SEND time=592.348522902 src=2a:6f:49:f4:cf:9e dst=96:e6:1e:27:6f:1b path=[3]
+RECV time=592.348550081 src=2a:6f:49:f4:cf:9e dst=96:e6:1e:27:6f:1b 
+SEND time=592.353723049 src=6a:a7:58:ac:31:db dst=2a:6f:49:f4:cf:9e path=[3, 4]
+RECV time=592.354624033 src=6a:a7:58:ac:31:db dst=2a:6f:49:f4:cf:9e 
+SEND time=592.355494022 src=2a:6f:49:f4:cf:9e dst=6a:a7:58:ac:31:db path=[4, 3]
+RECV time=592.356355906 src=2a:6f:49:f4:cf:9e dst=6a:a7:58:ac:31:db 
+SEND time=592.361347914 src=06:43:e2:ff:01:8c dst=2a:6f:49:f4:cf:9e path=[3, 4]
+RECV time=592.362251043 src=06:43:e2:ff:01:8c dst=2a:6f:49:f4:cf:9e 
+SEND time=592.363605976 src=2a:6f:49:f4:cf:9e dst=06:43:e2:ff:01:8c path=[4, 3]
+RECV time=592.365391016 src=2a:6f:49:f4:cf:9e dst=06:43:e2:ff:01:8c 
+SEND time=592.372660875 src=8a:7c:17:f6:df:23 dst=2a:6f:49:f4:cf:9e path=[3, 4]
+RECV time=592.375113964 src=8a:7c:17:f6:df:23 dst=2a:6f:49:f4:cf:9e 
+SEND time=592.377948999 src=2a:6f:49:f4:cf:9e dst=8a:7c:17:f6:df:23 path=[4, 3]
+RECV time=592.379110098 src=2a:6f:49:f4:cf:9e dst=8a:7c:17:f6:df:23 
+SEND time=592.387917042 src=6a:a7:58:ac:31:db dst=96:e6:1e:27:6f:1b path=[3, 4]
+RECV time=592.389453888 src=6a:a7:58:ac:31:db dst=96:e6:1e:27:6f:1b 
+SEND time=592.390412092 src=96:e6:1e:27:6f:1b dst=6a:a7:58:ac:31:db path=[4, 3]
+RECV time=592.391278028 src=96:e6:1e:27:6f:1b dst=6a:a7:58:ac:31:db 
+SEND time=592.397306919 src=06:43:e2:ff:01:8c dst=96:e6:1e:27:6f:1b path=[3, 4]
+RECV time=592.398612022 src=06:43:e2:ff:01:8c dst=96:e6:1e:27:6f:1b 
+SEND time=592.399726868 src=96:e6:1e:27:6f:1b dst=06:43:e2:ff:01:8c path=[4, 3]
+RECV time=592.401141882 src=96:e6:1e:27:6f:1b dst=06:43:e2:ff:01:8c 
+SEND time=592.409107924 src=8a:7c:17:f6:df:23 dst=96:e6:1e:27:6f:1b path=[3, 4]
+RECV time=592.410746098 src=8a:7c:17:f6:df:23 dst=96:e6:1e:27:6f:1b 
+SEND time=592.41179204 src=96:e6:1e:27:6f:1b dst=8a:7c:17:f6:df:23 path=[4, 3]
+RECV time=592.412676096 src=96:e6:1e:27:6f:1b dst=8a:7c:17:f6:df:23 
+SEND time=592.421921015 src=06:43:e2:ff:01:8c dst=6a:a7:58:ac:31:db path=[4]
+RECV time=592.42195487 src=06:43:e2:ff:01:8c dst=6a:a7:58:ac:31:db 
+SEND time=592.423121929 src=6a:a7:58:ac:31:db dst=06:43:e2:ff:01:8c path=[4]
+RECV time=592.423151016 src=6a:a7:58:ac:31:db dst=06:43:e2:ff:01:8c 
+SEND time=592.428230047 src=8a:7c:17:f6:df:23 dst=6a:a7:58:ac:31:db path=[4]
+RECV time=592.428293943 src=8a:7c:17:f6:df:23 dst=6a:a7:58:ac:31:db 
+SEND time=592.429926872 src=6a:a7:58:ac:31:db dst=8a:7c:17:f6:df:23 path=[4]
+RECV time=592.429956913 src=6a:a7:58:ac:31:db dst=8a:7c:17:f6:df:23 
+SEND time=592.444458008 src=8a:7c:17:f6:df:23 dst=06:43:e2:ff:01:8c path=[4]
+RECV time=592.444494963 src=8a:7c:17:f6:df:23 dst=06:43:e2:ff:01:8c 
+SEND time=592.446264029 src=06:43:e2:ff:01:8c dst=8a:7c:17:f6:df:23 path=[4]
+RECV time=592.446291924 src=06:43:e2:ff:01:8c dst=8a:7c:17:f6:df:23 
+SEND time=616.042865992 src=42:23:e6:ed:d7:8a dst=8e:09:99:be:3f:c4 path=[1, 2]
+RECV time=616.046540976 src=42:23:e6:ed:d7:8a dst=8e:09:99:be:3f:c4 
+SEND time=616.047673941 src=8e:09:99:be:3f:c4 dst=42:23:e6:ed:d7:8a path=[2, 1]
+RECV time=616.0492661 src=8e:09:99:be:3f:c4 dst=42:23:e6:ed:d7:8a 
+SEND time=616.055248976 src=ae:d1:71:3d:29:f0 dst=8e:09:99:be:3f:c4 path=[1, 2, 3]
+RECV time=616.057596922 src=ae:d1:71:3d:29:f0 dst=8e:09:99:be:3f:c4 
+SEND time=616.058507919 src=8e:09:99:be:3f:c4 dst=ae:d1:71:3d:29:f0 path=[3, 2, 1]
+RECV time=616.060209036 src=8e:09:99:be:3f:c4 dst=ae:d1:71:3d:29:f0 
+SEND time=616.071346998 src=8e:80:69:2b:12:5f dst=8e:09:99:be:3f:c4 path=[1, 2, 3]
+RECV time=616.074945927 src=8e:80:69:2b:12:5f dst=8e:09:99:be:3f:c4 
+SEND time=616.075954914 src=8e:09:99:be:3f:c4 dst=8e:80:69:2b:12:5f path=[3, 2, 1]
+RECV time=616.078962088 src=8e:09:99:be:3f:c4 dst=8e:80:69:2b:12:5f 
+SEND time=616.085587978 src=fe:fb:34:63:ac:28 dst=8e:09:99:be:3f:c4 path=[1, 2, 3, 4]
+RECV time=616.092602015 src=fe:fb:34:63:ac:28 dst=8e:09:99:be:3f:c4 
+SEND time=616.093611002 src=8e:09:99:be:3f:c4 dst=fe:fb:34:63:ac:28 path=[4, 3, 2, 1]
+RECV time=616.096272945 src=8e:09:99:be:3f:c4 dst=fe:fb:34:63:ac:28 
+SEND time=616.102024078 src=82:29:97:95:c8:f4 dst=8e:09:99:be:3f:c4 path=[1, 2, 3, 4]
+RECV time=616.105015993 src=82:29:97:95:c8:f4 dst=8e:09:99:be:3f:c4 
+SEND time=616.106216908 src=8e:09:99:be:3f:c4 dst=82:29:97:95:c8:f4 path=[4, 3, 2, 1]
+RECV time=616.112333059 src=8e:09:99:be:3f:c4 dst=82:29:97:95:c8:f4 
+SEND time=616.118088961 src=4e:9a:8f:3b:94:2f dst=8e:09:99:be:3f:c4 path=[1, 2, 3, 4]
+RECV time=616.121332884 src=4e:9a:8f:3b:94:2f dst=8e:09:99:be:3f:c4 
+SEND time=616.122340918 src=8e:09:99:be:3f:c4 dst=4e:9a:8f:3b:94:2f path=[4, 3, 2, 1]
+RECV time=616.127691984 src=8e:09:99:be:3f:c4 dst=4e:9a:8f:3b:94:2f 
+SEND time=616.13488102 src=ae:d1:71:3d:29:f0 dst=42:23:e6:ed:d7:8a path=[2, 3]
+RECV time=616.136022091 src=ae:d1:71:3d:29:f0 dst=42:23:e6:ed:d7:8a 
+SEND time=616.136998892 src=42:23:e6:ed:d7:8a dst=ae:d1:71:3d:29:f0 path=[3, 2]
+RECV time=616.137918949 src=42:23:e6:ed:d7:8a dst=ae:d1:71:3d:29:f0 
+SEND time=616.144774914 src=8e:80:69:2b:12:5f dst=42:23:e6:ed:d7:8a path=[2, 3]
+RECV time=616.146347046 src=8e:80:69:2b:12:5f dst=42:23:e6:ed:d7:8a 
+SEND time=616.147222996 src=42:23:e6:ed:d7:8a dst=8e:80:69:2b:12:5f path=[3, 2]
+RECV time=616.14800787 src=42:23:e6:ed:d7:8a dst=8e:80:69:2b:12:5f 
+SEND time=616.154530048 src=fe:fb:34:63:ac:28 dst=42:23:e6:ed:d7:8a path=[2, 3, 4]
+RECV time=616.156980991 src=fe:fb:34:63:ac:28 dst=42:23:e6:ed:d7:8a 
+SEND time=616.158293962 src=42:23:e6:ed:d7:8a dst=fe:fb:34:63:ac:28 path=[4, 3, 2]
+RECV time=616.160084963 src=42:23:e6:ed:d7:8a dst=fe:fb:34:63:ac:28 
+SEND time=616.165244102 src=82:29:97:95:c8:f4 dst=42:23:e6:ed:d7:8a path=[2, 3, 4]
+RECV time=616.167041063 src=82:29:97:95:c8:f4 dst=42:23:e6:ed:d7:8a 
+SEND time=616.167861938 src=42:23:e6:ed:d7:8a dst=82:29:97:95:c8:f4 path=[4, 3, 2]
+RECV time=616.169661045 src=42:23:e6:ed:d7:8a dst=82:29:97:95:c8:f4 
+SEND time=616.177978992 src=4e:9a:8f:3b:94:2f dst=42:23:e6:ed:d7:8a path=[2, 3, 4]
+RECV time=616.179909945 src=4e:9a:8f:3b:94:2f dst=42:23:e6:ed:d7:8a 
+SEND time=616.181006908 src=42:23:e6:ed:d7:8a dst=4e:9a:8f:3b:94:2f path=[4, 3, 2]
+RECV time=616.182903051 src=42:23:e6:ed:d7:8a dst=4e:9a:8f:3b:94:2f 
+SEND time=616.190232992 src=8e:80:69:2b:12:5f dst=ae:d1:71:3d:29:f0 path=[3]
+RECV time=616.190294981 src=8e:80:69:2b:12:5f dst=ae:d1:71:3d:29:f0 
+SEND time=616.193818092 src=ae:d1:71:3d:29:f0 dst=8e:80:69:2b:12:5f path=[3]
+RECV time=616.193854094 src=ae:d1:71:3d:29:f0 dst=8e:80:69:2b:12:5f 
+SEND time=616.198852062 src=fe:fb:34:63:ac:28 dst=ae:d1:71:3d:29:f0 path=[3, 4]
+RECV time=616.199934006 src=fe:fb:34:63:ac:28 dst=ae:d1:71:3d:29:f0 
+SEND time=616.200815916 src=ae:d1:71:3d:29:f0 dst=fe:fb:34:63:ac:28 path=[4, 3]
+RECV time=616.201699972 src=ae:d1:71:3d:29:f0 dst=fe:fb:34:63:ac:28 
+SEND time=616.206609011 src=82:29:97:95:c8:f4 dst=ae:d1:71:3d:29:f0 path=[3, 4]
+RECV time=616.207535982 src=82:29:97:95:c8:f4 dst=ae:d1:71:3d:29:f0 
+SEND time=616.208425045 src=ae:d1:71:3d:29:f0 dst=82:29:97:95:c8:f4 path=[4, 3]
+RECV time=616.209321976 src=ae:d1:71:3d:29:f0 dst=82:29:97:95:c8:f4 
+SEND time=616.215605974 src=4e:9a:8f:3b:94:2f dst=ae:d1:71:3d:29:f0 path=[3, 4]
+RECV time=616.216567039 src=4e:9a:8f:3b:94:2f dst=ae:d1:71:3d:29:f0 
+SEND time=616.218044043 src=ae:d1:71:3d:29:f0 dst=4e:9a:8f:3b:94:2f path=[4, 3]
+RECV time=616.219225883 src=ae:d1:71:3d:29:f0 dst=4e:9a:8f:3b:94:2f 
+SEND time=616.231326103 src=fe:fb:34:63:ac:28 dst=8e:80:69:2b:12:5f path=[3, 4]
+RECV time=616.23290801 src=fe:fb:34:63:ac:28 dst=8e:80:69:2b:12:5f 
+SEND time=616.233876944 src=8e:80:69:2b:12:5f dst=fe:fb:34:63:ac:28 path=[4, 3]
+RECV time=616.23476696 src=8e:80:69:2b:12:5f dst=fe:fb:34:63:ac:28 
+SEND time=616.239742994 src=82:29:97:95:c8:f4 dst=8e:80:69:2b:12:5f path=[3, 4]
+RECV time=616.240622044 src=82:29:97:95:c8:f4 dst=8e:80:69:2b:12:5f 
+SEND time=616.241755962 src=8e:80:69:2b:12:5f dst=82:29:97:95:c8:f4 path=[4, 3]
+RECV time=616.243500948 src=8e:80:69:2b:12:5f dst=82:29:97:95:c8:f4 
+SEND time=616.250124931 src=4e:9a:8f:3b:94:2f dst=8e:80:69:2b:12:5f path=[3, 4]
+RECV time=616.251168966 src=4e:9a:8f:3b:94:2f dst=8e:80:69:2b:12:5f 
+SEND time=616.252085924 src=8e:80:69:2b:12:5f dst=4e:9a:8f:3b:94:2f path=[4, 3]
+RECV time=616.253001928 src=8e:80:69:2b:12:5f dst=4e:9a:8f:3b:94:2f 
+SEND time=616.265156984 src=82:29:97:95:c8:f4 dst=fe:fb:34:63:ac:28 path=[4]
+RECV time=616.265192032 src=82:29:97:95:c8:f4 dst=fe:fb:34:63:ac:28 
+SEND time=616.266628027 src=fe:fb:34:63:ac:28 dst=82:29:97:95:c8:f4 path=[4]
+RECV time=616.266654015 src=fe:fb:34:63:ac:28 dst=82:29:97:95:c8:f4 
+SEND time=616.270807028 src=4e:9a:8f:3b:94:2f dst=fe:fb:34:63:ac:28 path=[4]
+RECV time=616.270847082 src=4e:9a:8f:3b:94:2f dst=fe:fb:34:63:ac:28 
+SEND time=616.27234292 src=fe:fb:34:63:ac:28 dst=4e:9a:8f:3b:94:2f path=[4]
+RECV time=616.272392988 src=fe:fb:34:63:ac:28 dst=4e:9a:8f:3b:94:2f 
+SEND time=616.285635948 src=4e:9a:8f:3b:94:2f dst=82:29:97:95:c8:f4 path=[4]
+RECV time=616.285670996 src=4e:9a:8f:3b:94:2f dst=82:29:97:95:c8:f4 
+SEND time=616.287353039 src=82:29:97:95:c8:f4 dst=4e:9a:8f:3b:94:2f path=[4]
+RECV time=616.287385941 src=82:29:97:95:c8:f4 dst=4e:9a:8f:3b:94:2f 
+SEND time=639.359441042 src=4e:f5:de:fb:b9:f6 dst=62:55:86:65:c7:aa path=[1, 2]
+RECV time=639.362370968 src=4e:f5:de:fb:b9:f6 dst=62:55:86:65:c7:aa 
+SEND time=639.364235878 src=62:55:86:65:c7:aa dst=4e:f5:de:fb:b9:f6 path=[2, 1]
+RECV time=639.365330935 src=62:55:86:65:c7:aa dst=4e:f5:de:fb:b9:f6 
+SEND time=639.371147871 src=82:78:2b:11:4f:35 dst=62:55:86:65:c7:aa path=[1, 2, 3]
+RECV time=639.373249054 src=82:78:2b:11:4f:35 dst=62:55:86:65:c7:aa 
+SEND time=639.374226093 src=62:55:86:65:c7:aa dst=82:78:2b:11:4f:35 path=[3, 2, 1]
+RECV time=639.376327991 src=62:55:86:65:c7:aa dst=82:78:2b:11:4f:35 
+SEND time=639.388850927 src=12:6f:40:c1:d6:5f dst=62:55:86:65:c7:aa path=[1, 2, 3]
+RECV time=639.39102006 src=12:6f:40:c1:d6:5f dst=62:55:86:65:c7:aa 
+SEND time=639.391931057 src=62:55:86:65:c7:aa dst=12:6f:40:c1:d6:5f path=[3, 2, 1]
+RECV time=639.39377594 src=62:55:86:65:c7:aa dst=12:6f:40:c1:d6:5f 
+SEND time=639.399513006 src=2e:25:83:69:9d:e8 dst=62:55:86:65:c7:aa path=[1, 2, 3, 4]
+RECV time=639.402795076 src=2e:25:83:69:9d:e8 dst=62:55:86:65:c7:aa 
+SEND time=639.403774977 src=62:55:86:65:c7:aa dst=2e:25:83:69:9d:e8 path=[4, 3, 2, 1]
+RECV time=639.407097101 src=62:55:86:65:c7:aa dst=2e:25:83:69:9d:e8 
+SEND time=639.4151299 src=de:be:74:fa:91:84 dst=62:55:86:65:c7:aa path=[1, 2, 3, 4]
+RECV time=639.418063879 src=de:be:74:fa:91:84 dst=62:55:86:65:c7:aa 
+SEND time=639.419049025 src=62:55:86:65:c7:aa dst=de:be:74:fa:91:84 path=[4, 3, 2, 1]
+RECV time=639.42185092 src=62:55:86:65:c7:aa dst=de:be:74:fa:91:84 
+SEND time=639.429068089 src=9a:8a:71:7a:c4:10 dst=62:55:86:65:c7:aa path=[1, 2, 3, 4]
+RECV time=639.432009935 src=9a:8a:71:7a:c4:10 dst=62:55:86:65:c7:aa 
+SEND time=639.433122873 src=62:55:86:65:c7:aa dst=9a:8a:71:7a:c4:10 path=[4, 3, 2, 1]
+RECV time=639.43600893 src=62:55:86:65:c7:aa dst=9a:8a:71:7a:c4:10 
+SEND time=639.444339991 src=82:78:2b:11:4f:35 dst=4e:f5:de:fb:b9:f6 path=[2, 3]
+RECV time=639.445380926 src=82:78:2b:11:4f:35 dst=4e:f5:de:fb:b9:f6 
+SEND time=639.446484089 src=4e:f5:de:fb:b9:f6 dst=82:78:2b:11:4f:35 path=[3, 2]
+RECV time=639.447339058 src=4e:f5:de:fb:b9:f6 dst=82:78:2b:11:4f:35 
+SEND time=639.452658892 src=12:6f:40:c1:d6:5f dst=4e:f5:de:fb:b9:f6 path=[2, 3]
+RECV time=639.453685999 src=12:6f:40:c1:d6:5f dst=4e:f5:de:fb:b9:f6 
+SEND time=639.454555035 src=4e:f5:de:fb:b9:f6 dst=12:6f:40:c1:d6:5f path=[3, 2]
+RECV time=639.455420971 src=4e:f5:de:fb:b9:f6 dst=12:6f:40:c1:d6:5f 
+SEND time=639.460393906 src=2e:25:83:69:9d:e8 dst=4e:f5:de:fb:b9:f6 path=[2, 3, 4]
+RECV time=639.462172985 src=2e:25:83:69:9d:e8 dst=4e:f5:de:fb:b9:f6 
+SEND time=639.4632411 src=4e:f5:de:fb:b9:f6 dst=2e:25:83:69:9d:e8 path=[4, 3, 2]
+RECV time=639.465918064 src=4e:f5:de:fb:b9:f6 dst=2e:25:83:69:9d:e8 
+SEND time=639.472748041 src=de:be:74:fa:91:84 dst=4e:f5:de:fb:b9:f6 path=[2, 3, 4]
+RECV time=639.476214886 src=de:be:74:fa:91:84 dst=4e:f5:de:fb:b9:f6 
+SEND time=639.478492975 src=4e:f5:de:fb:b9:f6 dst=de:be:74:fa:91:84 path=[4, 3, 2]
+RECV time=639.480550051 src=4e:f5:de:fb:b9:f6 dst=de:be:74:fa:91:84 
+SEND time=639.486111879 src=9a:8a:71:7a:c4:10 dst=4e:f5:de:fb:b9:f6 path=[2, 3, 4]
+RECV time=639.488028049 src=9a:8a:71:7a:c4:10 dst=4e:f5:de:fb:b9:f6 
+SEND time=639.489031076 src=4e:f5:de:fb:b9:f6 dst=9a:8a:71:7a:c4:10 path=[4, 3, 2]
+RECV time=639.490782976 src=4e:f5:de:fb:b9:f6 dst=9a:8a:71:7a:c4:10 
+SEND time=639.499850035 src=12:6f:40:c1:d6:5f dst=82:78:2b:11:4f:35 path=[3]
+RECV time=639.499901056 src=12:6f:40:c1:d6:5f dst=82:78:2b:11:4f:35 
+SEND time=639.502327919 src=82:78:2b:11:4f:35 dst=12:6f:40:c1:d6:5f path=[3]
+RECV time=639.50236392 src=82:78:2b:11:4f:35 dst=12:6f:40:c1:d6:5f 
+SEND time=639.508069992 src=2e:25:83:69:9d:e8 dst=82:78:2b:11:4f:35 path=[3, 4]
+RECV time=639.510257959 src=2e:25:83:69:9d:e8 dst=82:78:2b:11:4f:35 
+SEND time=639.512501955 src=82:78:2b:11:4f:35 dst=2e:25:83:69:9d:e8 path=[4, 3]
+RECV time=639.513675928 src=82:78:2b:11:4f:35 dst=2e:25:83:69:9d:e8 
+SEND time=639.518663883 src=de:be:74:fa:91:84 dst=82:78:2b:11:4f:35 path=[3, 4]
+RECV time=639.519644022 src=de:be:74:fa:91:84 dst=82:78:2b:11:4f:35 
+SEND time=639.520576 src=82:78:2b:11:4f:35 dst=de:be:74:fa:91:84 path=[4, 3]
+RECV time=639.521548986 src=82:78:2b:11:4f:35 dst=de:be:74:fa:91:84 
+SEND time=639.526701927 src=9a:8a:71:7a:c4:10 dst=82:78:2b:11:4f:35 path=[3, 4]
+RECV time=639.527637959 src=9a:8a:71:7a:c4:10 dst=82:78:2b:11:4f:35 
+SEND time=639.528573036 src=82:78:2b:11:4f:35 dst=9a:8a:71:7a:c4:10 path=[4, 3]
+RECV time=639.5294981 src=82:78:2b:11:4f:35 dst=9a:8a:71:7a:c4:10 
+SEND time=639.537884951 src=2e:25:83:69:9d:e8 dst=12:6f:40:c1:d6:5f path=[3, 4]
+RECV time=639.53924489 src=2e:25:83:69:9d:e8 dst=12:6f:40:c1:d6:5f 
+SEND time=639.540294886 src=12:6f:40:c1:d6:5f dst=2e:25:83:69:9d:e8 path=[4, 3]
+RECV time=639.541980982 src=12:6f:40:c1:d6:5f dst=2e:25:83:69:9d:e8 
+SEND time=639.548841 src=de:be:74:fa:91:84 dst=12:6f:40:c1:d6:5f path=[3, 4]
+RECV time=639.549915075 src=de:be:74:fa:91:84 dst=12:6f:40:c1:d6:5f 
+SEND time=639.550813913 src=12:6f:40:c1:d6:5f dst=de:be:74:fa:91:84 path=[4, 3]
+RECV time=639.551647902 src=12:6f:40:c1:d6:5f dst=de:be:74:fa:91:84 
+SEND time=639.557585955 src=9a:8a:71:7a:c4:10 dst=12:6f:40:c1:d6:5f path=[3, 4]
+RECV time=639.558796883 src=9a:8a:71:7a:c4:10 dst=12:6f:40:c1:d6:5f 
+SEND time=639.56010294 src=12:6f:40:c1:d6:5f dst=9a:8a:71:7a:c4:10 path=[4, 3]
+RECV time=639.561202049 src=12:6f:40:c1:d6:5f dst=9a:8a:71:7a:c4:10 
+SEND time=639.570587873 src=de:be:74:fa:91:84 dst=2e:25:83:69:9d:e8 path=[4]
+RECV time=639.570622921 src=de:be:74:fa:91:84 dst=2e:25:83:69:9d:e8 
+SEND time=639.572031975 src=2e:25:83:69:9d:e8 dst=de:be:74:fa:91:84 path=[4]
+RECV time=639.57206893 src=2e:25:83:69:9d:e8 dst=de:be:74:fa:91:84 
+SEND time=639.578826904 src=9a:8a:71:7a:c4:10 dst=2e:25:83:69:9d:e8 path=[4]
+RECV time=639.578887939 src=9a:8a:71:7a:c4:10 dst=2e:25:83:69:9d:e8 
+SEND time=639.580723047 src=2e:25:83:69:9d:e8 dst=9a:8a:71:7a:c4:10 path=[4]
+RECV time=639.580749035 src=2e:25:83:69:9d:e8 dst=9a:8a:71:7a:c4:10 
+SEND time=639.594462872 src=9a:8a:71:7a:c4:10 dst=de:be:74:fa:91:84 path=[4]
+RECV time=639.594501019 src=9a:8a:71:7a:c4:10 dst=de:be:74:fa:91:84 
+SEND time=639.595860958 src=de:be:74:fa:91:84 dst=9a:8a:71:7a:c4:10 path=[4]
+RECV time=639.595886946 src=de:be:74:fa:91:84 dst=9a:8a:71:7a:c4:10 
+SEND time=661.948970079 src=b6:9c:2b:5c:3f:64 dst=7a:a7:b5:97:08:64 path=[1, 2]
+RECV time=661.951243877 src=b6:9c:2b:5c:3f:64 dst=7a:a7:b5:97:08:64 
+SEND time=661.952476978 src=7a:a7:b5:97:08:64 dst=b6:9c:2b:5c:3f:64 path=[2, 1]
+RECV time=661.953551054 src=7a:a7:b5:97:08:64 dst=b6:9c:2b:5c:3f:64 
+SEND time=661.959311008 src=a6:f2:46:62:3a:b0 dst=7a:a7:b5:97:08:64 path=[1, 2, 3]
+RECV time=661.961261034 src=a6:f2:46:62:3a:b0 dst=7a:a7:b5:97:08:64 
+SEND time=661.962334871 src=7a:a7:b5:97:08:64 dst=a6:f2:46:62:3a:b0 path=[3, 2, 1]
+RECV time=661.969433069 src=7a:a7:b5:97:08:64 dst=a6:f2:46:62:3a:b0 
+SEND time=661.977402925 src=92:ca:04:2e:2a:97 dst=7a:a7:b5:97:08:64 path=[1, 2, 3]
+RECV time=661.979623079 src=92:ca:04:2e:2a:97 dst=7a:a7:b5:97:08:64 
+SEND time=661.980709076 src=7a:a7:b5:97:08:64 dst=92:ca:04:2e:2a:97 path=[3, 2, 1]
+RECV time=661.982795 src=7a:a7:b5:97:08:64 dst=92:ca:04:2e:2a:97 
+SEND time=661.988641024 src=0a:7e:6a:fa:75:46 dst=7a:a7:b5:97:08:64 path=[1, 2, 3, 4]
+RECV time=661.99197197 src=0a:7e:6a:fa:75:46 dst=7a:a7:b5:97:08:64 
+SEND time=661.994029045 src=7a:a7:b5:97:08:64 dst=0a:7e:6a:fa:75:46 path=[4, 3, 2, 1]
+RECV time=661.998506069 src=7a:a7:b5:97:08:64 dst=0a:7e:6a:fa:75:46 
+SEND time=662.006404877 src=d6:72:0c:ba:6e:7a dst=7a:a7:b5:97:08:64 path=[1, 2, 3, 4]
+RECV time=662.011318922 src=d6:72:0c:ba:6e:7a dst=7a:a7:b5:97:08:64 
+SEND time=662.012201071 src=7a:a7:b5:97:08:64 dst=d6:72:0c:ba:6e:7a path=[4, 3, 2, 1]
+RECV time=662.015203953 src=7a:a7:b5:97:08:64 dst=d6:72:0c:ba:6e:7a 
+SEND time=662.021100044 src=b6:f0:9b:a5:d7:86 dst=7a:a7:b5:97:08:64 path=[1, 2, 3, 4]
+RECV time=662.024142981 src=b6:f0:9b:a5:d7:86 dst=7a:a7:b5:97:08:64 
+SEND time=662.025285959 src=7a:a7:b5:97:08:64 dst=b6:f0:9b:a5:d7:86 path=[4, 3, 2, 1]
+RECV time=662.030876875 src=7a:a7:b5:97:08:64 dst=b6:f0:9b:a5:d7:86 
+SEND time=662.037978888 src=a6:f2:46:62:3a:b0 dst=b6:9c:2b:5c:3f:64 path=[2, 3]
+RECV time=662.039175987 src=a6:f2:46:62:3a:b0 dst=b6:9c:2b:5c:3f:64 
+SEND time=662.040034056 src=b6:9c:2b:5c:3f:64 dst=a6:f2:46:62:3a:b0 path=[3, 2]
+RECV time=662.040842056 src=b6:9c:2b:5c:3f:64 dst=a6:f2:46:62:3a:b0 
+SEND time=662.04587698 src=92:ca:04:2e:2a:97 dst=b6:9c:2b:5c:3f:64 path=[2, 3]
+RECV time=662.046701908 src=92:ca:04:2e:2a:97 dst=b6:9c:2b:5c:3f:64 
+SEND time=662.04765892 src=b6:9c:2b:5c:3f:64 dst=92:ca:04:2e:2a:97 path=[3, 2]
+RECV time=662.049540997 src=b6:9c:2b:5c:3f:64 dst=92:ca:04:2e:2a:97 
+SEND time=662.056614876 src=0a:7e:6a:fa:75:46 dst=b6:9c:2b:5c:3f:64 path=[2, 3, 4]
+RECV time=662.059673071 src=0a:7e:6a:fa:75:46 dst=b6:9c:2b:5c:3f:64 
+SEND time=662.063611984 src=b6:9c:2b:5c:3f:64 dst=0a:7e:6a:fa:75:46 path=[4, 3, 2]
+RECV time=662.067832947 src=b6:9c:2b:5c:3f:64 dst=0a:7e:6a:fa:75:46 
+SEND time=662.073354959 src=d6:72:0c:ba:6e:7a dst=b6:9c:2b:5c:3f:64 path=[2, 3, 4]
+RECV time=662.075368881 src=d6:72:0c:ba:6e:7a dst=b6:9c:2b:5c:3f:64 
+SEND time=662.076310873 src=b6:9c:2b:5c:3f:64 dst=d6:72:0c:ba:6e:7a path=[4, 3, 2]
+RECV time=662.078216076 src=b6:9c:2b:5c:3f:64 dst=d6:72:0c:ba:6e:7a 
+SEND time=662.084177017 src=b6:f0:9b:a5:d7:86 dst=b6:9c:2b:5c:3f:64 path=[2, 3, 4]
+RECV time=662.08622694 src=b6:f0:9b:a5:d7:86 dst=b6:9c:2b:5c:3f:64 
+SEND time=662.087177038 src=b6:9c:2b:5c:3f:64 dst=b6:f0:9b:a5:d7:86 path=[4, 3, 2]
+RECV time=662.088862896 src=b6:9c:2b:5c:3f:64 dst=b6:f0:9b:a5:d7:86 
+SEND time=662.098222971 src=92:ca:04:2e:2a:97 dst=a6:f2:46:62:3a:b0 path=[3]
+RECV time=662.098257065 src=92:ca:04:2e:2a:97 dst=a6:f2:46:62:3a:b0 
+SEND time=662.099642992 src=a6:f2:46:62:3a:b0 dst=92:ca:04:2e:2a:97 path=[3]
+RECV time=662.09966898 src=a6:f2:46:62:3a:b0 dst=92:ca:04:2e:2a:97 
+SEND time=662.104537964 src=0a:7e:6a:fa:75:46 dst=a6:f2:46:62:3a:b0 path=[3, 4]
+RECV time=662.105905056 src=0a:7e:6a:fa:75:46 dst=a6:f2:46:62:3a:b0 
+SEND time=662.106803894 src=a6:f2:46:62:3a:b0 dst=0a:7e:6a:fa:75:46 path=[4, 3]
+RECV time=662.107620955 src=a6:f2:46:62:3a:b0 dst=0a:7e:6a:fa:75:46 
+SEND time=662.116172075 src=d6:72:0c:ba:6e:7a dst=a6:f2:46:62:3a:b0 path=[3, 4]
+RECV time=662.117760897 src=d6:72:0c:ba:6e:7a dst=a6:f2:46:62:3a:b0 
+SEND time=662.118843079 src=a6:f2:46:62:3a:b0 dst=d6:72:0c:ba:6e:7a path=[4, 3]
+RECV time=662.119750977 src=a6:f2:46:62:3a:b0 dst=d6:72:0c:ba:6e:7a 
+SEND time=662.127368927 src=b6:f0:9b:a5:d7:86 dst=a6:f2:46:62:3a:b0 path=[3, 4]
+RECV time=662.129759073 src=b6:f0:9b:a5:d7:86 dst=a6:f2:46:62:3a:b0 
+SEND time=662.130748987 src=a6:f2:46:62:3a:b0 dst=b6:f0:9b:a5:d7:86 path=[4, 3]
+RECV time=662.131642103 src=a6:f2:46:62:3a:b0 dst=b6:f0:9b:a5:d7:86 
+SEND time=662.139990091 src=0a:7e:6a:fa:75:46 dst=92:ca:04:2e:2a:97 path=[3, 4]
+RECV time=662.142030001 src=0a:7e:6a:fa:75:46 dst=92:ca:04:2e:2a:97 
+SEND time=662.143438101 src=92:ca:04:2e:2a:97 dst=0a:7e:6a:fa:75:46 path=[4, 3]
+RECV time=662.144454002 src=92:ca:04:2e:2a:97 dst=0a:7e:6a:fa:75:46 
+SEND time=662.150534868 src=d6:72:0c:ba:6e:7a dst=92:ca:04:2e:2a:97 path=[3, 4]
+RECV time=662.151530027 src=d6:72:0c:ba:6e:7a dst=92:ca:04:2e:2a:97 
+SEND time=662.152469873 src=92:ca:04:2e:2a:97 dst=d6:72:0c:ba:6e:7a path=[4, 3]
+RECV time=662.153547049 src=92:ca:04:2e:2a:97 dst=d6:72:0c:ba:6e:7a 
+SEND time=662.159393072 src=b6:f0:9b:a5:d7:86 dst=92:ca:04:2e:2a:97 path=[3, 4]
+RECV time=662.162046909 src=b6:f0:9b:a5:d7:86 dst=92:ca:04:2e:2a:97 
+SEND time=662.164293051 src=92:ca:04:2e:2a:97 dst=b6:f0:9b:a5:d7:86 path=[4, 3]
+RECV time=662.165287971 src=92:ca:04:2e:2a:97 dst=b6:f0:9b:a5:d7:86 
+SEND time=662.176553965 src=d6:72:0c:ba:6e:7a dst=0a:7e:6a:fa:75:46 path=[4]
+RECV time=662.176595926 src=d6:72:0c:ba:6e:7a dst=0a:7e:6a:fa:75:46 
+SEND time=662.178879023 src=0a:7e:6a:fa:75:46 dst=d6:72:0c:ba:6e:7a path=[4]
+RECV time=662.178925037 src=0a:7e:6a:fa:75:46 dst=d6:72:0c:ba:6e:7a 
+SEND time=662.183341026 src=b6:f0:9b:a5:d7:86 dst=0a:7e:6a:fa:75:46 path=[4]
+RECV time=662.183384895 src=b6:f0:9b:a5:d7:86 dst=0a:7e:6a:fa:75:46 
+SEND time=662.184710979 src=0a:7e:6a:fa:75:46 dst=b6:f0:9b:a5:d7:86 path=[4]
+RECV time=662.184736013 src=0a:7e:6a:fa:75:46 dst=b6:f0:9b:a5:d7:86 
+SEND time=662.19719696 src=b6:f0:9b:a5:d7:86 dst=d6:72:0c:ba:6e:7a path=[4]
+RECV time=662.197231054 src=b6:f0:9b:a5:d7:86 dst=d6:72:0c:ba:6e:7a 
+SEND time=662.198620081 src=d6:72:0c:ba:6e:7a dst=b6:f0:9b:a5:d7:86 path=[4]
+RECV time=662.198646069 src=d6:72:0c:ba:6e:7a dst=b6:f0:9b:a5:d7:86 
+SEND time=686.211371899 src=b2:37:d2:b3:c5:3d dst=ba:e1:1e:18:0c:3b path=[1, 2]
+RECV time=686.218560934 src=b2:37:d2:b3:c5:3d dst=ba:e1:1e:18:0c:3b 
+SEND time=686.223093987 src=ba:e1:1e:18:0c:3b dst=b2:37:d2:b3:c5:3d path=[2, 1]
+RECV time=686.226285934 src=ba:e1:1e:18:0c:3b dst=b2:37:d2:b3:c5:3d 
+SEND time=686.243988991 src=da:3e:3b:f0:ac:2e dst=ba:e1:1e:18:0c:3b path=[1, 2, 3]
+RECV time=686.247492075 src=da:3e:3b:f0:ac:2e dst=ba:e1:1e:18:0c:3b 
+SEND time=686.24862504 src=ba:e1:1e:18:0c:3b dst=da:3e:3b:f0:ac:2e path=[3, 2, 1]
+RECV time=686.250933886 src=ba:e1:1e:18:0c:3b dst=da:3e:3b:f0:ac:2e 
+SEND time=686.25857091 src=02:f8:2e:b7:20:18 dst=ba:e1:1e:18:0c:3b path=[1, 2, 3]
+RECV time=686.263087988 src=02:f8:2e:b7:20:18 dst=ba:e1:1e:18:0c:3b 
+SEND time=686.264563084 src=ba:e1:1e:18:0c:3b dst=02:f8:2e:b7:20:18 path=[3, 2, 1]
+RECV time=686.266670942 src=ba:e1:1e:18:0c:3b dst=02:f8:2e:b7:20:18 
+SEND time=686.272175074 src=62:df:ba:d2:f4:a8 dst=ba:e1:1e:18:0c:3b path=[1, 2, 3, 4]
+RECV time=686.275043964 src=62:df:ba:d2:f4:a8 dst=ba:e1:1e:18:0c:3b 
+SEND time=686.277241945 src=ba:e1:1e:18:0c:3b dst=62:df:ba:d2:f4:a8 path=[4, 3, 2, 1]
+RECV time=686.280524015 src=ba:e1:1e:18:0c:3b dst=62:df:ba:d2:f4:a8 
+SEND time=686.287164927 src=ee:32:6a:4e:d7:e2 dst=ba:e1:1e:18:0c:3b path=[1, 2, 3, 4]
+RECV time=686.289992094 src=ee:32:6a:4e:d7:e2 dst=ba:e1:1e:18:0c:3b 
+SEND time=686.290930033 src=ba:e1:1e:18:0c:3b dst=ee:32:6a:4e:d7:e2 path=[4, 3, 2, 1]
+RECV time=686.294645071 src=ba:e1:1e:18:0c:3b dst=ee:32:6a:4e:d7:e2 
+SEND time=686.301133871 src=ca:86:72:39:0e:24 dst=ba:e1:1e:18:0c:3b path=[1, 2, 3, 4]
+RECV time=686.304081917 src=ca:86:72:39:0e:24 dst=ba:e1:1e:18:0c:3b 
+SEND time=686.305073023 src=ba:e1:1e:18:0c:3b dst=ca:86:72:39:0e:24 path=[4, 3, 2, 1]
+RECV time=686.307924032 src=ba:e1:1e:18:0c:3b dst=ca:86:72:39:0e:24 
+SEND time=686.314687967 src=da:3e:3b:f0:ac:2e dst=b2:37:d2:b3:c5:3d path=[2, 3]
+RECV time=686.316205025 src=da:3e:3b:f0:ac:2e dst=b2:37:d2:b3:c5:3d 
+SEND time=686.317780018 src=b2:37:d2:b3:c5:3d dst=da:3e:3b:f0:ac:2e path=[3, 2]
+RECV time=686.321089029 src=b2:37:d2:b3:c5:3d dst=da:3e:3b:f0:ac:2e 
+SEND time=686.329844952 src=02:f8:2e:b7:20:18 dst=b2:37:d2:b3:c5:3d path=[2, 3]
+RECV time=686.331734896 src=02:f8:2e:b7:20:18 dst=b2:37:d2:b3:c5:3d 
+SEND time=686.33276391 src=b2:37:d2:b3:c5:3d dst=02:f8:2e:b7:20:18 path=[3, 2]
+RECV time=686.333806038 src=b2:37:d2:b3:c5:3d dst=02:f8:2e:b7:20:18 
+SEND time=686.339274883 src=62:df:ba:d2:f4:a8 dst=b2:37:d2:b3:c5:3d path=[2, 3, 4]
+RECV time=686.341160059 src=62:df:ba:d2:f4:a8 dst=b2:37:d2:b3:c5:3d 
+SEND time=686.342231035 src=b2:37:d2:b3:c5:3d dst=62:df:ba:d2:f4:a8 path=[4, 3, 2]
+RECV time=686.344004869 src=b2:37:d2:b3:c5:3d dst=62:df:ba:d2:f4:a8 
+SEND time=686.349982977 src=ee:32:6a:4e:d7:e2 dst=b2:37:d2:b3:c5:3d path=[2, 3, 4]
+RECV time=686.351973057 src=ee:32:6a:4e:d7:e2 dst=b2:37:d2:b3:c5:3d 
+SEND time=686.35291791 src=b2:37:d2:b3:c5:3d dst=ee:32:6a:4e:d7:e2 path=[4, 3, 2]
+RECV time=686.354707003 src=b2:37:d2:b3:c5:3d dst=ee:32:6a:4e:d7:e2 
+SEND time=686.360131979 src=ca:86:72:39:0e:24 dst=b2:37:d2:b3:c5:3d path=[2, 3, 4]
+RECV time=686.36361289 src=ca:86:72:39:0e:24 dst=b2:37:d2:b3:c5:3d 
+SEND time=686.364630938 src=b2:37:d2:b3:c5:3d dst=ca:86:72:39:0e:24 path=[4, 3, 2]
+RECV time=686.366569042 src=b2:37:d2:b3:c5:3d dst=ca:86:72:39:0e:24 
+SEND time=686.373589993 src=02:f8:2e:b7:20:18 dst=da:3e:3b:f0:ac:2e path=[3]
+RECV time=686.373625994 src=02:f8:2e:b7:20:18 dst=da:3e:3b:f0:ac:2e 
+SEND time=686.375240088 src=da:3e:3b:f0:ac:2e dst=02:f8:2e:b7:20:18 path=[3]
+RECV time=686.375277042 src=da:3e:3b:f0:ac:2e dst=02:f8:2e:b7:20:18 
+SEND time=686.381663084 src=62:df:ba:d2:f4:a8 dst=da:3e:3b:f0:ac:2e path=[3, 4]
+RECV time=686.383965015 src=62:df:ba:d2:f4:a8 dst=da:3e:3b:f0:ac:2e 
+SEND time=686.38508296 src=da:3e:3b:f0:ac:2e dst=62:df:ba:d2:f4:a8 path=[4, 3]
+RECV time=686.38656497 src=da:3e:3b:f0:ac:2e dst=62:df:ba:d2:f4:a8 
+SEND time=686.391650915 src=ee:32:6a:4e:d7:e2 dst=da:3e:3b:f0:ac:2e path=[3, 4]
+RECV time=686.392690897 src=ee:32:6a:4e:d7:e2 dst=da:3e:3b:f0:ac:2e 
+SEND time=686.394012928 src=da:3e:3b:f0:ac:2e dst=ee:32:6a:4e:d7:e2 path=[4, 3]
+RECV time=686.396393061 src=da:3e:3b:f0:ac:2e dst=ee:32:6a:4e:d7:e2 
+SEND time=686.402424097 src=ca:86:72:39:0e:24 dst=da:3e:3b:f0:ac:2e path=[3, 4]
+RECV time=686.403584957 src=ca:86:72:39:0e:24 dst=da:3e:3b:f0:ac:2e 
+SEND time=686.404511929 src=da:3e:3b:f0:ac:2e dst=ca:86:72:39:0e:24 path=[4, 3]
+RECV time=686.405440092 src=da:3e:3b:f0:ac:2e dst=ca:86:72:39:0e:24 
+SEND time=686.41813302 src=62:df:ba:d2:f4:a8 dst=02:f8:2e:b7:20:18 path=[3, 4]
+RECV time=686.419152021 src=62:df:ba:d2:f4:a8 dst=02:f8:2e:b7:20:18 
+SEND time=686.420083046 src=02:f8:2e:b7:20:18 dst=62:df:ba:d2:f4:a8 path=[4, 3]
+RECV time=686.421027899 src=02:f8:2e:b7:20:18 dst=62:df:ba:d2:f4:a8 
+SEND time=686.426948071 src=ee:32:6a:4e:d7:e2 dst=02:f8:2e:b7:20:18 path=[3, 4]
+RECV time=686.429981947 src=ee:32:6a:4e:d7:e2 dst=02:f8:2e:b7:20:18 
+SEND time=686.431689978 src=02:f8:2e:b7:20:18 dst=ee:32:6a:4e:d7:e2 path=[4, 3]
+RECV time=686.432672024 src=02:f8:2e:b7:20:18 dst=ee:32:6a:4e:d7:e2 
+SEND time=686.437846899 src=ca:86:72:39:0e:24 dst=02:f8:2e:b7:20:18 path=[3, 4]
+RECV time=686.439207077 src=ca:86:72:39:0e:24 dst=02:f8:2e:b7:20:18 
+SEND time=686.440243006 src=02:f8:2e:b7:20:18 dst=ca:86:72:39:0e:24 path=[4, 3]
+RECV time=686.441190004 src=02:f8:2e:b7:20:18 dst=ca:86:72:39:0e:24 
+SEND time=686.452977896 src=ee:32:6a:4e:d7:e2 dst=62:df:ba:d2:f4:a8 path=[4]
+RECV time=686.453012943 src=ee:32:6a:4e:d7:e2 dst=62:df:ba:d2:f4:a8 
+SEND time=686.454447985 src=62:df:ba:d2:f4:a8 dst=ee:32:6a:4e:d7:e2 path=[4]
+RECV time=686.454485893 src=62:df:ba:d2:f4:a8 dst=ee:32:6a:4e:d7:e2 
+SEND time=686.458595991 src=ca:86:72:39:0e:24 dst=62:df:ba:d2:f4:a8 path=[4]
+RECV time=686.458636999 src=ca:86:72:39:0e:24 dst=62:df:ba:d2:f4:a8 
+SEND time=686.460043907 src=62:df:ba:d2:f4:a8 dst=ca:86:72:39:0e:24 path=[4]
+RECV time=686.460069895 src=62:df:ba:d2:f4:a8 dst=ca:86:72:39:0e:24 
+SEND time=686.470999956 src=ca:86:72:39:0e:24 dst=ee:32:6a:4e:d7:e2 path=[4]
+RECV time=686.471054077 src=ca:86:72:39:0e:24 dst=ee:32:6a:4e:d7:e2 
+SEND time=686.472711086 src=ee:32:6a:4e:d7:e2 dst=ca:86:72:39:0e:24 path=[4]
+RECV time=686.472750902 src=ee:32:6a:4e:d7:e2 dst=ca:86:72:39:0e:24 
+SEND time=710.279594898 src=fe:2f:81:22:fc:c4 dst=26:c3:45:5a:18:11 path=[1, 2]
+RECV time=710.286427975 src=fe:2f:81:22:fc:c4 dst=26:c3:45:5a:18:11 
+SEND time=710.290164948 src=26:c3:45:5a:18:11 dst=fe:2f:81:22:fc:c4 path=[2, 1]
+RECV time=710.293654919 src=26:c3:45:5a:18:11 dst=fe:2f:81:22:fc:c4 
+SEND time=710.315443993 src=9a:3d:a6:66:ad:a1 dst=26:c3:45:5a:18:11 path=[1, 2, 3]
+RECV time=710.318312883 src=9a:3d:a6:66:ad:a1 dst=26:c3:45:5a:18:11 
+SEND time=710.319628954 src=26:c3:45:5a:18:11 dst=9a:3d:a6:66:ad:a1 path=[3, 2, 1]
+RECV time=710.322300911 src=26:c3:45:5a:18:11 dst=9a:3d:a6:66:ad:a1 
+SEND time=710.330178976 src=ee:18:77:06:85:fc dst=26:c3:45:5a:18:11 path=[1, 2, 3]
+RECV time=710.332304001 src=ee:18:77:06:85:fc dst=26:c3:45:5a:18:11 
+SEND time=710.333349943 src=26:c3:45:5a:18:11 dst=ee:18:77:06:85:fc path=[3, 2, 1]
+RECV time=710.335268021 src=26:c3:45:5a:18:11 dst=ee:18:77:06:85:fc 
+SEND time=710.341598988 src=da:c2:b3:4f:db:00 dst=26:c3:45:5a:18:11 path=[1, 2, 3, 4]
+RECV time=710.345092058 src=da:c2:b3:4f:db:00 dst=26:c3:45:5a:18:11 
+SEND time=710.346050024 src=26:c3:45:5a:18:11 dst=da:c2:b3:4f:db:00 path=[4, 3, 2, 1]
+RECV time=710.348944902 src=26:c3:45:5a:18:11 dst=da:c2:b3:4f:db:00 
+SEND time=710.354999065 src=36:89:d8:1e:fa:e5 dst=26:c3:45:5a:18:11 path=[1, 2, 3, 4]
+RECV time=710.358612061 src=36:89:d8:1e:fa:e5 dst=26:c3:45:5a:18:11 
+SEND time=710.36084199 src=26:c3:45:5a:18:11 dst=36:89:d8:1e:fa:e5 path=[4, 3, 2, 1]
+RECV time=710.364656925 src=26:c3:45:5a:18:11 dst=36:89:d8:1e:fa:e5 
+SEND time=710.370764971 src=f2:4e:47:70:dd:d3 dst=26:c3:45:5a:18:11 path=[1, 2, 3, 4]
+RECV time=710.373605013 src=f2:4e:47:70:dd:d3 dst=26:c3:45:5a:18:11 
+SEND time=710.374526978 src=26:c3:45:5a:18:11 dst=f2:4e:47:70:dd:d3 path=[4, 3, 2, 1]
+RECV time=710.377115011 src=26:c3:45:5a:18:11 dst=f2:4e:47:70:dd:d3 
+SEND time=710.385384083 src=9a:3d:a6:66:ad:a1 dst=fe:2f:81:22:fc:c4 path=[2, 3]
+RECV time=710.386379957 src=9a:3d:a6:66:ad:a1 dst=fe:2f:81:22:fc:c4 
+SEND time=710.387528896 src=fe:2f:81:22:fc:c4 dst=9a:3d:a6:66:ad:a1 path=[3, 2]
+RECV time=710.389051914 src=fe:2f:81:22:fc:c4 dst=9a:3d:a6:66:ad:a1 
+SEND time=710.398434877 src=ee:18:77:06:85:fc dst=fe:2f:81:22:fc:c4 path=[2, 3]
+RECV time=710.39944005 src=ee:18:77:06:85:fc dst=fe:2f:81:22:fc:c4 
+SEND time=710.400392056 src=fe:2f:81:22:fc:c4 dst=ee:18:77:06:85:fc path=[3, 2]
+RECV time=710.401316881 src=fe:2f:81:22:fc:c4 dst=ee:18:77:06:85:fc 
+SEND time=710.406694889 src=da:c2:b3:4f:db:00 dst=fe:2f:81:22:fc:c4 path=[2, 3, 4]
+RECV time=710.408577919 src=da:c2:b3:4f:db:00 dst=fe:2f:81:22:fc:c4 
+SEND time=710.409570932 src=fe:2f:81:22:fc:c4 dst=da:c2:b3:4f:db:00 path=[4, 3, 2]
+RECV time=710.411287069 src=fe:2f:81:22:fc:c4 dst=da:c2:b3:4f:db:00 
+SEND time=710.417200089 src=36:89:d8:1e:fa:e5 dst=fe:2f:81:22:fc:c4 path=[2, 3, 4]
+RECV time=710.418998003 src=36:89:d8:1e:fa:e5 dst=fe:2f:81:22:fc:c4 
+SEND time=710.419889927 src=fe:2f:81:22:fc:c4 dst=36:89:d8:1e:fa:e5 path=[4, 3, 2]
+RECV time=710.421649933 src=fe:2f:81:22:fc:c4 dst=36:89:d8:1e:fa:e5 
+SEND time=710.429380894 src=f2:4e:47:70:dd:d3 dst=fe:2f:81:22:fc:c4 path=[2, 3, 4]
+RECV time=710.431206942 src=f2:4e:47:70:dd:d3 dst=fe:2f:81:22:fc:c4 
+SEND time=710.432079077 src=fe:2f:81:22:fc:c4 dst=f2:4e:47:70:dd:d3 path=[4, 3, 2]
+RECV time=710.433809042 src=fe:2f:81:22:fc:c4 dst=f2:4e:47:70:dd:d3 
+SEND time=710.441078901 src=ee:18:77:06:85:fc dst=9a:3d:a6:66:ad:a1 path=[3]
+RECV time=710.441109896 src=ee:18:77:06:85:fc dst=9a:3d:a6:66:ad:a1 
+SEND time=710.443085909 src=9a:3d:a6:66:ad:a1 dst=ee:18:77:06:85:fc path=[3]
+RECV time=710.443135977 src=9a:3d:a6:66:ad:a1 dst=ee:18:77:06:85:fc 
+SEND time=710.450201988 src=da:c2:b3:4f:db:00 dst=9a:3d:a6:66:ad:a1 path=[3, 4]
+RECV time=710.451274872 src=da:c2:b3:4f:db:00 dst=9a:3d:a6:66:ad:a1 
+SEND time=710.452226877 src=9a:3d:a6:66:ad:a1 dst=da:c2:b3:4f:db:00 path=[4, 3]
+RECV time=710.453218937 src=9a:3d:a6:66:ad:a1 dst=da:c2:b3:4f:db:00 
+SEND time=710.460912943 src=36:89:d8:1e:fa:e5 dst=9a:3d:a6:66:ad:a1 path=[3, 4]
+RECV time=710.462912083 src=36:89:d8:1e:fa:e5 dst=9a:3d:a6:66:ad:a1 
+SEND time=710.46419096 src=9a:3d:a6:66:ad:a1 dst=36:89:d8:1e:fa:e5 path=[4, 3]
+RECV time=710.46509409 src=9a:3d:a6:66:ad:a1 dst=36:89:d8:1e:fa:e5 
+SEND time=710.470683098 src=f2:4e:47:70:dd:d3 dst=9a:3d:a6:66:ad:a1 path=[3, 4]
+RECV time=710.471682072 src=f2:4e:47:70:dd:d3 dst=9a:3d:a6:66:ad:a1 
+SEND time=710.472615957 src=9a:3d:a6:66:ad:a1 dst=f2:4e:47:70:dd:d3 path=[4, 3]
+RECV time=710.474224091 src=9a:3d:a6:66:ad:a1 dst=f2:4e:47:70:dd:d3 
+SEND time=710.482673883 src=da:c2:b3:4f:db:00 dst=ee:18:77:06:85:fc path=[3, 4]
+RECV time=710.483952045 src=da:c2:b3:4f:db:00 dst=ee:18:77:06:85:fc 
+SEND time=710.484998941 src=ee:18:77:06:85:fc dst=da:c2:b3:4f:db:00 path=[4, 3]
+RECV time=710.485977888 src=ee:18:77:06:85:fc dst=da:c2:b3:4f:db:00 
+SEND time=710.491726875 src=36:89:d8:1e:fa:e5 dst=ee:18:77:06:85:fc path=[3, 4]
+RECV time=710.493974924 src=36:89:d8:1e:fa:e5 dst=ee:18:77:06:85:fc 
+SEND time=710.495271921 src=ee:18:77:06:85:fc dst=36:89:d8:1e:fa:e5 path=[4, 3]
+RECV time=710.496150017 src=ee:18:77:06:85:fc dst=36:89:d8:1e:fa:e5 
+SEND time=710.501513958 src=f2:4e:47:70:dd:d3 dst=ee:18:77:06:85:fc path=[3, 4]
+RECV time=710.50249505 src=f2:4e:47:70:dd:d3 dst=ee:18:77:06:85:fc 
+SEND time=710.503437996 src=ee:18:77:06:85:fc dst=f2:4e:47:70:dd:d3 path=[4, 3]
+RECV time=710.505452871 src=ee:18:77:06:85:fc dst=f2:4e:47:70:dd:d3 
+SEND time=710.516690016 src=36:89:d8:1e:fa:e5 dst=da:c2:b3:4f:db:00 path=[4]
+RECV time=710.516723871 src=36:89:d8:1e:fa:e5 dst=da:c2:b3:4f:db:00 
+SEND time=710.518110037 src=da:c2:b3:4f:db:00 dst=36:89:d8:1e:fa:e5 path=[4]
+RECV time=710.518136024 src=da:c2:b3:4f:db:00 dst=36:89:d8:1e:fa:e5 
+SEND time=710.522057056 src=f2:4e:47:70:dd:d3 dst=da:c2:b3:4f:db:00 path=[4]
+RECV time=710.522093058 src=f2:4e:47:70:dd:d3 dst=da:c2:b3:4f:db:00 
+SEND time=710.525606871 src=da:c2:b3:4f:db:00 dst=f2:4e:47:70:dd:d3 path=[4]
+RECV time=710.525678873 src=da:c2:b3:4f:db:00 dst=f2:4e:47:70:dd:d3 
+SEND time=710.538587093 src=f2:4e:47:70:dd:d3 dst=36:89:d8:1e:fa:e5 path=[4]
+RECV time=710.538650036 src=f2:4e:47:70:dd:d3 dst=36:89:d8:1e:fa:e5 
+SEND time=710.540308952 src=36:89:d8:1e:fa:e5 dst=f2:4e:47:70:dd:d3 path=[4]
+RECV time=710.540356874 src=36:89:d8:1e:fa:e5 dst=f2:4e:47:70:dd:d3 
+SEND time=733.507831097 src=ce:9d:f9:a7:41:90 dst=ee:f7:5b:26:0d:99 path=[1, 2]
+RECV time=733.515012026 src=ce:9d:f9:a7:41:90 dst=ee:f7:5b:26:0d:99 
+SEND time=733.520739079 src=ee:f7:5b:26:0d:99 dst=ce:9d:f9:a7:41:90 path=[2, 1]
+RECV time=733.524507999 src=ee:f7:5b:26:0d:99 dst=ce:9d:f9:a7:41:90 
+SEND time=733.540345907 src=3a:3f:af:12:2e:b6 dst=ee:f7:5b:26:0d:99 path=[1, 2, 3]
+RECV time=733.54349494 src=3a:3f:af:12:2e:b6 dst=ee:f7:5b:26:0d:99 
+SEND time=733.544544935 src=ee:f7:5b:26:0d:99 dst=3a:3f:af:12:2e:b6 path=[3, 2, 1]
+RECV time=733.546494007 src=ee:f7:5b:26:0d:99 dst=3a:3f:af:12:2e:b6 
+SEND time=733.552026033 src=d6:ff:c4:54:16:04 dst=ee:f7:5b:26:0d:99 path=[1, 2, 3]
+RECV time=733.55415988 src=d6:ff:c4:54:16:04 dst=ee:f7:5b:26:0d:99 
+SEND time=733.55509901 src=ee:f7:5b:26:0d:99 dst=d6:ff:c4:54:16:04 path=[3, 2, 1]
+RECV time=733.556833982 src=ee:f7:5b:26:0d:99 dst=d6:ff:c4:54:16:04 
+SEND time=733.564028978 src=ba:6d:62:d3:00:26 dst=ee:f7:5b:26:0d:99 path=[1, 2, 3, 4]
+RECV time=733.566972017 src=ba:6d:62:d3:00:26 dst=ee:f7:5b:26:0d:99 
+SEND time=733.567899942 src=ee:f7:5b:26:0d:99 dst=ba:6d:62:d3:00:26 path=[4, 3, 2, 1]
+RECV time=733.570550919 src=ee:f7:5b:26:0d:99 dst=ba:6d:62:d3:00:26 
+SEND time=733.576169968 src=2e:3f:3e:49:da:bc dst=ee:f7:5b:26:0d:99 path=[1, 2, 3, 4]
+RECV time=733.579142094 src=2e:3f:3e:49:da:bc dst=ee:f7:5b:26:0d:99 
+SEND time=733.58009696 src=ee:f7:5b:26:0d:99 dst=2e:3f:3e:49:da:bc path=[4, 3, 2, 1]
+RECV time=733.583061934 src=ee:f7:5b:26:0d:99 dst=2e:3f:3e:49:da:bc 
+SEND time=733.588227987 src=02:4d:c0:22:0d:f7 dst=ee:f7:5b:26:0d:99 path=[1, 2, 3, 4]
+RECV time=733.590925932 src=02:4d:c0:22:0d:f7 dst=ee:f7:5b:26:0d:99 
+SEND time=733.592006922 src=ee:f7:5b:26:0d:99 dst=02:4d:c0:22:0d:f7 path=[4, 3, 2, 1]
+RECV time=733.596292019 src=ee:f7:5b:26:0d:99 dst=02:4d:c0:22:0d:f7 
+SEND time=733.603199005 src=3a:3f:af:12:2e:b6 dst=ce:9d:f9:a7:41:90 path=[2, 3]
+RECV time=733.604048967 src=3a:3f:af:12:2e:b6 dst=ce:9d:f9:a7:41:90 
+SEND time=733.60491395 src=ce:9d:f9:a7:41:90 dst=3a:3f:af:12:2e:b6 path=[3, 2]
+RECV time=733.605741978 src=ce:9d:f9:a7:41:90 dst=3a:3f:af:12:2e:b6 
+SEND time=733.610537052 src=d6:ff:c4:54:16:04 dst=ce:9d:f9:a7:41:90 path=[2, 3]
+RECV time=733.611347914 src=d6:ff:c4:54:16:04 dst=ce:9d:f9:a7:41:90 
+SEND time=733.612982035 src=ce:9d:f9:a7:41:90 dst=d6:ff:c4:54:16:04 path=[3, 2]
+RECV time=733.617227077 src=ce:9d:f9:a7:41:90 dst=d6:ff:c4:54:16:04 
+SEND time=733.623924971 src=ba:6d:62:d3:00:26 dst=ce:9d:f9:a7:41:90 path=[2, 3, 4]
+RECV time=733.625853062 src=ba:6d:62:d3:00:26 dst=ce:9d:f9:a7:41:90 
+SEND time=733.627584934 src=ce:9d:f9:a7:41:90 dst=ba:6d:62:d3:00:26 path=[4, 3, 2]
+RECV time=733.631386995 src=ce:9d:f9:a7:41:90 dst=ba:6d:62:d3:00:26 
+SEND time=733.636780977 src=2e:3f:3e:49:da:bc dst=ce:9d:f9:a7:41:90 path=[2, 3, 4]
+RECV time=733.638700962 src=2e:3f:3e:49:da:bc dst=ce:9d:f9:a7:41:90 
+SEND time=733.639671087 src=ce:9d:f9:a7:41:90 dst=2e:3f:3e:49:da:bc path=[4, 3, 2]
+RECV time=733.641340971 src=ce:9d:f9:a7:41:90 dst=2e:3f:3e:49:da:bc 
+SEND time=733.647094011 src=02:4d:c0:22:0d:f7 dst=ce:9d:f9:a7:41:90 path=[2, 3, 4]
+RECV time=733.648864985 src=02:4d:c0:22:0d:f7 dst=ce:9d:f9:a7:41:90 
+SEND time=733.649897099 src=ce:9d:f9:a7:41:90 dst=02:4d:c0:22:0d:f7 path=[4, 3, 2]
+RECV time=733.651457071 src=ce:9d:f9:a7:41:90 dst=02:4d:c0:22:0d:f7 
+SEND time=733.658927917 src=d6:ff:c4:54:16:04 dst=3a:3f:af:12:2e:b6 path=[3]
+RECV time=733.658983946 src=d6:ff:c4:54:16:04 dst=3a:3f:af:12:2e:b6 
+SEND time=733.66189909 src=3a:3f:af:12:2e:b6 dst=d6:ff:c4:54:16:04 path=[3]
+RECV time=733.661942959 src=3a:3f:af:12:2e:b6 dst=d6:ff:c4:54:16:04 
+SEND time=733.667190075 src=ba:6d:62:d3:00:26 dst=3a:3f:af:12:2e:b6 path=[3, 4]
+RECV time=733.668087006 src=ba:6d:62:d3:00:26 dst=3a:3f:af:12:2e:b6 
+SEND time=733.668977976 src=3a:3f:af:12:2e:b6 dst=ba:6d:62:d3:00:26 path=[4, 3]
+RECV time=733.669749975 src=3a:3f:af:12:2e:b6 dst=ba:6d:62:d3:00:26 
+SEND time=733.675096989 src=2e:3f:3e:49:da:bc dst=3a:3f:af:12:2e:b6 path=[3, 4]
+RECV time=733.676421881 src=2e:3f:3e:49:da:bc dst=3a:3f:af:12:2e:b6 
+SEND time=733.677829981 src=3a:3f:af:12:2e:b6 dst=2e:3f:3e:49:da:bc path=[4, 3]
+RECV time=733.679017067 src=3a:3f:af:12:2e:b6 dst=2e:3f:3e:49:da:bc 
+SEND time=733.684973955 src=02:4d:c0:22:0d:f7 dst=3a:3f:af:12:2e:b6 path=[3, 4]
+RECV time=733.686367989 src=02:4d:c0:22:0d:f7 dst=3a:3f:af:12:2e:b6 
+SEND time=733.687660933 src=3a:3f:af:12:2e:b6 dst=02:4d:c0:22:0d:f7 path=[4, 3]
+RECV time=733.688845873 src=3a:3f:af:12:2e:b6 dst=02:4d:c0:22:0d:f7 
+SEND time=733.701281071 src=ba:6d:62:d3:00:26 dst=d6:ff:c4:54:16:04 path=[3, 4]
+RECV time=733.702527046 src=ba:6d:62:d3:00:26 dst=d6:ff:c4:54:16:04 
+SEND time=733.703470945 src=d6:ff:c4:54:16:04 dst=ba:6d:62:d3:00:26 path=[4, 3]
+RECV time=733.704519987 src=d6:ff:c4:54:16:04 dst=ba:6d:62:d3:00:26 
+SEND time=733.713242054 src=2e:3f:3e:49:da:bc dst=d6:ff:c4:54:16:04 path=[3, 4]
+RECV time=733.71466589 src=2e:3f:3e:49:da:bc dst=d6:ff:c4:54:16:04 
+SEND time=733.715624094 src=d6:ff:c4:54:16:04 dst=2e:3f:3e:49:da:bc path=[4, 3]
+RECV time=733.716506958 src=d6:ff:c4:54:16:04 dst=2e:3f:3e:49:da:bc 
+SEND time=733.721771955 src=02:4d:c0:22:0d:f7 dst=d6:ff:c4:54:16:04 path=[3, 4]
+RECV time=733.722816944 src=02:4d:c0:22:0d:f7 dst=d6:ff:c4:54:16:04 
+SEND time=733.723812103 src=d6:ff:c4:54:16:04 dst=02:4d:c0:22:0d:f7 path=[4, 3]
+RECV time=733.726330042 src=d6:ff:c4:54:16:04 dst=02:4d:c0:22:0d:f7 
+SEND time=733.737668037 src=2e:3f:3e:49:da:bc dst=ba:6d:62:d3:00:26 path=[4]
+RECV time=733.737720966 src=2e:3f:3e:49:da:bc dst=ba:6d:62:d3:00:26 
+SEND time=733.739445925 src=ba:6d:62:d3:00:26 dst=2e:3f:3e:49:da:bc path=[4]
+RECV time=733.739481926 src=ba:6d:62:d3:00:26 dst=2e:3f:3e:49:da:bc 
+SEND time=733.745635033 src=02:4d:c0:22:0d:f7 dst=ba:6d:62:d3:00:26 path=[4]
+RECV time=733.745671988 src=02:4d:c0:22:0d:f7 dst=ba:6d:62:d3:00:26 
+SEND time=733.747258902 src=ba:6d:62:d3:00:26 dst=02:4d:c0:22:0d:f7 path=[4]
+RECV time=733.747287035 src=ba:6d:62:d3:00:26 dst=02:4d:c0:22:0d:f7 
+SEND time=733.756860018 src=02:4d:c0:22:0d:f7 dst=2e:3f:3e:49:da:bc path=[4]
+RECV time=733.756942987 src=02:4d:c0:22:0d:f7 dst=2e:3f:3e:49:da:bc 
+SEND time=733.758625031 src=2e:3f:3e:49:da:bc dst=02:4d:c0:22:0d:f7 path=[4]
+RECV time=733.758703947 src=2e:3f:3e:49:da:bc dst=02:4d:c0:22:0d:f7 
+SEND time=758.315634012 src=86:f6:a9:75:ef:66 dst=56:57:d6:38:5d:1d path=[1, 2]
+RECV time=758.32170105 src=86:f6:a9:75:ef:66 dst=56:57:d6:38:5d:1d 
+SEND time=758.326236963 src=56:57:d6:38:5d:1d dst=86:f6:a9:75:ef:66 path=[2, 1]
+RECV time=758.331945896 src=56:57:d6:38:5d:1d dst=86:f6:a9:75:ef:66 
+SEND time=758.345299006 src=12:34:44:4c:e3:7e dst=56:57:d6:38:5d:1d path=[1, 2, 3]
+RECV time=758.351868868 src=12:34:44:4c:e3:7e dst=56:57:d6:38:5d:1d 
+SEND time=758.357254982 src=56:57:d6:38:5d:1d dst=12:34:44:4c:e3:7e path=[3, 2, 1]
+RECV time=758.361897945 src=56:57:d6:38:5d:1d dst=12:34:44:4c:e3:7e 
+SEND time=758.369317055 src=aa:86:1f:ab:f5:cb dst=56:57:d6:38:5d:1d path=[1, 2, 3]
+RECV time=758.371430874 src=aa:86:1f:ab:f5:cb dst=56:57:d6:38:5d:1d 
+SEND time=758.372498989 src=56:57:d6:38:5d:1d dst=aa:86:1f:ab:f5:cb path=[3, 2, 1]
+RECV time=758.374420881 src=56:57:d6:38:5d:1d dst=aa:86:1f:ab:f5:cb 
+SEND time=758.379595995 src=6a:e8:bc:e4:25:fe dst=56:57:d6:38:5d:1d path=[1, 2, 3, 4]
+RECV time=758.382330894 src=6a:e8:bc:e4:25:fe dst=56:57:d6:38:5d:1d 
+SEND time=758.383404016 src=56:57:d6:38:5d:1d dst=6a:e8:bc:e4:25:fe path=[4, 3, 2, 1]
+RECV time=758.385880947 src=56:57:d6:38:5d:1d dst=6a:e8:bc:e4:25:fe 
+SEND time=758.391350985 src=4a:dd:55:bb:d1:c0 dst=56:57:d6:38:5d:1d path=[1, 2, 3, 4]
+RECV time=758.394347906 src=4a:dd:55:bb:d1:c0 dst=56:57:d6:38:5d:1d 
+SEND time=758.395222902 src=56:57:d6:38:5d:1d dst=4a:dd:55:bb:d1:c0 path=[4, 3, 2, 1]
+RECV time=758.397760868 src=56:57:d6:38:5d:1d dst=4a:dd:55:bb:d1:c0 
+SEND time=758.403028965 src=6e:a5:aa:e5:3e:12 dst=56:57:d6:38:5d:1d path=[1, 2, 3, 4]
+RECV time=758.40594101 src=6e:a5:aa:e5:3e:12 dst=56:57:d6:38:5d:1d 
+SEND time=758.406848907 src=56:57:d6:38:5d:1d dst=6e:a5:aa:e5:3e:12 path=[4, 3, 2, 1]
+RECV time=758.409571886 src=56:57:d6:38:5d:1d dst=6e:a5:aa:e5:3e:12 
+SEND time=758.415471077 src=12:34:44:4c:e3:7e dst=86:f6:a9:75:ef:66 path=[2, 3]
+RECV time=758.416321993 src=12:34:44:4c:e3:7e dst=86:f6:a9:75:ef:66 
+SEND time=758.417181969 src=86:f6:a9:75:ef:66 dst=12:34:44:4c:e3:7e path=[3, 2]
+RECV time=758.418016911 src=86:f6:a9:75:ef:66 dst=12:34:44:4c:e3:7e 
+SEND time=758.423314095 src=aa:86:1f:ab:f5:cb dst=86:f6:a9:75:ef:66 path=[2, 3]
+RECV time=758.424483061 src=aa:86:1f:ab:f5:cb dst=86:f6:a9:75:ef:66 
+SEND time=758.42535305 src=86:f6:a9:75:ef:66 dst=aa:86:1f:ab:f5:cb path=[3, 2]
+RECV time=758.426270008 src=86:f6:a9:75:ef:66 dst=aa:86:1f:ab:f5:cb 
+SEND time=758.43136692 src=6a:e8:bc:e4:25:fe dst=86:f6:a9:75:ef:66 path=[2, 3, 4]
+RECV time=758.433310032 src=6a:e8:bc:e4:25:fe dst=86:f6:a9:75:ef:66 
+SEND time=758.434359074 src=86:f6:a9:75:ef:66 dst=6a:e8:bc:e4:25:fe path=[4, 3, 2]
+RECV time=758.436129093 src=86:f6:a9:75:ef:66 dst=6a:e8:bc:e4:25:fe 
+SEND time=758.441161871 src=4a:dd:55:bb:d1:c0 dst=86:f6:a9:75:ef:66 path=[2, 3, 4]
+RECV time=758.442974091 src=4a:dd:55:bb:d1:c0 dst=86:f6:a9:75:ef:66 
+SEND time=758.443835974 src=86:f6:a9:75:ef:66 dst=4a:dd:55:bb:d1:c0 path=[4, 3, 2]
+RECV time=758.44559598 src=86:f6:a9:75:ef:66 dst=4a:dd:55:bb:d1:c0 
+SEND time=758.450516939 src=6e:a5:aa:e5:3e:12 dst=86:f6:a9:75:ef:66 path=[2, 3, 4]
+RECV time=758.45233798 src=6e:a5:aa:e5:3e:12 dst=86:f6:a9:75:ef:66 
+SEND time=758.453353882 src=86:f6:a9:75:ef:66 dst=6e:a5:aa:e5:3e:12 path=[4, 3, 2]
+RECV time=758.455462933 src=86:f6:a9:75:ef:66 dst=6e:a5:aa:e5:3e:12 
+SEND time=758.46169591 src=aa:86:1f:ab:f5:cb dst=12:34:44:4c:e3:7e path=[3]
+RECV time=758.461726904 src=aa:86:1f:ab:f5:cb dst=12:34:44:4c:e3:7e 
+SEND time=758.463327885 src=12:34:44:4c:e3:7e dst=aa:86:1f:ab:f5:cb path=[3]
+RECV time=758.463350058 src=12:34:44:4c:e3:7e dst=aa:86:1f:ab:f5:cb 
+SEND time=758.467674017 src=6a:e8:bc:e4:25:fe dst=12:34:44:4c:e3:7e path=[3, 4]
+RECV time=758.468611002 src=6a:e8:bc:e4:25:fe dst=12:34:44:4c:e3:7e 
+SEND time=758.469522953 src=12:34:44:4c:e3:7e dst=6a:e8:bc:e4:25:fe path=[4, 3]
+RECV time=758.470417023 src=12:34:44:4c:e3:7e dst=6a:e8:bc:e4:25:fe 
+SEND time=758.474826097 src=4a:dd:55:bb:d1:c0 dst=12:34:44:4c:e3:7e path=[3, 4]
+RECV time=758.475586891 src=4a:dd:55:bb:d1:c0 dst=12:34:44:4c:e3:7e 
+SEND time=758.476336956 src=12:34:44:4c:e3:7e dst=4a:dd:55:bb:d1:c0 path=[4, 3]
+RECV time=758.477242947 src=12:34:44:4c:e3:7e dst=4a:dd:55:bb:d1:c0 
+SEND time=758.481956005 src=6e:a5:aa:e5:3e:12 dst=12:34:44:4c:e3:7e path=[3, 4]
+RECV time=758.483072996 src=6e:a5:aa:e5:3e:12 dst=12:34:44:4c:e3:7e 
+SEND time=758.484082937 src=12:34:44:4c:e3:7e dst=6e:a5:aa:e5:3e:12 path=[4, 3]
+RECV time=758.485586882 src=12:34:44:4c:e3:7e dst=6e:a5:aa:e5:3e:12 
+SEND time=758.493650913 src=6a:e8:bc:e4:25:fe dst=aa:86:1f:ab:f5:cb path=[3, 4]
+RECV time=758.495064974 src=6a:e8:bc:e4:25:fe dst=aa:86:1f:ab:f5:cb 
+SEND time=758.495932102 src=aa:86:1f:ab:f5:cb dst=6a:e8:bc:e4:25:fe path=[4, 3]
+RECV time=758.496712923 src=aa:86:1f:ab:f5:cb dst=6a:e8:bc:e4:25:fe 
+SEND time=758.501211882 src=4a:dd:55:bb:d1:c0 dst=aa:86:1f:ab:f5:cb path=[3, 4]
+RECV time=758.502037048 src=4a:dd:55:bb:d1:c0 dst=aa:86:1f:ab:f5:cb 
+SEND time=758.502949953 src=aa:86:1f:ab:f5:cb dst=4a:dd:55:bb:d1:c0 path=[4, 3]
+RECV time=758.503720045 src=aa:86:1f:ab:f5:cb dst=4a:dd:55:bb:d1:c0 
+SEND time=758.508121014 src=6e:a5:aa:e5:3e:12 dst=aa:86:1f:ab:f5:cb path=[3, 4]
+RECV time=758.509006023 src=6e:a5:aa:e5:3e:12 dst=aa:86:1f:ab:f5:cb 
+SEND time=758.510397911 src=aa:86:1f:ab:f5:cb dst=6e:a5:aa:e5:3e:12 path=[4, 3]
+RECV time=758.511617899 src=aa:86:1f:ab:f5:cb dst=6e:a5:aa:e5:3e:12 
+SEND time=758.51897788 src=4a:dd:55:bb:d1:c0 dst=6a:e8:bc:e4:25:fe path=[4]
+RECV time=758.519008875 src=4a:dd:55:bb:d1:c0 dst=6a:e8:bc:e4:25:fe 
+SEND time=758.520148993 src=6a:e8:bc:e4:25:fe dst=4a:dd:55:bb:d1:c0 path=[4]
+RECV time=758.520171881 src=6a:e8:bc:e4:25:fe dst=4a:dd:55:bb:d1:c0 
+SEND time=758.523480892 src=6e:a5:aa:e5:3e:12 dst=6a:e8:bc:e4:25:fe path=[4]
+RECV time=758.523509026 src=6e:a5:aa:e5:3e:12 dst=6a:e8:bc:e4:25:fe 
+SEND time=758.524621964 src=6a:e8:bc:e4:25:fe dst=6e:a5:aa:e5:3e:12 path=[4]
+RECV time=758.524643898 src=6a:e8:bc:e4:25:fe dst=6e:a5:aa:e5:3e:12 
+SEND time=758.533998013 src=6e:a5:aa:e5:3e:12 dst=4a:dd:55:bb:d1:c0 path=[4]
+RECV time=758.534030914 src=6e:a5:aa:e5:3e:12 dst=4a:dd:55:bb:d1:c0 
+SEND time=758.535434008 src=4a:dd:55:bb:d1:c0 dst=6e:a5:aa:e5:3e:12 path=[4]
+RECV time=758.535458088 src=4a:dd:55:bb:d1:c0 dst=6e:a5:aa:e5:3e:12 
+SEND time=782.111823082 src=6e:af:c6:3f:3c:de dst=62:44:39:57:3b:4d path=[1, 2]
+RECV time=782.115737915 src=6e:af:c6:3f:3c:de dst=62:44:39:57:3b:4d 
+SEND time=782.118609905 src=62:44:39:57:3b:4d dst=6e:af:c6:3f:3c:de path=[2, 1]
+RECV time=782.121681929 src=62:44:39:57:3b:4d dst=6e:af:c6:3f:3c:de 
+SEND time=782.135315895 src=46:d7:6a:b7:e6:26 dst=62:44:39:57:3b:4d path=[1, 2, 3]
+RECV time=782.139302015 src=46:d7:6a:b7:e6:26 dst=62:44:39:57:3b:4d 
+SEND time=782.1414361 src=62:44:39:57:3b:4d dst=46:d7:6a:b7:e6:26 path=[3, 2, 1]
+RECV time=782.14547801 src=62:44:39:57:3b:4d dst=46:d7:6a:b7:e6:26 
+SEND time=782.15647006 src=ba:9f:87:12:ea:b4 dst=62:44:39:57:3b:4d path=[1, 2, 3]
+RECV time=782.160751104 src=ba:9f:87:12:ea:b4 dst=62:44:39:57:3b:4d 
+SEND time=782.162898064 src=62:44:39:57:3b:4d dst=ba:9f:87:12:ea:b4 path=[3, 2, 1]
+RECV time=782.169585943 src=62:44:39:57:3b:4d dst=ba:9f:87:12:ea:b4 
+SEND time=782.181297064 src=4e:5a:44:73:9d:b8 dst=62:44:39:57:3b:4d path=[1, 2, 3, 4]
+RECV time=782.187314034 src=4e:5a:44:73:9d:b8 dst=62:44:39:57:3b:4d 
+SEND time=782.189697027 src=62:44:39:57:3b:4d dst=4e:5a:44:73:9d:b8 path=[4, 3, 2, 1]
+RECV time=782.195631981 src=62:44:39:57:3b:4d dst=4e:5a:44:73:9d:b8 
+SEND time=782.206902027 src=66:dd:6f:29:84:ab dst=62:44:39:57:3b:4d path=[1, 2, 3, 4]
+RECV time=782.213737011 src=66:dd:6f:29:84:ab dst=62:44:39:57:3b:4d 
+SEND time=782.215646029 src=62:44:39:57:3b:4d dst=66:dd:6f:29:84:ab path=[4, 3, 2, 1]
+RECV time=782.220495939 src=62:44:39:57:3b:4d dst=66:dd:6f:29:84:ab 
+SEND time=782.229582071 src=e2:51:ca:07:f2:d9 dst=62:44:39:57:3b:4d path=[1, 2, 3, 4]
+RECV time=782.232404947 src=e2:51:ca:07:f2:d9 dst=62:44:39:57:3b:4d 
+SEND time=782.233314037 src=62:44:39:57:3b:4d dst=e2:51:ca:07:f2:d9 path=[4, 3, 2, 1]
+RECV time=782.236257076 src=62:44:39:57:3b:4d dst=e2:51:ca:07:f2:d9 
+SEND time=782.242662907 src=46:d7:6a:b7:e6:26 dst=6e:af:c6:3f:3c:de path=[2, 3]
+RECV time=782.243531942 src=46:d7:6a:b7:e6:26 dst=6e:af:c6:3f:3c:de 
+SEND time=782.24444294 src=6e:af:c6:3f:3c:de dst=46:d7:6a:b7:e6:26 path=[3, 2]
+RECV time=782.245332003 src=6e:af:c6:3f:3c:de dst=46:d7:6a:b7:e6:26 
+SEND time=782.250389099 src=ba:9f:87:12:ea:b4 dst=6e:af:c6:3f:3c:de path=[2, 3]
+RECV time=782.251504898 src=ba:9f:87:12:ea:b4 dst=6e:af:c6:3f:3c:de 
+SEND time=782.252410889 src=6e:af:c6:3f:3c:de dst=ba:9f:87:12:ea:b4 path=[3, 2]
+RECV time=782.253419876 src=6e:af:c6:3f:3c:de dst=ba:9f:87:12:ea:b4 
+SEND time=782.258491993 src=4e:5a:44:73:9d:b8 dst=6e:af:c6:3f:3c:de path=[2, 3, 4]
+RECV time=782.260300875 src=4e:5a:44:73:9d:b8 dst=6e:af:c6:3f:3c:de 
+SEND time=782.261403084 src=6e:af:c6:3f:3c:de dst=4e:5a:44:73:9d:b8 path=[4, 3, 2]
+RECV time=782.263319016 src=6e:af:c6:3f:3c:de dst=4e:5a:44:73:9d:b8 
+SEND time=782.269396067 src=66:dd:6f:29:84:ab dst=6e:af:c6:3f:3c:de path=[2, 3, 4]
+RECV time=782.271487951 src=66:dd:6f:29:84:ab dst=6e:af:c6:3f:3c:de 
+SEND time=782.272387981 src=6e:af:c6:3f:3c:de dst=66:dd:6f:29:84:ab path=[4, 3, 2]
+RECV time=782.274286032 src=6e:af:c6:3f:3c:de dst=66:dd:6f:29:84:ab 
+SEND time=782.279243946 src=e2:51:ca:07:f2:d9 dst=6e:af:c6:3f:3c:de path=[2, 3, 4]
+RECV time=782.281002045 src=e2:51:ca:07:f2:d9 dst=6e:af:c6:3f:3c:de 
+SEND time=782.281933069 src=6e:af:c6:3f:3c:de dst=e2:51:ca:07:f2:d9 path=[4, 3, 2]
+RECV time=782.284492016 src=6e:af:c6:3f:3c:de dst=e2:51:ca:07:f2:d9 
+SEND time=782.290942907 src=ba:9f:87:12:ea:b4 dst=46:d7:6a:b7:e6:26 path=[3]
+RECV time=782.290971994 src=ba:9f:87:12:ea:b4 dst=46:d7:6a:b7:e6:26 
+SEND time=782.292627096 src=46:d7:6a:b7:e6:26 dst=ba:9f:87:12:ea:b4 path=[3]
+RECV time=782.292649031 src=46:d7:6a:b7:e6:26 dst=ba:9f:87:12:ea:b4 
+SEND time=782.297318935 src=4e:5a:44:73:9d:b8 dst=46:d7:6a:b7:e6:26 path=[3, 4]
+RECV time=782.298382044 src=4e:5a:44:73:9d:b8 dst=46:d7:6a:b7:e6:26 
+SEND time=782.299813032 src=46:d7:6a:b7:e6:26 dst=4e:5a:44:73:9d:b8 path=[4, 3]
+RECV time=782.300709009 src=46:d7:6a:b7:e6:26 dst=4e:5a:44:73:9d:b8 
+SEND time=782.305310965 src=66:dd:6f:29:84:ab dst=46:d7:6a:b7:e6:26 path=[3, 4]
+RECV time=782.306251049 src=66:dd:6f:29:84:ab dst=46:d7:6a:b7:e6:26 
+SEND time=782.307446003 src=46:d7:6a:b7:e6:26 dst=66:dd:6f:29:84:ab path=[4, 3]
+RECV time=782.30826807 src=46:d7:6a:b7:e6:26 dst=66:dd:6f:29:84:ab 
+SEND time=782.312988043 src=e2:51:ca:07:f2:d9 dst=46:d7:6a:b7:e6:26 path=[3, 4]
+RECV time=782.313971996 src=e2:51:ca:07:f2:d9 dst=46:d7:6a:b7:e6:26 
+SEND time=782.314914942 src=46:d7:6a:b7:e6:26 dst=e2:51:ca:07:f2:d9 path=[4, 3]
+RECV time=782.315821886 src=46:d7:6a:b7:e6:26 dst=e2:51:ca:07:f2:d9 
+SEND time=782.326087952 src=4e:5a:44:73:9d:b8 dst=ba:9f:87:12:ea:b4 path=[3, 4]
+RECV time=782.327671051 src=4e:5a:44:73:9d:b8 dst=ba:9f:87:12:ea:b4 
+SEND time=782.328654051 src=ba:9f:87:12:ea:b4 dst=4e:5a:44:73:9d:b8 path=[4, 3]
+RECV time=782.330103874 src=ba:9f:87:12:ea:b4 dst=4e:5a:44:73:9d:b8 
+SEND time=782.335695982 src=66:dd:6f:29:84:ab dst=ba:9f:87:12:ea:b4 path=[3, 4]
+RECV time=782.336837053 src=66:dd:6f:29:84:ab dst=ba:9f:87:12:ea:b4 
+SEND time=782.338116884 src=ba:9f:87:12:ea:b4 dst=66:dd:6f:29:84:ab path=[4, 3]
+RECV time=782.339195013 src=ba:9f:87:12:ea:b4 dst=66:dd:6f:29:84:ab 
+SEND time=782.344300985 src=e2:51:ca:07:f2:d9 dst=ba:9f:87:12:ea:b4 path=[3, 4]
+RECV time=782.345314026 src=e2:51:ca:07:f2:d9 dst=ba:9f:87:12:ea:b4 
+SEND time=782.346299887 src=ba:9f:87:12:ea:b4 dst=e2:51:ca:07:f2:d9 path=[4, 3]
+RECV time=782.347378969 src=ba:9f:87:12:ea:b4 dst=e2:51:ca:07:f2:d9 
+SEND time=782.357014894 src=66:dd:6f:29:84:ab dst=4e:5a:44:73:9d:b8 path=[4]
+RECV time=782.357047081 src=66:dd:6f:29:84:ab dst=4e:5a:44:73:9d:b8 
+SEND time=782.358344078 src=4e:5a:44:73:9d:b8 dst=66:dd:6f:29:84:ab path=[4]
+RECV time=782.358375072 src=4e:5a:44:73:9d:b8 dst=66:dd:6f:29:84:ab 
+SEND time=782.362272024 src=e2:51:ca:07:f2:d9 dst=4e:5a:44:73:9d:b8 path=[4]
+RECV time=782.362304926 src=e2:51:ca:07:f2:d9 dst=4e:5a:44:73:9d:b8 
+SEND time=782.363665104 src=4e:5a:44:73:9d:b8 dst=e2:51:ca:07:f2:d9 path=[4]
+RECV time=782.363691092 src=4e:5a:44:73:9d:b8 dst=e2:51:ca:07:f2:d9 
+SEND time=782.373972893 src=e2:51:ca:07:f2:d9 dst=66:dd:6f:29:84:ab path=[4]
+RECV time=782.374008894 src=e2:51:ca:07:f2:d9 dst=66:dd:6f:29:84:ab 
+SEND time=782.375406981 src=66:dd:6f:29:84:ab dst=e2:51:ca:07:f2:d9 path=[4]
+RECV time=782.375479937 src=66:dd:6f:29:84:ab dst=e2:51:ca:07:f2:d9 
+SEND time=808.494354963 src=0e:1a:b5:ad:1b:da dst=fe:2c:00:c2:12:4f path=[1, 2]
+RECV time=808.497459888 src=0e:1a:b5:ad:1b:da dst=fe:2c:00:c2:12:4f 
+SEND time=808.499235868 src=fe:2c:00:c2:12:4f dst=0e:1a:b5:ad:1b:da path=[2, 1]
+RECV time=808.501447916 src=fe:2c:00:c2:12:4f dst=0e:1a:b5:ad:1b:da 
+SEND time=808.512167931 src=b2:5d:08:c0:4c:3a dst=fe:2c:00:c2:12:4f path=[1, 2, 3]
+RECV time=808.514901876 src=b2:5d:08:c0:4c:3a dst=fe:2c:00:c2:12:4f 
+SEND time=808.515820026 src=fe:2c:00:c2:12:4f dst=b2:5d:08:c0:4c:3a path=[3, 2, 1]
+RECV time=808.517791033 src=fe:2c:00:c2:12:4f dst=b2:5d:08:c0:4c:3a 
+SEND time=808.527950048 src=ce:cd:08:85:c4:8c dst=fe:2c:00:c2:12:4f path=[1, 2, 3]
+RECV time=808.529956102 src=ce:cd:08:85:c4:8c dst=fe:2c:00:c2:12:4f 
+SEND time=808.530936003 src=fe:2c:00:c2:12:4f dst=ce:cd:08:85:c4:8c path=[3, 2, 1]
+RECV time=808.532721043 src=fe:2c:00:c2:12:4f dst=ce:cd:08:85:c4:8c 
+SEND time=808.538603067 src=4a:48:77:8d:70:46 dst=fe:2c:00:c2:12:4f path=[1, 2, 3, 4]
+RECV time=808.544157982 src=4a:48:77:8d:70:46 dst=fe:2c:00:c2:12:4f 
+SEND time=808.546349049 src=fe:2c:00:c2:12:4f dst=4a:48:77:8d:70:46 path=[4, 3, 2, 1]
+RECV time=808.549066067 src=fe:2c:00:c2:12:4f dst=4a:48:77:8d:70:46 
+SEND time=808.554895878 src=52:5b:2e:a4:73:12 dst=fe:2c:00:c2:12:4f path=[1, 2, 3, 4]
+RECV time=808.557625055 src=52:5b:2e:a4:73:12 dst=fe:2c:00:c2:12:4f 
+SEND time=808.558521986 src=fe:2c:00:c2:12:4f dst=52:5b:2e:a4:73:12 path=[4, 3, 2, 1]
+RECV time=808.561148882 src=fe:2c:00:c2:12:4f dst=52:5b:2e:a4:73:12 
+SEND time=808.566814899 src=a2:93:48:e6:a0:d2 dst=fe:2c:00:c2:12:4f path=[1, 2, 3, 4]
+RECV time=808.570822001 src=a2:93:48:e6:a0:d2 dst=fe:2c:00:c2:12:4f 
+SEND time=808.571810961 src=fe:2c:00:c2:12:4f dst=a2:93:48:e6:a0:d2 path=[4, 3, 2, 1]
+RECV time=808.579048872 src=fe:2c:00:c2:12:4f dst=a2:93:48:e6:a0:d2 
+SEND time=808.585992098 src=b2:5d:08:c0:4c:3a dst=0e:1a:b5:ad:1b:da path=[2, 3]
+RECV time=808.586957932 src=b2:5d:08:c0:4c:3a dst=0e:1a:b5:ad:1b:da 
+SEND time=808.587883949 src=0e:1a:b5:ad:1b:da dst=b2:5d:08:c0:4c:3a path=[3, 2]
+RECV time=808.58873105 src=0e:1a:b5:ad:1b:da dst=b2:5d:08:c0:4c:3a 
+SEND time=808.593899965 src=ce:cd:08:85:c4:8c dst=0e:1a:b5:ad:1b:da path=[2, 3]
+RECV time=808.594839096 src=ce:cd:08:85:c4:8c dst=0e:1a:b5:ad:1b:da 
+SEND time=808.595808029 src=0e:1a:b5:ad:1b:da dst=ce:cd:08:85:c4:8c path=[3, 2]
+RECV time=808.596740007 src=0e:1a:b5:ad:1b:da dst=ce:cd:08:85:c4:8c 
+SEND time=808.603559971 src=4a:48:77:8d:70:46 dst=0e:1a:b5:ad:1b:da path=[2, 3, 4]
+RECV time=808.606601954 src=4a:48:77:8d:70:46 dst=0e:1a:b5:ad:1b:da 
+SEND time=808.608433962 src=0e:1a:b5:ad:1b:da dst=4a:48:77:8d:70:46 path=[4, 3, 2]
+RECV time=808.61016798 src=0e:1a:b5:ad:1b:da dst=4a:48:77:8d:70:46 
+SEND time=808.615664005 src=52:5b:2e:a4:73:12 dst=0e:1a:b5:ad:1b:da path=[2, 3, 4]
+RECV time=808.618189096 src=52:5b:2e:a4:73:12 dst=0e:1a:b5:ad:1b:da 
+SEND time=808.619167089 src=0e:1a:b5:ad:1b:da dst=52:5b:2e:a4:73:12 path=[4, 3, 2]
+RECV time=808.620939016 src=0e:1a:b5:ad:1b:da dst=52:5b:2e:a4:73:12 
+SEND time=808.632605076 src=a2:93:48:e6:a0:d2 dst=0e:1a:b5:ad:1b:da path=[2, 3, 4]
+RECV time=808.635158062 src=a2:93:48:e6:a0:d2 dst=0e:1a:b5:ad:1b:da 
+SEND time=808.636142015 src=0e:1a:b5:ad:1b:da dst=a2:93:48:e6:a0:d2 path=[4, 3, 2]
+RECV time=808.637985945 src=0e:1a:b5:ad:1b:da dst=a2:93:48:e6:a0:d2 
+SEND time=808.648540974 src=ce:cd:08:85:c4:8c dst=b2:5d:08:c0:4c:3a path=[3]
+RECV time=808.648573875 src=ce:cd:08:85:c4:8c dst=b2:5d:08:c0:4c:3a 
+SEND time=808.65023303 src=b2:5d:08:c0:4c:3a dst=ce:cd:08:85:c4:8c path=[3]
+RECV time=808.650260925 src=b2:5d:08:c0:4c:3a dst=ce:cd:08:85:c4:8c 
+SEND time=808.656414986 src=4a:48:77:8d:70:46 dst=b2:5d:08:c0:4c:3a path=[3, 4]
+RECV time=808.657639027 src=4a:48:77:8d:70:46 dst=b2:5d:08:c0:4c:3a 
+SEND time=808.659034967 src=b2:5d:08:c0:4c:3a dst=4a:48:77:8d:70:46 path=[4, 3]
+RECV time=808.660665989 src=b2:5d:08:c0:4c:3a dst=4a:48:77:8d:70:46 
+SEND time=808.668555021 src=52:5b:2e:a4:73:12 dst=b2:5d:08:c0:4c:3a path=[3, 4]
+RECV time=808.670721054 src=52:5b:2e:a4:73:12 dst=b2:5d:08:c0:4c:3a 
+SEND time=808.671691895 src=b2:5d:08:c0:4c:3a dst=52:5b:2e:a4:73:12 path=[4, 3]
+RECV time=808.672580957 src=b2:5d:08:c0:4c:3a dst=52:5b:2e:a4:73:12 
+SEND time=808.6813941 src=a2:93:48:e6:a0:d2 dst=b2:5d:08:c0:4c:3a path=[3, 4]
+RECV time=808.682471037 src=a2:93:48:e6:a0:d2 dst=b2:5d:08:c0:4c:3a 
+SEND time=808.683489084 src=b2:5d:08:c0:4c:3a dst=a2:93:48:e6:a0:d2 path=[4, 3]
+RECV time=808.684355021 src=b2:5d:08:c0:4c:3a dst=a2:93:48:e6:a0:d2 
+SEND time=808.694977045 src=4a:48:77:8d:70:46 dst=ce:cd:08:85:c4:8c path=[3, 4]
+RECV time=808.696623087 src=4a:48:77:8d:70:46 dst=ce:cd:08:85:c4:8c 
+SEND time=808.69819808 src=ce:cd:08:85:c4:8c dst=4a:48:77:8d:70:46 path=[4, 3]
+RECV time=808.699152946 src=ce:cd:08:85:c4:8c dst=4a:48:77:8d:70:46 
+SEND time=808.70450592 src=52:5b:2e:a4:73:12 dst=ce:cd:08:85:c4:8c path=[3, 4]
+RECV time=808.705517054 src=52:5b:2e:a4:73:12 dst=ce:cd:08:85:c4:8c 
+SEND time=808.706538916 src=ce:cd:08:85:c4:8c dst=52:5b:2e:a4:73:12 path=[4, 3]
+RECV time=808.708854914 src=ce:cd:08:85:c4:8c dst=52:5b:2e:a4:73:12 
+SEND time=808.716609001 src=a2:93:48:e6:a0:d2 dst=ce:cd:08:85:c4:8c path=[3, 4]
+RECV time=808.717720985 src=a2:93:48:e6:a0:d2 dst=ce:cd:08:85:c4:8c 
+SEND time=808.718641996 src=ce:cd:08:85:c4:8c dst=a2:93:48:e6:a0:d2 path=[4, 3]
+RECV time=808.719508886 src=ce:cd:08:85:c4:8c dst=a2:93:48:e6:a0:d2 
+SEND time=808.730773926 src=52:5b:2e:a4:73:12 dst=4a:48:77:8d:70:46 path=[4]
+RECV time=808.730813026 src=52:5b:2e:a4:73:12 dst=4a:48:77:8d:70:46 
+SEND time=808.732282877 src=4a:48:77:8d:70:46 dst=52:5b:2e:a4:73:12 path=[4]
+RECV time=808.732311964 src=4a:48:77:8d:70:46 dst=52:5b:2e:a4:73:12 
+SEND time=808.736094952 src=a2:93:48:e6:a0:d2 dst=4a:48:77:8d:70:46 path=[4]
+RECV time=808.736128092 src=a2:93:48:e6:a0:d2 dst=4a:48:77:8d:70:46 
+SEND time=808.737487078 src=4a:48:77:8d:70:46 dst=a2:93:48:e6:a0:d2 path=[4]
+RECV time=808.73751688 src=4a:48:77:8d:70:46 dst=a2:93:48:e6:a0:d2 
+SEND time=808.751138926 src=a2:93:48:e6:a0:d2 dst=52:5b:2e:a4:73:12 path=[4]
+RECV time=808.75117588 src=a2:93:48:e6:a0:d2 dst=52:5b:2e:a4:73:12 
+SEND time=808.752521992 src=52:5b:2e:a4:73:12 dst=a2:93:48:e6:a0:d2 path=[4]
+RECV time=808.752556086 src=52:5b:2e:a4:73:12 dst=a2:93:48:e6:a0:d2 
+SEND time=832.582896948 src=32:5c:07:24:b5:38 dst=d6:17:9c:61:ab:44 path=[1, 2]
+RECV time=832.587702036 src=32:5c:07:24:b5:38 dst=d6:17:9c:61:ab:44 
+SEND time=832.591690063 src=d6:17:9c:61:ab:44 dst=32:5c:07:24:b5:38 path=[2, 1]
+RECV time=832.597784996 src=d6:17:9c:61:ab:44 dst=32:5c:07:24:b5:38 
+SEND time=832.607445002 src=b6:19:2e:fb:fb:df dst=d6:17:9c:61:ab:44 path=[1, 2, 3]
+RECV time=832.609745979 src=b6:19:2e:fb:fb:df dst=d6:17:9c:61:ab:44 
+SEND time=832.610732079 src=d6:17:9c:61:ab:44 dst=b6:19:2e:fb:fb:df path=[3, 2, 1]
+RECV time=832.612526894 src=d6:17:9c:61:ab:44 dst=b6:19:2e:fb:fb:df 
+SEND time=832.622627974 src=76:45:cf:af:ab:d6 dst=d6:17:9c:61:ab:44 path=[1, 2, 3]
+RECV time=832.626319885 src=76:45:cf:af:ab:d6 dst=d6:17:9c:61:ab:44 
+SEND time=832.627893925 src=d6:17:9c:61:ab:44 dst=76:45:cf:af:ab:d6 path=[3, 2, 1]
+RECV time=832.630241871 src=d6:17:9c:61:ab:44 dst=76:45:cf:af:ab:d6 
+SEND time=832.636353016 src=7a:c9:47:9d:be:75 dst=d6:17:9c:61:ab:44 path=[1, 2, 3, 4]
+RECV time=832.642868996 src=7a:c9:47:9d:be:75 dst=d6:17:9c:61:ab:44 
+SEND time=832.644139051 src=d6:17:9c:61:ab:44 dst=7a:c9:47:9d:be:75 path=[4, 3, 2, 1]
+RECV time=832.647053957 src=d6:17:9c:61:ab:44 dst=7a:c9:47:9d:be:75 
+SEND time=832.653017998 src=f2:11:36:f0:67:e4 dst=d6:17:9c:61:ab:44 path=[1, 2, 3, 4]
+RECV time=832.657623053 src=f2:11:36:f0:67:e4 dst=d6:17:9c:61:ab:44 
+SEND time=832.658629894 src=d6:17:9c:61:ab:44 dst=f2:11:36:f0:67:e4 path=[4, 3, 2, 1]
+RECV time=832.661614895 src=d6:17:9c:61:ab:44 dst=f2:11:36:f0:67:e4 
+SEND time=832.667543888 src=86:4b:6b:07:2f:31 dst=d6:17:9c:61:ab:44 path=[1, 2, 3, 4]
+RECV time=832.672268867 src=86:4b:6b:07:2f:31 dst=d6:17:9c:61:ab:44 
+SEND time=832.675179005 src=d6:17:9c:61:ab:44 dst=86:4b:6b:07:2f:31 path=[4, 3, 2, 1]
+RECV time=832.678190947 src=d6:17:9c:61:ab:44 dst=86:4b:6b:07:2f:31 
+SEND time=832.68522191 src=b6:19:2e:fb:fb:df dst=32:5c:07:24:b5:38 path=[2, 3]
+RECV time=832.68620491 src=b6:19:2e:fb:fb:df dst=32:5c:07:24:b5:38 
+SEND time=832.687109947 src=32:5c:07:24:b5:38 dst=b6:19:2e:fb:fb:df path=[3, 2]
+RECV time=832.687926054 src=32:5c:07:24:b5:38 dst=b6:19:2e:fb:fb:df 
+SEND time=832.694761992 src=76:45:cf:af:ab:d6 dst=32:5c:07:24:b5:38 path=[2, 3]
+RECV time=832.6962111 src=76:45:cf:af:ab:d6 dst=32:5c:07:24:b5:38 
+SEND time=832.697915077 src=32:5c:07:24:b5:38 dst=76:45:cf:af:ab:d6 path=[3, 2]
+RECV time=832.699008942 src=32:5c:07:24:b5:38 dst=76:45:cf:af:ab:d6 
+SEND time=832.708386898 src=7a:c9:47:9d:be:75 dst=32:5c:07:24:b5:38 path=[2, 3, 4]
+RECV time=832.711530924 src=7a:c9:47:9d:be:75 dst=32:5c:07:24:b5:38 
+SEND time=832.712640047 src=32:5c:07:24:b5:38 dst=7a:c9:47:9d:be:75 path=[4, 3, 2]
+RECV time=832.714854002 src=32:5c:07:24:b5:38 dst=7a:c9:47:9d:be:75 
+SEND time=832.722033024 src=f2:11:36:f0:67:e4 dst=32:5c:07:24:b5:38 path=[2, 3, 4]
+RECV time=832.723942995 src=f2:11:36:f0:67:e4 dst=32:5c:07:24:b5:38 
+SEND time=832.724869967 src=32:5c:07:24:b5:38 dst=f2:11:36:f0:67:e4 path=[4, 3, 2]
+RECV time=832.726731062 src=32:5c:07:24:b5:38 dst=f2:11:36:f0:67:e4 
+SEND time=832.732069969 src=86:4b:6b:07:2f:31 dst=32:5c:07:24:b5:38 path=[2, 3, 4]
+RECV time=832.734025955 src=86:4b:6b:07:2f:31 dst=32:5c:07:24:b5:38 
+SEND time=832.734978914 src=32:5c:07:24:b5:38 dst=86:4b:6b:07:2f:31 path=[4, 3, 2]
+RECV time=832.739055872 src=32:5c:07:24:b5:38 dst=86:4b:6b:07:2f:31 
+SEND time=832.748154879 src=76:45:cf:af:ab:d6 dst=b6:19:2e:fb:fb:df path=[3]
+RECV time=832.748193979 src=76:45:cf:af:ab:d6 dst=b6:19:2e:fb:fb:df 
+SEND time=832.749871969 src=b6:19:2e:fb:fb:df dst=76:45:cf:af:ab:d6 path=[3]
+RECV time=832.74990797 src=b6:19:2e:fb:fb:df dst=76:45:cf:af:ab:d6 
+SEND time=832.757852077 src=7a:c9:47:9d:be:75 dst=b6:19:2e:fb:fb:df path=[3, 4]
+RECV time=832.758985996 src=7a:c9:47:9d:be:75 dst=b6:19:2e:fb:fb:df 
+SEND time=832.760066986 src=b6:19:2e:fb:fb:df dst=7a:c9:47:9d:be:75 path=[4, 3]
+RECV time=832.761008978 src=b6:19:2e:fb:fb:df dst=7a:c9:47:9d:be:75 
+SEND time=832.767500877 src=f2:11:36:f0:67:e4 dst=b6:19:2e:fb:fb:df path=[3, 4]
+RECV time=832.768483877 src=f2:11:36:f0:67:e4 dst=b6:19:2e:fb:fb:df 
+SEND time=832.770706892 src=b6:19:2e:fb:fb:df dst=f2:11:36:f0:67:e4 path=[4, 3]
+RECV time=832.773808956 src=b6:19:2e:fb:fb:df dst=f2:11:36:f0:67:e4 
+SEND time=832.780215025 src=86:4b:6b:07:2f:31 dst=b6:19:2e:fb:fb:df path=[3, 4]
+RECV time=832.781270027 src=86:4b:6b:07:2f:31 dst=b6:19:2e:fb:fb:df 
+SEND time=832.782402039 src=b6:19:2e:fb:fb:df dst=86:4b:6b:07:2f:31 path=[4, 3]
+RECV time=832.783288956 src=b6:19:2e:fb:fb:df dst=86:4b:6b:07:2f:31 
+SEND time=832.796174049 src=7a:c9:47:9d:be:75 dst=76:45:cf:af:ab:d6 path=[3, 4]
+RECV time=832.798079967 src=7a:c9:47:9d:be:75 dst=76:45:cf:af:ab:d6 
+SEND time=832.799048901 src=76:45:cf:af:ab:d6 dst=7a:c9:47:9d:be:75 path=[4, 3]
+RECV time=832.79991889 src=76:45:cf:af:ab:d6 dst=7a:c9:47:9d:be:75 
+SEND time=832.805109978 src=f2:11:36:f0:67:e4 dst=76:45:cf:af:ab:d6 path=[3, 4]
+RECV time=832.806107044 src=f2:11:36:f0:67:e4 dst=76:45:cf:af:ab:d6 
+SEND time=832.807079077 src=76:45:cf:af:ab:d6 dst=f2:11:36:f0:67:e4 path=[4, 3]
+RECV time=832.808027983 src=76:45:cf:af:ab:d6 dst=f2:11:36:f0:67:e4 
+SEND time=832.81321907 src=86:4b:6b:07:2f:31 dst=76:45:cf:af:ab:d6 path=[3, 4]
+RECV time=832.815032005 src=86:4b:6b:07:2f:31 dst=76:45:cf:af:ab:d6 
+SEND time=832.816293955 src=76:45:cf:af:ab:d6 dst=86:4b:6b:07:2f:31 path=[4, 3]
+RECV time=832.817457914 src=76:45:cf:af:ab:d6 dst=86:4b:6b:07:2f:31 
+SEND time=832.827316999 src=f2:11:36:f0:67:e4 dst=7a:c9:47:9d:be:75 path=[4]
+RECV time=832.827351093 src=f2:11:36:f0:67:e4 dst=7a:c9:47:9d:be:75 
+SEND time=832.828700066 src=7a:c9:47:9d:be:75 dst=f2:11:36:f0:67:e4 path=[4]
+RECV time=832.828734875 src=7a:c9:47:9d:be:75 dst=f2:11:36:f0:67:e4 
+SEND time=832.832616091 src=86:4b:6b:07:2f:31 dst=7a:c9:47:9d:be:75 path=[4]
+RECV time=832.832645893 src=86:4b:6b:07:2f:31 dst=7a:c9:47:9d:be:75 
+SEND time=832.834153891 src=7a:c9:47:9d:be:75 dst=86:4b:6b:07:2f:31 path=[4]
+RECV time=832.834193945 src=7a:c9:47:9d:be:75 dst=86:4b:6b:07:2f:31 
+SEND time=832.849812031 src=86:4b:6b:07:2f:31 dst=f2:11:36:f0:67:e4 path=[4]
+RECV time=832.849869013 src=86:4b:6b:07:2f:31 dst=f2:11:36:f0:67:e4 
+SEND time=832.852223873 src=f2:11:36:f0:67:e4 dst=86:4b:6b:07:2f:31 path=[4]
+RECV time=832.85225606 src=f2:11:36:f0:67:e4 dst=86:4b:6b:07:2f:31 
+SEND time=857.187190056 src=92:be:76:30:f4:21 dst=5a:9e:be:0e:cb:c0 path=[1, 2]
+RECV time=857.1906991 src=92:be:76:30:f4:21 dst=5a:9e:be:0e:cb:c0 
+SEND time=857.197022915 src=5a:9e:be:0e:cb:c0 dst=92:be:76:30:f4:21 path=[2, 1]
+RECV time=857.199239969 src=5a:9e:be:0e:cb:c0 dst=92:be:76:30:f4:21 
+SEND time=857.208116055 src=3a:63:de:4c:0e:d1 dst=5a:9e:be:0e:cb:c0 path=[1, 2, 3]
+RECV time=857.210126877 src=3a:63:de:4c:0e:d1 dst=5a:9e:be:0e:cb:c0 
+SEND time=857.211335897 src=5a:9e:be:0e:cb:c0 dst=3a:63:de:4c:0e:d1 path=[3, 2, 1]
+RECV time=857.213247061 src=5a:9e:be:0e:cb:c0 dst=3a:63:de:4c:0e:d1 
+SEND time=857.223203897 src=9a:b5:dc:b8:26:e0 dst=5a:9e:be:0e:cb:c0 path=[1, 2, 3]
+RECV time=857.225277901 src=9a:b5:dc:b8:26:e0 dst=5a:9e:be:0e:cb:c0 
+SEND time=857.226219893 src=5a:9e:be:0e:cb:c0 dst=9a:b5:dc:b8:26:e0 path=[3, 2, 1]
+RECV time=857.228091955 src=5a:9e:be:0e:cb:c0 dst=9a:b5:dc:b8:26:e0 
+SEND time=857.236171007 src=8e:f5:d1:5f:5b:9d dst=5a:9e:be:0e:cb:c0 path=[1, 2, 3, 4]
+RECV time=857.240365982 src=8e:f5:d1:5f:5b:9d dst=5a:9e:be:0e:cb:c0 
+SEND time=857.241415024 src=5a:9e:be:0e:cb:c0 dst=8e:f5:d1:5f:5b:9d path=[4, 3, 2, 1]
+RECV time=857.244234085 src=5a:9e:be:0e:cb:c0 dst=8e:f5:d1:5f:5b:9d 
+SEND time=857.250818014 src=e6:e8:41:0c:77:2c dst=5a:9e:be:0e:cb:c0 path=[1, 2, 3, 4]
+RECV time=857.254678965 src=e6:e8:41:0c:77:2c dst=5a:9e:be:0e:cb:c0 
+SEND time=857.25564909 src=5a:9e:be:0e:cb:c0 dst=e6:e8:41:0c:77:2c path=[4, 3, 2, 1]
+RECV time=857.258326054 src=5a:9e:be:0e:cb:c0 dst=e6:e8:41:0c:77:2c 
+SEND time=857.26402688 src=be:2e:a9:3a:06:74 dst=5a:9e:be:0e:cb:c0 path=[1, 2, 3, 4]
+RECV time=857.267175913 src=be:2e:a9:3a:06:74 dst=5a:9e:be:0e:cb:c0 
+SEND time=857.270498991 src=5a:9e:be:0e:cb:c0 dst=be:2e:a9:3a:06:74 path=[4, 3, 2, 1]
+RECV time=857.274298906 src=5a:9e:be:0e:cb:c0 dst=be:2e:a9:3a:06:74 
+SEND time=857.281137943 src=3a:63:de:4c:0e:d1 dst=92:be:76:30:f4:21 path=[2, 3]
+RECV time=857.282120943 src=3a:63:de:4c:0e:d1 dst=92:be:76:30:f4:21 
+SEND time=857.283057928 src=92:be:76:30:f4:21 dst=3a:63:de:4c:0e:d1 path=[3, 2]
+RECV time=857.283927917 src=92:be:76:30:f4:21 dst=3a:63:de:4c:0e:d1 
+SEND time=857.28906703 src=9a:b5:dc:b8:26:e0 dst=92:be:76:30:f4:21 path=[2, 3]
+RECV time=857.289962053 src=9a:b5:dc:b8:26:e0 dst=92:be:76:30:f4:21 
+SEND time=857.290817976 src=92:be:76:30:f4:21 dst=9a:b5:dc:b8:26:e0 path=[3, 2]
+RECV time=857.291727066 src=92:be:76:30:f4:21 dst=9a:b5:dc:b8:26:e0 
+SEND time=857.299185991 src=8e:f5:d1:5f:5b:9d dst=92:be:76:30:f4:21 path=[2, 3, 4]
+RECV time=857.303946018 src=8e:f5:d1:5f:5b:9d dst=92:be:76:30:f4:21 
+SEND time=857.306969881 src=92:be:76:30:f4:21 dst=8e:f5:d1:5f:5b:9d path=[4, 3, 2]
+RECV time=857.308758974 src=92:be:76:30:f4:21 dst=8e:f5:d1:5f:5b:9d 
+SEND time=857.314212084 src=e6:e8:41:0c:77:2c dst=92:be:76:30:f4:21 path=[2, 3, 4]
+RECV time=857.316514969 src=e6:e8:41:0c:77:2c dst=92:be:76:30:f4:21 
+SEND time=857.317841053 src=92:be:76:30:f4:21 dst=e6:e8:41:0c:77:2c path=[4, 3, 2]
+RECV time=857.32021594 src=92:be:76:30:f4:21 dst=e6:e8:41:0c:77:2c 
+SEND time=857.325841904 src=be:2e:a9:3a:06:74 dst=92:be:76:30:f4:21 path=[2, 3, 4]
+RECV time=857.327713013 src=be:2e:a9:3a:06:74 dst=92:be:76:30:f4:21 
+SEND time=857.328653097 src=92:be:76:30:f4:21 dst=be:2e:a9:3a:06:74 path=[4, 3, 2]
+RECV time=857.331769943 src=92:be:76:30:f4:21 dst=be:2e:a9:3a:06:74 
+SEND time=857.342838049 src=9a:b5:dc:b8:26:e0 dst=3a:63:de:4c:0e:d1 path=[3]
+RECV time=857.342878103 src=9a:b5:dc:b8:26:e0 dst=3a:63:de:4c:0e:d1 
+SEND time=857.344408035 src=3a:63:de:4c:0e:d1 dst=9a:b5:dc:b8:26:e0 path=[3]
+RECV time=857.344436884 src=3a:63:de:4c:0e:d1 dst=9a:b5:dc:b8:26:e0 
+SEND time=857.349360943 src=8e:f5:d1:5f:5b:9d dst=3a:63:de:4c:0e:d1 path=[3, 4]
+RECV time=857.350295067 src=8e:f5:d1:5f:5b:9d dst=3a:63:de:4c:0e:d1 
+SEND time=857.351203918 src=3a:63:de:4c:0e:d1 dst=8e:f5:d1:5f:5b:9d path=[4, 3]
+RECV time=857.352051973 src=3a:63:de:4c:0e:d1 dst=8e:f5:d1:5f:5b:9d 
+SEND time=857.359416008 src=e6:e8:41:0c:77:2c dst=3a:63:de:4c:0e:d1 path=[3, 4]
+RECV time=857.361721992 src=e6:e8:41:0c:77:2c dst=3a:63:de:4c:0e:d1 
+SEND time=857.363553047 src=3a:63:de:4c:0e:d1 dst=e6:e8:41:0c:77:2c path=[4, 3]
+RECV time=857.364921093 src=3a:63:de:4c:0e:d1 dst=e6:e8:41:0c:77:2c 
+SEND time=857.37379694 src=be:2e:a9:3a:06:74 dst=3a:63:de:4c:0e:d1 path=[3, 4]
+RECV time=857.374811888 src=be:2e:a9:3a:06:74 dst=3a:63:de:4c:0e:d1 
+SEND time=857.375784874 src=3a:63:de:4c:0e:d1 dst=be:2e:a9:3a:06:74 path=[4, 3]
+RECV time=857.376636982 src=3a:63:de:4c:0e:d1 dst=be:2e:a9:3a:06:74 
+SEND time=857.385623932 src=8e:f5:d1:5f:5b:9d dst=9a:b5:dc:b8:26:e0 path=[3, 4]
+RECV time=857.387234926 src=8e:f5:d1:5f:5b:9d dst=9a:b5:dc:b8:26:e0 
+SEND time=857.388586044 src=9a:b5:dc:b8:26:e0 dst=8e:f5:d1:5f:5b:9d path=[4, 3]
+RECV time=857.389751911 src=9a:b5:dc:b8:26:e0 dst=8e:f5:d1:5f:5b:9d 
+SEND time=857.396291971 src=e6:e8:41:0c:77:2c dst=9a:b5:dc:b8:26:e0 path=[3, 4]
+RECV time=857.397726059 src=e6:e8:41:0c:77:2c dst=9a:b5:dc:b8:26:e0 
+SEND time=857.398643017 src=9a:b5:dc:b8:26:e0 dst=e6:e8:41:0c:77:2c path=[4, 3]
+RECV time=857.399499893 src=9a:b5:dc:b8:26:e0 dst=e6:e8:41:0c:77:2c 
+SEND time=857.408422947 src=be:2e:a9:3a:06:74 dst=9a:b5:dc:b8:26:e0 path=[3, 4]
+RECV time=857.409996033 src=be:2e:a9:3a:06:74 dst=9a:b5:dc:b8:26:e0 
+SEND time=857.410937071 src=9a:b5:dc:b8:26:e0 dst=be:2e:a9:3a:06:74 path=[4, 3]
+RECV time=857.411778927 src=9a:b5:dc:b8:26:e0 dst=be:2e:a9:3a:06:74 
+SEND time=857.422996044 src=e6:e8:41:0c:77:2c dst=8e:f5:d1:5f:5b:9d path=[4]
+RECV time=857.423033953 src=e6:e8:41:0c:77:2c dst=8e:f5:d1:5f:5b:9d 
+SEND time=857.424400091 src=8e:f5:d1:5f:5b:9d dst=e6:e8:41:0c:77:2c path=[4]
+RECV time=857.424436092 src=8e:f5:d1:5f:5b:9d dst=e6:e8:41:0c:77:2c 
+SEND time=857.428375959 src=be:2e:a9:3a:06:74 dst=8e:f5:d1:5f:5b:9d path=[4]
+RECV time=857.4284091 src=be:2e:a9:3a:06:74 dst=8e:f5:d1:5f:5b:9d 
+SEND time=857.429826021 src=8e:f5:d1:5f:5b:9d dst=be:2e:a9:3a:06:74 path=[4]
+RECV time=857.429852962 src=8e:f5:d1:5f:5b:9d dst=be:2e:a9:3a:06:74 
+SEND time=857.445359945 src=be:2e:a9:3a:06:74 dst=e6:e8:41:0c:77:2c path=[4]
+RECV time=857.445399046 src=be:2e:a9:3a:06:74 dst=e6:e8:41:0c:77:2c 
+SEND time=857.447006941 src=e6:e8:41:0c:77:2c dst=be:2e:a9:3a:06:74 path=[4]
+RECV time=857.447043896 src=e6:e8:41:0c:77:2c dst=be:2e:a9:3a:06:74 
+SEND time=883.53944993 src=6e:8f:9e:f8:00:cf dst=da:89:c5:ef:cf:10 path=[1, 2]
+RECV time=883.546557903 src=6e:8f:9e:f8:00:cf dst=da:89:c5:ef:cf:10 
+SEND time=883.550678015 src=da:89:c5:ef:cf:10 dst=6e:8f:9e:f8:00:cf path=[2, 1]
+RECV time=883.552746058 src=da:89:c5:ef:cf:10 dst=6e:8f:9e:f8:00:cf 
+SEND time=883.566483974 src=4a:be:9f:46:de:77 dst=da:89:c5:ef:cf:10 path=[1, 2, 3]
+RECV time=883.568588018 src=4a:be:9f:46:de:77 dst=da:89:c5:ef:cf:10 
+SEND time=883.569669962 src=da:89:c5:ef:cf:10 dst=4a:be:9f:46:de:77 path=[3, 2, 1]
+RECV time=883.571537018 src=da:89:c5:ef:cf:10 dst=4a:be:9f:46:de:77 
+SEND time=883.577078104 src=96:bb:b5:a9:24:31 dst=da:89:c5:ef:cf:10 path=[1, 2, 3]
+RECV time=883.583546877 src=96:bb:b5:a9:24:31 dst=da:89:c5:ef:cf:10 
+SEND time=883.585021019 src=da:89:c5:ef:cf:10 dst=96:bb:b5:a9:24:31 path=[3, 2, 1]
+RECV time=883.586847067 src=da:89:c5:ef:cf:10 dst=96:bb:b5:a9:24:31 
+SEND time=883.592585087 src=7a:ce:5a:d0:10:11 dst=da:89:c5:ef:cf:10 path=[1, 2, 3, 4]
+RECV time=883.595407009 src=7a:ce:5a:d0:10:11 dst=da:89:c5:ef:cf:10 
+SEND time=883.596318007 src=da:89:c5:ef:cf:10 dst=7a:ce:5a:d0:10:11 path=[4, 3, 2, 1]
+RECV time=883.604045868 src=da:89:c5:ef:cf:10 dst=7a:ce:5a:d0:10:11 
+SEND time=883.61067009 src=36:c1:f2:80:50:4a dst=da:89:c5:ef:cf:10 path=[1, 2, 3, 4]
+RECV time=883.613478899 src=36:c1:f2:80:50:4a dst=da:89:c5:ef:cf:10 
+SEND time=883.61442399 src=da:89:c5:ef:cf:10 dst=36:c1:f2:80:50:4a path=[4, 3, 2, 1]
+RECV time=883.616928101 src=da:89:c5:ef:cf:10 dst=36:c1:f2:80:50:4a 
+SEND time=883.622615099 src=ae:98:90:0b:15:13 dst=da:89:c5:ef:cf:10 path=[1, 2, 3, 4]
+RECV time=883.6254251 src=ae:98:90:0b:15:13 dst=da:89:c5:ef:cf:10 
+SEND time=883.626296997 src=da:89:c5:ef:cf:10 dst=ae:98:90:0b:15:13 path=[4, 3, 2, 1]
+RECV time=883.628791094 src=da:89:c5:ef:cf:10 dst=ae:98:90:0b:15:13 
+SEND time=883.640270948 src=4a:be:9f:46:de:77 dst=6e:8f:9e:f8:00:cf path=[2, 3]
+RECV time=883.641274929 src=4a:be:9f:46:de:77 dst=6e:8f:9e:f8:00:cf 
+SEND time=883.642193079 src=6e:8f:9e:f8:00:cf dst=4a:be:9f:46:de:77 path=[3, 2]
+RECV time=883.643069983 src=6e:8f:9e:f8:00:cf dst=4a:be:9f:46:de:77 
+SEND time=883.651495934 src=96:bb:b5:a9:24:31 dst=6e:8f:9e:f8:00:cf path=[2, 3]
+RECV time=883.652693987 src=96:bb:b5:a9:24:31 dst=6e:8f:9e:f8:00:cf 
+SEND time=883.653862 src=6e:8f:9e:f8:00:cf dst=96:bb:b5:a9:24:31 path=[3, 2]
+RECV time=883.654808044 src=6e:8f:9e:f8:00:cf dst=96:bb:b5:a9:24:31 
+SEND time=883.660278082 src=7a:ce:5a:d0:10:11 dst=6e:8f:9e:f8:00:cf path=[2, 3, 4]
+RECV time=883.662162066 src=7a:ce:5a:d0:10:11 dst=6e:8f:9e:f8:00:cf 
+SEND time=883.66325593 src=6e:8f:9e:f8:00:cf dst=7a:ce:5a:d0:10:11 path=[4, 3, 2]
+RECV time=883.667298079 src=6e:8f:9e:f8:00:cf dst=7a:ce:5a:d0:10:11 
+SEND time=883.67554307 src=36:c1:f2:80:50:4a dst=6e:8f:9e:f8:00:cf path=[2, 3, 4]
+RECV time=883.677620888 src=36:c1:f2:80:50:4a dst=6e:8f:9e:f8:00:cf 
+SEND time=883.678550959 src=6e:8f:9e:f8:00:cf dst=36:c1:f2:80:50:4a path=[4, 3, 2]
+RECV time=883.680289984 src=6e:8f:9e:f8:00:cf dst=36:c1:f2:80:50:4a 
+SEND time=883.688832998 src=ae:98:90:0b:15:13 dst=6e:8f:9e:f8:00:cf path=[2, 3, 4]
+RECV time=883.690993071 src=ae:98:90:0b:15:13 dst=6e:8f:9e:f8:00:cf 
+SEND time=883.691916943 src=6e:8f:9e:f8:00:cf dst=ae:98:90:0b:15:13 path=[4, 3, 2]
+RECV time=883.693734884 src=6e:8f:9e:f8:00:cf dst=ae:98:90:0b:15:13 
+SEND time=883.700793982 src=96:bb:b5:a9:24:31 dst=4a:be:9f:46:de:77 path=[3]
+RECV time=883.700829029 src=96:bb:b5:a9:24:31 dst=4a:be:9f:46:de:77 
+SEND time=883.703068972 src=4a:be:9f:46:de:77 dst=96:bb:b5:a9:24:31 path=[3]
+RECV time=883.703096867 src=4a:be:9f:46:de:77 dst=96:bb:b5:a9:24:31 
+SEND time=883.710241079 src=7a:ce:5a:d0:10:11 dst=4a:be:9f:46:de:77 path=[3, 4]
+RECV time=883.711834908 src=7a:ce:5a:d0:10:11 dst=4a:be:9f:46:de:77 
+SEND time=883.712785959 src=4a:be:9f:46:de:77 dst=7a:ce:5a:d0:10:11 path=[4, 3]
+RECV time=883.713694096 src=4a:be:9f:46:de:77 dst=7a:ce:5a:d0:10:11 
+SEND time=883.722429991 src=36:c1:f2:80:50:4a dst=4a:be:9f:46:de:77 path=[3, 4]
+RECV time=883.723397017 src=36:c1:f2:80:50:4a dst=4a:be:9f:46:de:77 
+SEND time=883.724343061 src=4a:be:9f:46:de:77 dst=36:c1:f2:80:50:4a path=[4, 3]
+RECV time=883.725301027 src=4a:be:9f:46:de:77 dst=36:c1:f2:80:50:4a 
+SEND time=883.73033309 src=ae:98:90:0b:15:13 dst=4a:be:9f:46:de:77 path=[3, 4]
+RECV time=883.731254101 src=ae:98:90:0b:15:13 dst=4a:be:9f:46:de:77 
+SEND time=883.732141972 src=4a:be:9f:46:de:77 dst=ae:98:90:0b:15:13 path=[4, 3]
+RECV time=883.73304987 src=4a:be:9f:46:de:77 dst=ae:98:90:0b:15:13 
+SEND time=883.744714975 src=7a:ce:5a:d0:10:11 dst=96:bb:b5:a9:24:31 path=[3, 4]
+RECV time=883.745828867 src=7a:ce:5a:d0:10:11 dst=96:bb:b5:a9:24:31 
+SEND time=883.746856928 src=96:bb:b5:a9:24:31 dst=7a:ce:5a:d0:10:11 path=[4, 3]
+RECV time=883.747794867 src=96:bb:b5:a9:24:31 dst=7a:ce:5a:d0:10:11 
+SEND time=883.756531 src=36:c1:f2:80:50:4a dst=96:bb:b5:a9:24:31 path=[3, 4]
+RECV time=883.758518934 src=36:c1:f2:80:50:4a dst=96:bb:b5:a9:24:31 
+SEND time=883.760039091 src=96:bb:b5:a9:24:31 dst=36:c1:f2:80:50:4a path=[4, 3]
+RECV time=883.761406898 src=96:bb:b5:a9:24:31 dst=36:c1:f2:80:50:4a 
+SEND time=883.766546965 src=ae:98:90:0b:15:13 dst=96:bb:b5:a9:24:31 path=[3, 4]
+RECV time=883.767586946 src=ae:98:90:0b:15:13 dst=96:bb:b5:a9:24:31 
+SEND time=883.768522024 src=96:bb:b5:a9:24:31 dst=ae:98:90:0b:15:13 path=[4, 3]
+RECV time=883.769510984 src=96:bb:b5:a9:24:31 dst=ae:98:90:0b:15:13 
+SEND time=883.777966022 src=36:c1:f2:80:50:4a dst=7a:ce:5a:d0:10:11 path=[4]
+RECV time=883.77800107 src=36:c1:f2:80:50:4a dst=7a:ce:5a:d0:10:11 
+SEND time=883.779359102 src=7a:ce:5a:d0:10:11 dst=36:c1:f2:80:50:4a path=[4]
+RECV time=883.779397011 src=7a:ce:5a:d0:10:11 dst=36:c1:f2:80:50:4a 
+SEND time=883.786391973 src=ae:98:90:0b:15:13 dst=7a:ce:5a:d0:10:11 path=[4]
+RECV time=883.786427021 src=ae:98:90:0b:15:13 dst=7a:ce:5a:d0:10:11 
+SEND time=883.787744999 src=7a:ce:5a:d0:10:11 dst=ae:98:90:0b:15:13 path=[4]
+RECV time=883.787769079 src=7a:ce:5a:d0:10:11 dst=ae:98:90:0b:15:13 
+SEND time=883.797767878 src=ae:98:90:0b:15:13 dst=36:c1:f2:80:50:4a path=[4]
+RECV time=883.797821999 src=ae:98:90:0b:15:13 dst=36:c1:f2:80:50:4a 
+SEND time=883.799484015 src=36:c1:f2:80:50:4a dst=ae:98:90:0b:15:13 path=[4]
+RECV time=883.799520969 src=36:c1:f2:80:50:4a dst=ae:98:90:0b:15:13 
+SEND time=908.122010946 src=9a:01:1a:18:88:f5 dst=96:a6:68:8f:e7:84 path=[1, 2]
+RECV time=908.127227068 src=9a:01:1a:18:88:f5 dst=96:a6:68:8f:e7:84 
+SEND time=908.131748915 src=96:a6:68:8f:e7:84 dst=9a:01:1a:18:88:f5 path=[2, 1]
+RECV time=908.13713789 src=96:a6:68:8f:e7:84 dst=9a:01:1a:18:88:f5 
+SEND time=908.160336018 src=fa:4a:17:11:76:da dst=96:a6:68:8f:e7:84 path=[1, 2, 3]
+RECV time=908.17047596 src=fa:4a:17:11:76:da dst=96:a6:68:8f:e7:84 
+SEND time=908.172014952 src=96:a6:68:8f:e7:84 dst=fa:4a:17:11:76:da path=[3, 2, 1]
+RECV time=908.175020933 src=96:a6:68:8f:e7:84 dst=fa:4a:17:11:76:da 
+SEND time=908.183335066 src=22:98:63:f2:ab:71 dst=96:a6:68:8f:e7:84 path=[1, 2, 3]
+RECV time=908.18552494 src=22:98:63:f2:ab:71 dst=96:a6:68:8f:e7:84 
+SEND time=908.186465979 src=96:a6:68:8f:e7:84 dst=22:98:63:f2:ab:71 path=[3, 2, 1]
+RECV time=908.188191891 src=96:a6:68:8f:e7:84 dst=22:98:63:f2:ab:71 
+SEND time=908.193727016 src=5e:97:93:f8:c8:3b dst=96:a6:68:8f:e7:84 path=[1, 2, 3, 4]
+RECV time=908.196587086 src=5e:97:93:f8:c8:3b dst=96:a6:68:8f:e7:84 
+SEND time=908.197818041 src=96:a6:68:8f:e7:84 dst=5e:97:93:f8:c8:3b path=[4, 3, 2, 1]
+RECV time=908.200530052 src=96:a6:68:8f:e7:84 dst=5e:97:93:f8:c8:3b 
+SEND time=908.206552029 src=c6:ef:90:2f:5d:3b dst=96:a6:68:8f:e7:84 path=[1, 2, 3, 4]
+RECV time=908.209313869 src=c6:ef:90:2f:5d:3b dst=96:a6:68:8f:e7:84 
+SEND time=908.210253 src=96:a6:68:8f:e7:84 dst=c6:ef:90:2f:5d:3b path=[4, 3, 2, 1]
+RECV time=908.21370101 src=96:a6:68:8f:e7:84 dst=c6:ef:90:2f:5d:3b 
+SEND time=908.220761061 src=56:81:e5:5f:9b:cc dst=96:a6:68:8f:e7:84 path=[1, 2, 3, 4]
+RECV time=908.223619938 src=56:81:e5:5f:9b:cc dst=96:a6:68:8f:e7:84 
+SEND time=908.224740982 src=96:a6:68:8f:e7:84 dst=56:81:e5:5f:9b:cc path=[4, 3, 2, 1]
+RECV time=908.227724075 src=96:a6:68:8f:e7:84 dst=56:81:e5:5f:9b:cc 
+SEND time=908.235996008 src=fa:4a:17:11:76:da dst=9a:01:1a:18:88:f5 path=[2, 3]
+RECV time=908.236968994 src=fa:4a:17:11:76:da dst=9a:01:1a:18:88:f5 
+SEND time=908.237905025 src=9a:01:1a:18:88:f5 dst=fa:4a:17:11:76:da path=[3, 2]
+RECV time=908.238782883 src=9a:01:1a:18:88:f5 dst=fa:4a:17:11:76:da 
+SEND time=908.243643045 src=22:98:63:f2:ab:71 dst=9a:01:1a:18:88:f5 path=[2, 3]
+RECV time=908.244519949 src=22:98:63:f2:ab:71 dst=9a:01:1a:18:88:f5 
+SEND time=908.245466948 src=9a:01:1a:18:88:f5 dst=22:98:63:f2:ab:71 path=[3, 2]
+RECV time=908.246299982 src=9a:01:1a:18:88:f5 dst=22:98:63:f2:ab:71 
+SEND time=908.251246929 src=5e:97:93:f8:c8:3b dst=9a:01:1a:18:88:f5 path=[2, 3, 4]
+RECV time=908.252861977 src=5e:97:93:f8:c8:3b dst=9a:01:1a:18:88:f5 
+SEND time=908.253782034 src=9a:01:1a:18:88:f5 dst=5e:97:93:f8:c8:3b path=[4, 3, 2]
+RECV time=908.255343914 src=9a:01:1a:18:88:f5 dst=5e:97:93:f8:c8:3b 
+SEND time=908.261435986 src=c6:ef:90:2f:5d:3b dst=9a:01:1a:18:88:f5 path=[2, 3, 4]
+RECV time=908.263612986 src=c6:ef:90:2f:5d:3b dst=9a:01:1a:18:88:f5 
+SEND time=908.265428066 src=9a:01:1a:18:88:f5 dst=c6:ef:90:2f:5d:3b path=[4, 3, 2]
+RECV time=908.267251968 src=9a:01:1a:18:88:f5 dst=c6:ef:90:2f:5d:3b 
+SEND time=908.272332907 src=56:81:e5:5f:9b:cc dst=9a:01:1a:18:88:f5 path=[2, 3, 4]
+RECV time=908.274081945 src=56:81:e5:5f:9b:cc dst=9a:01:1a:18:88:f5 
+SEND time=908.274946928 src=9a:01:1a:18:88:f5 dst=56:81:e5:5f:9b:cc path=[4, 3, 2]
+RECV time=908.276566982 src=9a:01:1a:18:88:f5 dst=56:81:e5:5f:9b:cc 
+SEND time=908.285962105 src=22:98:63:f2:ab:71 dst=fa:4a:17:11:76:da path=[3]
+RECV time=908.286005974 src=22:98:63:f2:ab:71 dst=fa:4a:17:11:76:da 
+SEND time=908.287617922 src=fa:4a:17:11:76:da dst=22:98:63:f2:ab:71 path=[3]
+RECV time=908.287642002 src=fa:4a:17:11:76:da dst=22:98:63:f2:ab:71 
+SEND time=908.294626951 src=5e:97:93:f8:c8:3b dst=fa:4a:17:11:76:da path=[3, 4]
+RECV time=908.296559095 src=5e:97:93:f8:c8:3b dst=fa:4a:17:11:76:da 
+SEND time=908.29798007 src=fa:4a:17:11:76:da dst=5e:97:93:f8:c8:3b path=[4, 3]
+RECV time=908.298903942 src=fa:4a:17:11:76:da dst=5e:97:93:f8:c8:3b 
+SEND time=908.304231882 src=c6:ef:90:2f:5d:3b dst=fa:4a:17:11:76:da path=[3, 4]
+RECV time=908.305216074 src=c6:ef:90:2f:5d:3b dst=fa:4a:17:11:76:da 
+SEND time=908.306196928 src=fa:4a:17:11:76:da dst=c6:ef:90:2f:5d:3b path=[4, 3]
+RECV time=908.307085991 src=fa:4a:17:11:76:da dst=c6:ef:90:2f:5d:3b 
+SEND time=908.312403917 src=56:81:e5:5f:9b:cc dst=fa:4a:17:11:76:da path=[3, 4]
+RECV time=908.31509304 src=56:81:e5:5f:9b:cc dst=fa:4a:17:11:76:da 
+SEND time=908.318367958 src=fa:4a:17:11:76:da dst=56:81:e5:5f:9b:cc path=[4, 3]
+RECV time=908.320849895 src=fa:4a:17:11:76:da dst=56:81:e5:5f:9b:cc 
+SEND time=908.330404997 src=5e:97:93:f8:c8:3b dst=22:98:63:f2:ab:71 path=[3, 4]
+RECV time=908.33258605 src=5e:97:93:f8:c8:3b dst=22:98:63:f2:ab:71 
+SEND time=908.333671093 src=22:98:63:f2:ab:71 dst=5e:97:93:f8:c8:3b path=[4, 3]
+RECV time=908.334614038 src=22:98:63:f2:ab:71 dst=5e:97:93:f8:c8:3b 
+SEND time=908.340159893 src=c6:ef:90:2f:5d:3b dst=22:98:63:f2:ab:71 path=[3, 4]
+RECV time=908.341191053 src=c6:ef:90:2f:5d:3b dst=22:98:63:f2:ab:71 
+SEND time=908.342150927 src=22:98:63:f2:ab:71 dst=c6:ef:90:2f:5d:3b path=[4, 3]
+RECV time=908.343141079 src=22:98:63:f2:ab:71 dst=c6:ef:90:2f:5d:3b 
+SEND time=908.348356962 src=56:81:e5:5f:9b:cc dst=22:98:63:f2:ab:71 path=[3, 4]
+RECV time=908.349340916 src=56:81:e5:5f:9b:cc dst=22:98:63:f2:ab:71 
+SEND time=908.350250006 src=22:98:63:f2:ab:71 dst=56:81:e5:5f:9b:cc path=[4, 3]
+RECV time=908.351440907 src=22:98:63:f2:ab:71 dst=56:81:e5:5f:9b:cc 
+SEND time=908.365283966 src=c6:ef:90:2f:5d:3b dst=5e:97:93:f8:c8:3b path=[4]
+RECV time=908.365344048 src=c6:ef:90:2f:5d:3b dst=5e:97:93:f8:c8:3b 
+SEND time=908.36737299 src=5e:97:93:f8:c8:3b dst=c6:ef:90:2f:5d:3b path=[4]
+RECV time=908.367408037 src=5e:97:93:f8:c8:3b dst=c6:ef:90:2f:5d:3b 
+SEND time=908.371330023 src=56:81:e5:5f:9b:cc dst=5e:97:93:f8:c8:3b path=[4]
+RECV time=908.371362925 src=56:81:e5:5f:9b:cc dst=5e:97:93:f8:c8:3b 
+SEND time=908.372658968 src=5e:97:93:f8:c8:3b dst=56:81:e5:5f:9b:cc path=[4]
+RECV time=908.372687101 src=5e:97:93:f8:c8:3b dst=56:81:e5:5f:9b:cc 
+SEND time=908.383462906 src=56:81:e5:5f:9b:cc dst=c6:ef:90:2f:5d:3b path=[4]
+RECV time=908.383516073 src=56:81:e5:5f:9b:cc dst=c6:ef:90:2f:5d:3b 
+SEND time=908.385629892 src=c6:ef:90:2f:5d:3b dst=56:81:e5:5f:9b:cc path=[4]
+RECV time=908.38568306 src=c6:ef:90:2f:5d:3b dst=56:81:e5:5f:9b:cc 
+SEND time=933.323276043 src=f6:3d:b3:d2:90:b6 dst=72:7a:4b:89:e7:c3 path=[1, 2]
+RECV time=933.326900959 src=f6:3d:b3:d2:90:b6 dst=72:7a:4b:89:e7:c3 
+SEND time=933.329794884 src=72:7a:4b:89:e7:c3 dst=f6:3d:b3:d2:90:b6 path=[2, 1]
+RECV time=933.33328104 src=72:7a:4b:89:e7:c3 dst=f6:3d:b3:d2:90:b6 
+SEND time=933.340442896 src=46:41:e0:9c:27:00 dst=72:7a:4b:89:e7:c3 path=[1, 2, 3]
+RECV time=933.343401909 src=46:41:e0:9c:27:00 dst=72:7a:4b:89:e7:c3 
+SEND time=933.344428062 src=72:7a:4b:89:e7:c3 dst=46:41:e0:9c:27:00 path=[3, 2, 1]
+RECV time=933.348803043 src=72:7a:4b:89:e7:c3 dst=46:41:e0:9c:27:00 
+SEND time=933.354676008 src=82:a8:7d:81:bf:da dst=72:7a:4b:89:e7:c3 path=[1, 2, 3]
+RECV time=933.35649395 src=82:a8:7d:81:bf:da dst=72:7a:4b:89:e7:c3 
+SEND time=933.357496023 src=72:7a:4b:89:e7:c3 dst=82:a8:7d:81:bf:da path=[3, 2, 1]
+RECV time=933.359750032 src=72:7a:4b:89:e7:c3 dst=82:a8:7d:81:bf:da 
+SEND time=933.365617037 src=8a:02:41:6e:f6:52 dst=72:7a:4b:89:e7:c3 path=[1, 2, 3, 4]
+RECV time=933.369009018 src=8a:02:41:6e:f6:52 dst=72:7a:4b:89:e7:c3 
+SEND time=933.369950056 src=72:7a:4b:89:e7:c3 dst=8a:02:41:6e:f6:52 path=[4, 3, 2, 1]
+RECV time=933.372492075 src=72:7a:4b:89:e7:c3 dst=8a:02:41:6e:f6:52 
+SEND time=933.378418922 src=c6:e6:fd:9e:f2:70 dst=72:7a:4b:89:e7:c3 path=[1, 2, 3, 4]
+RECV time=933.382575035 src=c6:e6:fd:9e:f2:70 dst=72:7a:4b:89:e7:c3 
+SEND time=933.383512974 src=72:7a:4b:89:e7:c3 dst=c6:e6:fd:9e:f2:70 path=[4, 3, 2, 1]
+RECV time=933.386112928 src=72:7a:4b:89:e7:c3 dst=c6:e6:fd:9e:f2:70 
+SEND time=933.39151001 src=fe:9d:28:53:46:aa dst=72:7a:4b:89:e7:c3 path=[1, 2, 3, 4]
+RECV time=933.394156933 src=fe:9d:28:53:46:aa dst=72:7a:4b:89:e7:c3 
+SEND time=933.395054102 src=72:7a:4b:89:e7:c3 dst=fe:9d:28:53:46:aa path=[4, 3, 2, 1]
+RECV time=933.397705078 src=72:7a:4b:89:e7:c3 dst=fe:9d:28:53:46:aa 
+SEND time=933.404350996 src=46:41:e0:9c:27:00 dst=f6:3d:b3:d2:90:b6 path=[2, 3]
+RECV time=933.405606031 src=46:41:e0:9c:27:00 dst=f6:3d:b3:d2:90:b6 
+SEND time=933.406419992 src=f6:3d:b3:d2:90:b6 dst=46:41:e0:9c:27:00 path=[3, 2]
+RECV time=933.407244921 src=f6:3d:b3:d2:90:b6 dst=46:41:e0:9c:27:00 
+SEND time=933.412652016 src=82:a8:7d:81:bf:da dst=f6:3d:b3:d2:90:b6 path=[2, 3]
+RECV time=933.414344072 src=82:a8:7d:81:bf:da dst=f6:3d:b3:d2:90:b6 
+SEND time=933.415323973 src=f6:3d:b3:d2:90:b6 dst=82:a8:7d:81:bf:da path=[3, 2]
+RECV time=933.416110992 src=f6:3d:b3:d2:90:b6 dst=82:a8:7d:81:bf:da 
+SEND time=933.421056986 src=8a:02:41:6e:f6:52 dst=f6:3d:b3:d2:90:b6 path=[2, 3, 4]
+RECV time=933.42287302 src=8a:02:41:6e:f6:52 dst=f6:3d:b3:d2:90:b6 
+SEND time=933.423760891 src=f6:3d:b3:d2:90:b6 dst=8a:02:41:6e:f6:52 path=[4, 3, 2]
+RECV time=933.425359964 src=f6:3d:b3:d2:90:b6 dst=8a:02:41:6e:f6:52 
+SEND time=933.430692911 src=c6:e6:fd:9e:f2:70 dst=f6:3d:b3:d2:90:b6 path=[2, 3, 4]
+RECV time=933.433096886 src=c6:e6:fd:9e:f2:70 dst=f6:3d:b3:d2:90:b6 
+SEND time=933.434544086 src=f6:3d:b3:d2:90:b6 dst=c6:e6:fd:9e:f2:70 path=[4, 3, 2]
+RECV time=933.437591076 src=f6:3d:b3:d2:90:b6 dst=c6:e6:fd:9e:f2:70 
+SEND time=933.44371295 src=fe:9d:28:53:46:aa dst=f6:3d:b3:d2:90:b6 path=[2, 3, 4]
+RECV time=933.447577 src=fe:9d:28:53:46:aa dst=f6:3d:b3:d2:90:b6 
+SEND time=933.449173927 src=f6:3d:b3:d2:90:b6 dst=fe:9d:28:53:46:aa path=[4, 3, 2]
+RECV time=933.451103926 src=f6:3d:b3:d2:90:b6 dst=fe:9d:28:53:46:aa 
+SEND time=933.4580369 src=82:a8:7d:81:bf:da dst=46:41:e0:9c:27:00 path=[3]
+RECV time=933.458070993 src=82:a8:7d:81:bf:da dst=46:41:e0:9c:27:00 
+SEND time=933.460078001 src=46:41:e0:9c:27:00 dst=82:a8:7d:81:bf:da path=[3]
+RECV time=933.460131884 src=46:41:e0:9c:27:00 dst=82:a8:7d:81:bf:da 
+SEND time=933.467602015 src=8a:02:41:6e:f6:52 dst=46:41:e0:9c:27:00 path=[3, 4]
+RECV time=933.468606949 src=8a:02:41:6e:f6:52 dst=46:41:e0:9c:27:00 
+SEND time=933.46965909 src=46:41:e0:9c:27:00 dst=8a:02:41:6e:f6:52 path=[4, 3]
+RECV time=933.470504999 src=46:41:e0:9c:27:00 dst=8a:02:41:6e:f6:52 
+SEND time=933.475703955 src=c6:e6:fd:9e:f2:70 dst=46:41:e0:9c:27:00 path=[3, 4]
+RECV time=933.476567984 src=c6:e6:fd:9e:f2:70 dst=46:41:e0:9c:27:00 
+SEND time=933.477520943 src=46:41:e0:9c:27:00 dst=c6:e6:fd:9e:f2:70 path=[4, 3]
+RECV time=933.479892969 src=46:41:e0:9c:27:00 dst=c6:e6:fd:9e:f2:70 
+SEND time=933.486177921 src=fe:9d:28:53:46:aa dst=46:41:e0:9c:27:00 path=[3, 4]
+RECV time=933.487123013 src=fe:9d:28:53:46:aa dst=46:41:e0:9c:27:00 
+SEND time=933.48803401 src=46:41:e0:9c:27:00 dst=fe:9d:28:53:46:aa path=[4, 3]
+RECV time=933.488977909 src=46:41:e0:9c:27:00 dst=fe:9d:28:53:46:aa 
+SEND time=933.499516964 src=8a:02:41:6e:f6:52 dst=82:a8:7d:81:bf:da path=[3, 4]
+RECV time=933.50112009 src=8a:02:41:6e:f6:52 dst=82:a8:7d:81:bf:da 
+SEND time=933.502191067 src=82:a8:7d:81:bf:da dst=8a:02:41:6e:f6:52 path=[4, 3]
+RECV time=933.503134966 src=82:a8:7d:81:bf:da dst=8a:02:41:6e:f6:52 
+SEND time=933.508168936 src=c6:e6:fd:9e:f2:70 dst=82:a8:7d:81:bf:da path=[3, 4]
+RECV time=933.509119034 src=c6:e6:fd:9e:f2:70 dst=82:a8:7d:81:bf:da 
+SEND time=933.510164976 src=82:a8:7d:81:bf:da dst=c6:e6:fd:9e:f2:70 path=[4, 3]
+RECV time=933.511087894 src=82:a8:7d:81:bf:da dst=c6:e6:fd:9e:f2:70 
+SEND time=933.516135931 src=fe:9d:28:53:46:aa dst=82:a8:7d:81:bf:da path=[3, 4]
+RECV time=933.517160892 src=fe:9d:28:53:46:aa dst=82:a8:7d:81:bf:da 
+SEND time=933.518069029 src=82:a8:7d:81:bf:da dst=fe:9d:28:53:46:aa path=[4, 3]
+RECV time=933.518974066 src=82:a8:7d:81:bf:da dst=fe:9d:28:53:46:aa 
+SEND time=933.530364037 src=c6:e6:fd:9e:f2:70 dst=8a:02:41:6e:f6:52 path=[4]
+RECV time=933.530401945 src=c6:e6:fd:9e:f2:70 dst=8a:02:41:6e:f6:52 
+SEND time=933.532188892 src=8a:02:41:6e:f6:52 dst=c6:e6:fd:9e:f2:70 path=[4]
+RECV time=933.532213926 src=8a:02:41:6e:f6:52 dst=c6:e6:fd:9e:f2:70 
+SEND time=933.536076069 src=fe:9d:28:53:46:aa dst=8a:02:41:6e:f6:52 path=[4]
+RECV time=933.536108971 src=fe:9d:28:53:46:aa dst=8a:02:41:6e:f6:52 
+SEND time=933.537437916 src=8a:02:41:6e:f6:52 dst=fe:9d:28:53:46:aa path=[4]
+RECV time=933.53747797 src=8a:02:41:6e:f6:52 dst=fe:9d:28:53:46:aa 
+SEND time=933.549530983 src=fe:9d:28:53:46:aa dst=c6:e6:fd:9e:f2:70 path=[4]
+RECV time=933.549570084 src=fe:9d:28:53:46:aa dst=c6:e6:fd:9e:f2:70 
+SEND time=933.551560879 src=c6:e6:fd:9e:f2:70 dst=fe:9d:28:53:46:aa path=[4]
+RECV time=933.551589966 src=c6:e6:fd:9e:f2:70 dst=fe:9d:28:53:46:aa 
+SEND time=956.598865986 src=a2:3a:c5:d8:50:3f dst=32:68:0b:43:17:d1 path=[1, 2]
+RECV time=956.604038954 src=a2:3a:c5:d8:50:3f dst=32:68:0b:43:17:d1 
+SEND time=956.611316919 src=32:68:0b:43:17:d1 dst=a2:3a:c5:d8:50:3f path=[2, 1]
+RECV time=956.61363101 src=32:68:0b:43:17:d1 dst=a2:3a:c5:d8:50:3f 
+SEND time=956.626075029 src=4a:38:54:12:26:1c dst=32:68:0b:43:17:d1 path=[1, 2, 3]
+RECV time=956.630256891 src=4a:38:54:12:26:1c dst=32:68:0b:43:17:d1 
+SEND time=956.631740093 src=32:68:0b:43:17:d1 dst=4a:38:54:12:26:1c path=[3, 2, 1]
+RECV time=956.633773088 src=32:68:0b:43:17:d1 dst=4a:38:54:12:26:1c 
+SEND time=956.639376879 src=02:03:74:7b:ad:15 dst=32:68:0b:43:17:d1 path=[1, 2, 3]
+RECV time=956.641236067 src=02:03:74:7b:ad:15 dst=32:68:0b:43:17:d1 
+SEND time=956.642276049 src=32:68:0b:43:17:d1 dst=02:03:74:7b:ad:15 path=[3, 2, 1]
+RECV time=956.644488096 src=32:68:0b:43:17:d1 dst=02:03:74:7b:ad:15 
+SEND time=956.650162935 src=8a:f0:32:36:a1:d6 dst=32:68:0b:43:17:d1 path=[1, 2, 3, 4]
+RECV time=956.653109074 src=8a:f0:32:36:a1:d6 dst=32:68:0b:43:17:d1 
+SEND time=956.654227972 src=32:68:0b:43:17:d1 dst=8a:f0:32:36:a1:d6 path=[4, 3, 2, 1]
+RECV time=956.656854868 src=32:68:0b:43:17:d1 dst=8a:f0:32:36:a1:d6 
+SEND time=956.666501999 src=fa:1d:9f:22:13:fc dst=32:68:0b:43:17:d1 path=[1, 2, 3, 4]
+RECV time=956.66932106 src=fa:1d:9f:22:13:fc dst=32:68:0b:43:17:d1 
+SEND time=956.670266867 src=32:68:0b:43:17:d1 dst=fa:1d:9f:22:13:fc path=[4, 3, 2, 1]
+RECV time=956.673547983 src=32:68:0b:43:17:d1 dst=fa:1d:9f:22:13:fc 
+SEND time=956.680708885 src=7a:65:a2:03:d5:27 dst=32:68:0b:43:17:d1 path=[1, 2, 3, 4]
+RECV time=956.683621883 src=7a:65:a2:03:d5:27 dst=32:68:0b:43:17:d1 
+SEND time=956.684503078 src=32:68:0b:43:17:d1 dst=7a:65:a2:03:d5:27 path=[4, 3, 2, 1]
+RECV time=956.687098026 src=32:68:0b:43:17:d1 dst=7a:65:a2:03:d5:27 
+SEND time=956.694711924 src=4a:38:54:12:26:1c dst=a2:3a:c5:d8:50:3f path=[2, 3]
+RECV time=956.695632935 src=4a:38:54:12:26:1c dst=a2:3a:c5:d8:50:3f 
+SEND time=956.696460009 src=a2:3a:c5:d8:50:3f dst=4a:38:54:12:26:1c path=[3, 2]
+RECV time=956.697254896 src=a2:3a:c5:d8:50:3f dst=4a:38:54:12:26:1c 
+SEND time=956.702121019 src=02:03:74:7b:ad:15 dst=a2:3a:c5:d8:50:3f path=[2, 3]
+RECV time=956.702959061 src=02:03:74:7b:ad:15 dst=a2:3a:c5:d8:50:3f 
+SEND time=956.703957081 src=a2:3a:c5:d8:50:3f dst=02:03:74:7b:ad:15 path=[3, 2]
+RECV time=956.705734968 src=a2:3a:c5:d8:50:3f dst=02:03:74:7b:ad:15 
+SEND time=956.712784052 src=8a:f0:32:36:a1:d6 dst=a2:3a:c5:d8:50:3f path=[2, 3, 4]
+RECV time=956.714940071 src=8a:f0:32:36:a1:d6 dst=a2:3a:c5:d8:50:3f 
+SEND time=956.71586895 src=a2:3a:c5:d8:50:3f dst=8a:f0:32:36:a1:d6 path=[4, 3, 2]
+RECV time=956.717680931 src=a2:3a:c5:d8:50:3f dst=8a:f0:32:36:a1:d6 
+SEND time=956.723628998 src=fa:1d:9f:22:13:fc dst=a2:3a:c5:d8:50:3f path=[2, 3, 4]
+RECV time=956.725686073 src=fa:1d:9f:22:13:fc dst=a2:3a:c5:d8:50:3f 
+SEND time=956.727425098 src=a2:3a:c5:d8:50:3f dst=fa:1d:9f:22:13:fc path=[4, 3, 2]
+RECV time=956.73113203 src=a2:3a:c5:d8:50:3f dst=fa:1d:9f:22:13:fc 
+SEND time=956.737102985 src=7a:65:a2:03:d5:27 dst=a2:3a:c5:d8:50:3f path=[2, 3, 4]
+RECV time=956.739104986 src=7a:65:a2:03:d5:27 dst=a2:3a:c5:d8:50:3f 
+SEND time=956.740196943 src=a2:3a:c5:d8:50:3f dst=7a:65:a2:03:d5:27 path=[4, 3, 2]
+RECV time=956.741980076 src=a2:3a:c5:d8:50:3f dst=7a:65:a2:03:d5:27 
+SEND time=956.750742912 src=02:03:74:7b:ad:15 dst=4a:38:54:12:26:1c path=[3]
+RECV time=956.750776052 src=02:03:74:7b:ad:15 dst=4a:38:54:12:26:1c 
+SEND time=956.752790928 src=4a:38:54:12:26:1c dst=02:03:74:7b:ad:15 path=[3]
+RECV time=956.752816916 src=4a:38:54:12:26:1c dst=02:03:74:7b:ad:15 
+SEND time=956.757963896 src=8a:f0:32:36:a1:d6 dst=4a:38:54:12:26:1c path=[3, 4]
+RECV time=956.758878946 src=8a:f0:32:36:a1:d6 dst=4a:38:54:12:26:1c 
+SEND time=956.759737015 src=4a:38:54:12:26:1c dst=8a:f0:32:36:a1:d6 path=[4, 3]
+RECV time=956.76048708 src=4a:38:54:12:26:1c dst=8a:f0:32:36:a1:d6 
+SEND time=956.765161037 src=fa:1d:9f:22:13:fc dst=4a:38:54:12:26:1c path=[3, 4]
+RECV time=956.766108036 src=fa:1d:9f:22:13:fc dst=4a:38:54:12:26:1c 
+SEND time=956.768110991 src=4a:38:54:12:26:1c dst=fa:1d:9f:22:13:fc path=[4, 3]
+RECV time=956.769597054 src=4a:38:54:12:26:1c dst=fa:1d:9f:22:13:fc 
+SEND time=956.775439978 src=7a:65:a2:03:d5:27 dst=4a:38:54:12:26:1c path=[3, 4]
+RECV time=956.777400017 src=7a:65:a2:03:d5:27 dst=4a:38:54:12:26:1c 
+SEND time=956.779563904 src=4a:38:54:12:26:1c dst=7a:65:a2:03:d5:27 path=[4, 3]
+RECV time=956.781114101 src=4a:38:54:12:26:1c dst=7a:65:a2:03:d5:27 
+SEND time=956.789942026 src=8a:f0:32:36:a1:d6 dst=02:03:74:7b:ad:15 path=[3, 4]
+RECV time=956.791264057 src=8a:f0:32:36:a1:d6 dst=02:03:74:7b:ad:15 
+SEND time=956.792402029 src=02:03:74:7b:ad:15 dst=8a:f0:32:36:a1:d6 path=[4, 3]
+RECV time=956.793431044 src=02:03:74:7b:ad:15 dst=8a:f0:32:36:a1:d6 
+SEND time=956.798772097 src=fa:1d:9f:22:13:fc dst=02:03:74:7b:ad:15 path=[3, 4]
+RECV time=956.800163031 src=fa:1d:9f:22:13:fc dst=02:03:74:7b:ad:15 
+SEND time=956.801590919 src=02:03:74:7b:ad:15 dst=fa:1d:9f:22:13:fc path=[4, 3]
+RECV time=956.802855015 src=02:03:74:7b:ad:15 dst=fa:1d:9f:22:13:fc 
+SEND time=956.809117079 src=7a:65:a2:03:d5:27 dst=02:03:74:7b:ad:15 path=[3, 4]
+RECV time=956.81043601 src=7a:65:a2:03:d5:27 dst=02:03:74:7b:ad:15 
+SEND time=956.813641071 src=02:03:74:7b:ad:15 dst=7a:65:a2:03:d5:27 path=[4, 3]
+RECV time=956.815850019 src=02:03:74:7b:ad:15 dst=7a:65:a2:03:d5:27 
+SEND time=956.825304985 src=fa:1d:9f:22:13:fc dst=8a:f0:32:36:a1:d6 path=[4]
+RECV time=956.825340986 src=fa:1d:9f:22:13:fc dst=8a:f0:32:36:a1:d6 
+SEND time=956.826788902 src=8a:f0:32:36:a1:d6 dst=fa:1d:9f:22:13:fc path=[4]
+RECV time=956.826821089 src=8a:f0:32:36:a1:d6 dst=fa:1d:9f:22:13:fc 
+SEND time=956.832048893 src=7a:65:a2:03:d5:27 dst=8a:f0:32:36:a1:d6 path=[4]
+RECV time=956.832105875 src=7a:65:a2:03:d5:27 dst=8a:f0:32:36:a1:d6 
+SEND time=956.833909988 src=8a:f0:32:36:a1:d6 dst=7a:65:a2:03:d5:27 path=[4]
+RECV time=956.833940983 src=8a:f0:32:36:a1:d6 dst=7a:65:a2:03:d5:27 
+SEND time=956.846106052 src=7a:65:a2:03:d5:27 dst=fa:1d:9f:22:13:fc path=[4]
+RECV time=956.846168041 src=7a:65:a2:03:d5:27 dst=fa:1d:9f:22:13:fc 
+SEND time=956.848006964 src=fa:1d:9f:22:13:fc dst=7a:65:a2:03:d5:27 path=[4]
+RECV time=956.848040104 src=fa:1d:9f:22:13:fc dst=7a:65:a2:03:d5:27 
+SEND time=979.967495918 src=9e:a7:b6:80:bd:71 dst=aa:10:77:18:bb:94 path=[1, 2]
+RECV time=979.97199893 src=9e:a7:b6:80:bd:71 dst=aa:10:77:18:bb:94 
+SEND time=979.97913003 src=aa:10:77:18:bb:94 dst=9e:a7:b6:80:bd:71 path=[2, 1]
+RECV time=979.983829021 src=aa:10:77:18:bb:94 dst=9e:a7:b6:80:bd:71 
+SEND time=979.992776871 src=d6:6d:d4:87:3a:71 dst=aa:10:77:18:bb:94 path=[1, 2, 3]
+RECV time=979.995493889 src=d6:6d:d4:87:3a:71 dst=aa:10:77:18:bb:94 
+SEND time=979.99686408 src=aa:10:77:18:bb:94 dst=d6:6d:d4:87:3a:71 path=[3, 2, 1]
+RECV time=979.999459028 src=aa:10:77:18:bb:94 dst=d6:6d:d4:87:3a:71 
+SEND time=980.010055065 src=22:11:9a:b9:af:8e dst=aa:10:77:18:bb:94 path=[1, 2, 3]
+RECV time=980.012837887 src=22:11:9a:b9:af:8e dst=aa:10:77:18:bb:94 
+SEND time=980.014574051 src=aa:10:77:18:bb:94 dst=22:11:9a:b9:af:8e path=[3, 2, 1]
+RECV time=980.017111063 src=aa:10:77:18:bb:94 dst=22:11:9a:b9:af:8e 
+SEND time=980.024790049 src=26:f8:a3:2c:50:13 dst=aa:10:77:18:bb:94 path=[1, 2, 3, 4]
+RECV time=980.027945042 src=26:f8:a3:2c:50:13 dst=aa:10:77:18:bb:94 
+SEND time=980.028846979 src=aa:10:77:18:bb:94 dst=26:f8:a3:2c:50:13 path=[4, 3, 2, 1]
+RECV time=980.031917095 src=aa:10:77:18:bb:94 dst=26:f8:a3:2c:50:13 
+SEND time=980.037721872 src=9a:8b:ad:2f:33:5f dst=aa:10:77:18:bb:94 path=[1, 2, 3, 4]
+RECV time=980.042093992 src=9a:8b:ad:2f:33:5f dst=aa:10:77:18:bb:94 
+SEND time=980.043008089 src=aa:10:77:18:bb:94 dst=9a:8b:ad:2f:33:5f path=[4, 3, 2, 1]
+RECV time=980.045706034 src=aa:10:77:18:bb:94 dst=9a:8b:ad:2f:33:5f 
+SEND time=980.051398993 src=26:2f:d7:06:78:8e dst=aa:10:77:18:bb:94 path=[1, 2, 3, 4]
+RECV time=980.054117918 src=26:2f:d7:06:78:8e dst=aa:10:77:18:bb:94 
+SEND time=980.055034876 src=aa:10:77:18:bb:94 dst=26:2f:d7:06:78:8e path=[4, 3, 2, 1]
+RECV time=980.057774067 src=aa:10:77:18:bb:94 dst=26:2f:d7:06:78:8e 
+SEND time=980.063968897 src=d6:6d:d4:87:3a:71 dst=9e:a7:b6:80:bd:71 path=[2, 3]
+RECV time=980.064826012 src=d6:6d:d4:87:3a:71 dst=9e:a7:b6:80:bd:71 
+SEND time=980.065747976 src=9e:a7:b6:80:bd:71 dst=d6:6d:d4:87:3a:71 path=[3, 2]
+RECV time=980.066804886 src=9e:a7:b6:80:bd:71 dst=d6:6d:d4:87:3a:71 
+SEND time=980.075112104 src=22:11:9a:b9:af:8e dst=9e:a7:b6:80:bd:71 path=[2, 3]
+RECV time=980.07605195 src=22:11:9a:b9:af:8e dst=9e:a7:b6:80:bd:71 
+SEND time=980.077058077 src=9e:a7:b6:80:bd:71 dst=22:11:9a:b9:af:8e path=[3, 2]
+RECV time=980.077970982 src=9e:a7:b6:80:bd:71 dst=22:11:9a:b9:af:8e 
+SEND time=980.083362103 src=26:f8:a3:2c:50:13 dst=9e:a7:b6:80:bd:71 path=[2, 3, 4]
+RECV time=980.085202932 src=26:f8:a3:2c:50:13 dst=9e:a7:b6:80:bd:71 
+SEND time=980.08613205 src=9e:a7:b6:80:bd:71 dst=26:f8:a3:2c:50:13 path=[4, 3, 2]
+RECV time=980.0880301 src=9e:a7:b6:80:bd:71 dst=26:f8:a3:2c:50:13 
+SEND time=980.095767975 src=9a:8b:ad:2f:33:5f dst=9e:a7:b6:80:bd:71 path=[2, 3, 4]
+RECV time=980.097941875 src=9a:8b:ad:2f:33:5f dst=9e:a7:b6:80:bd:71 
+SEND time=980.098943949 src=9e:a7:b6:80:bd:71 dst=9a:8b:ad:2f:33:5f path=[4, 3, 2]
+RECV time=980.100563049 src=9e:a7:b6:80:bd:71 dst=9a:8b:ad:2f:33:5f 
+SEND time=980.106981993 src=26:2f:d7:06:78:8e dst=9e:a7:b6:80:bd:71 path=[2, 3, 4]
+RECV time=980.109354019 src=26:2f:d7:06:78:8e dst=9e:a7:b6:80:bd:71 
+SEND time=980.110294104 src=9e:a7:b6:80:bd:71 dst=26:2f:d7:06:78:8e path=[4, 3, 2]
+RECV time=980.112046957 src=9e:a7:b6:80:bd:71 dst=26:2f:d7:06:78:8e 
+SEND time=980.118937969 src=22:11:9a:b9:af:8e dst=d6:6d:d4:87:3a:71 path=[3]
+RECV time=980.118970871 src=22:11:9a:b9:af:8e dst=d6:6d:d4:87:3a:71 
+SEND time=980.120554924 src=d6:6d:d4:87:3a:71 dst=22:11:9a:b9:af:8e path=[3]
+RECV time=980.120580912 src=d6:6d:d4:87:3a:71 dst=22:11:9a:b9:af:8e 
+SEND time=980.125391006 src=26:f8:a3:2c:50:13 dst=d6:6d:d4:87:3a:71 path=[3, 4]
+RECV time=980.126245022 src=26:f8:a3:2c:50:13 dst=d6:6d:d4:87:3a:71 
+SEND time=980.127104044 src=d6:6d:d4:87:3a:71 dst=26:f8:a3:2c:50:13 path=[4, 3]
+RECV time=980.127990961 src=d6:6d:d4:87:3a:71 dst=26:f8:a3:2c:50:13 
+SEND time=980.135454893 src=9a:8b:ad:2f:33:5f dst=d6:6d:d4:87:3a:71 path=[3, 4]
+RECV time=980.136565924 src=9a:8b:ad:2f:33:5f dst=d6:6d:d4:87:3a:71 
+SEND time=980.138931036 src=d6:6d:d4:87:3a:71 dst=9a:8b:ad:2f:33:5f path=[4, 3]
+RECV time=980.141422033 src=d6:6d:d4:87:3a:71 dst=9a:8b:ad:2f:33:5f 
+SEND time=980.1473279 src=26:2f:d7:06:78:8e dst=d6:6d:d4:87:3a:71 path=[3, 4]
+RECV time=980.148259878 src=26:2f:d7:06:78:8e dst=d6:6d:d4:87:3a:71 
+SEND time=980.149188042 src=d6:6d:d4:87:3a:71 dst=26:2f:d7:06:78:8e path=[4, 3]
+RECV time=980.150032997 src=d6:6d:d4:87:3a:71 dst=26:2f:d7:06:78:8e 
+SEND time=980.159250021 src=26:f8:a3:2c:50:13 dst=22:11:9a:b9:af:8e path=[3, 4]
+RECV time=980.162868023 src=26:f8:a3:2c:50:13 dst=22:11:9a:b9:af:8e 
+SEND time=980.164534092 src=22:11:9a:b9:af:8e dst=26:f8:a3:2c:50:13 path=[4, 3]
+RECV time=980.16594696 src=22:11:9a:b9:af:8e dst=26:f8:a3:2c:50:13 
+SEND time=980.17199707 src=9a:8b:ad:2f:33:5f dst=22:11:9a:b9:af:8e path=[3, 4]
+RECV time=980.174413919 src=9a:8b:ad:2f:33:5f dst=22:11:9a:b9:af:8e 
+SEND time=980.176310062 src=22:11:9a:b9:af:8e dst=9a:8b:ad:2f:33:5f path=[4, 3]
+RECV time=980.177419901 src=22:11:9a:b9:af:8e dst=9a:8b:ad:2f:33:5f 
+SEND time=980.182718992 src=26:2f:d7:06:78:8e dst=22:11:9a:b9:af:8e path=[3, 4]
+RECV time=980.183634996 src=26:2f:d7:06:78:8e dst=22:11:9a:b9:af:8e 
+SEND time=980.184563875 src=22:11:9a:b9:af:8e dst=26:2f:d7:06:78:8e path=[4, 3]
+RECV time=980.185554028 src=22:11:9a:b9:af:8e dst=26:2f:d7:06:78:8e 
+SEND time=980.196460009 src=9a:8b:ad:2f:33:5f dst=26:f8:a3:2c:50:13 path=[4]
+RECV time=980.196515083 src=9a:8b:ad:2f:33:5f dst=26:f8:a3:2c:50:13 
+SEND time=980.198433876 src=26:f8:a3:2c:50:13 dst=9a:8b:ad:2f:33:5f path=[4]
+RECV time=980.198467016 src=26:f8:a3:2c:50:13 dst=9a:8b:ad:2f:33:5f 
+SEND time=980.202914 src=26:2f:d7:06:78:8e dst=26:f8:a3:2c:50:13 path=[4]
+RECV time=980.202945948 src=26:2f:d7:06:78:8e dst=26:f8:a3:2c:50:13 
+SEND time=980.204226971 src=26:f8:a3:2c:50:13 dst=26:2f:d7:06:78:8e path=[4]
+RECV time=980.204252958 src=26:f8:a3:2c:50:13 dst=26:2f:d7:06:78:8e 
+SEND time=980.217531919 src=26:2f:d7:06:78:8e dst=9a:8b:ad:2f:33:5f path=[4]
+RECV time=980.217566967 src=26:2f:d7:06:78:8e dst=9a:8b:ad:2f:33:5f 
+SEND time=980.219004869 src=9a:8b:ad:2f:33:5f dst=26:2f:d7:06:78:8e path=[4]
+RECV time=980.219032049 src=9a:8b:ad:2f:33:5f dst=26:2f:d7:06:78:8e 
+SEND time=1005.33709407 src=fe:e1:d2:56:53:45 dst=3e:77:f5:c7:a6:14 path=[1, 2]
+RECV time=1005.34073591 src=fe:e1:d2:56:53:45 dst=3e:77:f5:c7:a6:14 
+SEND time=1005.34188104 src=3e:77:f5:c7:a6:14 dst=fe:e1:d2:56:53:45 path=[2, 1]
+RECV time=1005.34326696 src=3e:77:f5:c7:a6:14 dst=fe:e1:d2:56:53:45 
+SEND time=1005.35331798 src=9a:1d:03:4c:8e:3b dst=3e:77:f5:c7:a6:14 path=[1, 2, 3]
+RECV time=1005.35587502 src=9a:1d:03:4c:8e:3b dst=3e:77:f5:c7:a6:14 
+SEND time=1005.35731697 src=3e:77:f5:c7:a6:14 dst=9a:1d:03:4c:8e:3b path=[3, 2, 1]
+RECV time=1005.35922694 src=3e:77:f5:c7:a6:14 dst=9a:1d:03:4c:8e:3b 
+SEND time=1005.36832905 src=46:49:ef:fc:25:a1 dst=3e:77:f5:c7:a6:14 path=[1, 2, 3]
+RECV time=1005.37043691 src=46:49:ef:fc:25:a1 dst=3e:77:f5:c7:a6:14 
+SEND time=1005.37140298 src=3e:77:f5:c7:a6:14 dst=46:49:ef:fc:25:a1 path=[3, 2, 1]
+RECV time=1005.37318301 src=3e:77:f5:c7:a6:14 dst=46:49:ef:fc:25:a1 
+SEND time=1005.37901807 src=32:0e:0c:16:66:d9 dst=3e:77:f5:c7:a6:14 path=[1, 2, 3, 4]
+RECV time=1005.38211203 src=32:0e:0c:16:66:d9 dst=3e:77:f5:c7:a6:14 
+SEND time=1005.38312101 src=3e:77:f5:c7:a6:14 dst=32:0e:0c:16:66:d9 path=[4, 3, 2, 1]
+RECV time=1005.38577604 src=3e:77:f5:c7:a6:14 dst=32:0e:0c:16:66:d9 
+SEND time=1005.39132595 src=7a:f7:e0:60:55:3a dst=3e:77:f5:c7:a6:14 path=[1, 2, 3, 4]
+RECV time=1005.39411402 src=7a:f7:e0:60:55:3a dst=3e:77:f5:c7:a6:14 
+SEND time=1005.39505792 src=3e:77:f5:c7:a6:14 dst=7a:f7:e0:60:55:3a path=[4, 3, 2, 1]
+RECV time=1005.3975389 src=3e:77:f5:c7:a6:14 dst=7a:f7:e0:60:55:3a 
+SEND time=1005.40536094 src=92:d6:49:5f:27:32 dst=3e:77:f5:c7:a6:14 path=[1, 2, 3, 4]
+RECV time=1005.40830302 src=92:d6:49:5f:27:32 dst=3e:77:f5:c7:a6:14 
+SEND time=1005.40924191 src=3e:77:f5:c7:a6:14 dst=92:d6:49:5f:27:32 path=[4, 3, 2, 1]
+RECV time=1005.41219306 src=3e:77:f5:c7:a6:14 dst=92:d6:49:5f:27:32 
+SEND time=1005.42135096 src=9a:1d:03:4c:8e:3b dst=fe:e1:d2:56:53:45 path=[2, 3]
+RECV time=1005.42234492 src=9a:1d:03:4c:8e:3b dst=fe:e1:d2:56:53:45 
+SEND time=1005.42332697 src=fe:e1:d2:56:53:45 dst=9a:1d:03:4c:8e:3b path=[3, 2]
+RECV time=1005.42421794 src=fe:e1:d2:56:53:45 dst=9a:1d:03:4c:8e:3b 
+SEND time=1005.42995787 src=46:49:ef:fc:25:a1 dst=fe:e1:d2:56:53:45 path=[2, 3]
+RECV time=1005.43095994 src=46:49:ef:fc:25:a1 dst=fe:e1:d2:56:53:45 
+SEND time=1005.4319129 src=fe:e1:d2:56:53:45 dst=46:49:ef:fc:25:a1 path=[3, 2]
+RECV time=1005.432796 src=fe:e1:d2:56:53:45 dst=46:49:ef:fc:25:a1 
+SEND time=1005.43820095 src=32:0e:0c:16:66:d9 dst=fe:e1:d2:56:53:45 path=[2, 3, 4]
+RECV time=1005.44002795 src=32:0e:0c:16:66:d9 dst=fe:e1:d2:56:53:45 
+SEND time=1005.4410069 src=fe:e1:d2:56:53:45 dst=32:0e:0c:16:66:d9 path=[4, 3, 2]
+RECV time=1005.44338489 src=fe:e1:d2:56:53:45 dst=32:0e:0c:16:66:d9 
+SEND time=1005.45128298 src=7a:f7:e0:60:55:3a dst=fe:e1:d2:56:53:45 path=[2, 3, 4]
+RECV time=1005.45319796 src=7a:f7:e0:60:55:3a dst=fe:e1:d2:56:53:45 
+SEND time=1005.4540751 src=fe:e1:d2:56:53:45 dst=7a:f7:e0:60:55:3a path=[4, 3, 2]
+RECV time=1005.45566297 src=fe:e1:d2:56:53:45 dst=7a:f7:e0:60:55:3a 
+SEND time=1005.46105695 src=92:d6:49:5f:27:32 dst=fe:e1:d2:56:53:45 path=[2, 3, 4]
+RECV time=1005.46289706 src=92:d6:49:5f:27:32 dst=fe:e1:d2:56:53:45 
+SEND time=1005.46384096 src=fe:e1:d2:56:53:45 dst=92:d6:49:5f:27:32 path=[4, 3, 2]
+RECV time=1005.46588206 src=fe:e1:d2:56:53:45 dst=92:d6:49:5f:27:32 
+SEND time=1005.47835302 src=46:49:ef:fc:25:a1 dst=9a:1d:03:4c:8e:3b path=[3]
+RECV time=1005.47839189 src=46:49:ef:fc:25:a1 dst=9a:1d:03:4c:8e:3b 
+SEND time=1005.48115587 src=9a:1d:03:4c:8e:3b dst=46:49:ef:fc:25:a1 path=[3]
+RECV time=1005.48119307 src=9a:1d:03:4c:8e:3b dst=46:49:ef:fc:25:a1 
+SEND time=1005.49000907 src=32:0e:0c:16:66:d9 dst=9a:1d:03:4c:8e:3b path=[3, 4]
+RECV time=1005.49141908 src=32:0e:0c:16:66:d9 dst=9a:1d:03:4c:8e:3b 
+SEND time=1005.49236298 src=9a:1d:03:4c:8e:3b dst=32:0e:0c:16:66:d9 path=[4, 3]
+RECV time=1005.49323988 src=9a:1d:03:4c:8e:3b dst=32:0e:0c:16:66:d9 
+SEND time=1005.49856997 src=7a:f7:e0:60:55:3a dst=9a:1d:03:4c:8e:3b path=[3, 4]
+RECV time=1005.49950004 src=7a:f7:e0:60:55:3a dst=9a:1d:03:4c:8e:3b 
+SEND time=1005.50041509 src=9a:1d:03:4c:8e:3b dst=7a:f7:e0:60:55:3a path=[4, 3]
+RECV time=1005.50135088 src=9a:1d:03:4c:8e:3b dst=7a:f7:e0:60:55:3a 
+SEND time=1005.50666809 src=92:d6:49:5f:27:32 dst=9a:1d:03:4c:8e:3b path=[3, 4]
+RECV time=1005.507936 src=92:d6:49:5f:27:32 dst=9a:1d:03:4c:8e:3b 
+SEND time=1005.50892091 src=9a:1d:03:4c:8e:3b dst=92:d6:49:5f:27:32 path=[4, 3]
+RECV time=1005.50988507 src=9a:1d:03:4c:8e:3b dst=92:d6:49:5f:27:32 
+SEND time=1005.52045989 src=32:0e:0c:16:66:d9 dst=46:49:ef:fc:25:a1 path=[3, 4]
+RECV time=1005.52181506 src=32:0e:0c:16:66:d9 dst=46:49:ef:fc:25:a1 
+SEND time=1005.52276993 src=46:49:ef:fc:25:a1 dst=32:0e:0c:16:66:d9 path=[4, 3]
+RECV time=1005.52365398 src=46:49:ef:fc:25:a1 dst=32:0e:0c:16:66:d9 
+SEND time=1005.52866101 src=7a:f7:e0:60:55:3a dst=46:49:ef:fc:25:a1 path=[3, 4]
+RECV time=1005.5296371 src=7a:f7:e0:60:55:3a dst=46:49:ef:fc:25:a1 
+SEND time=1005.53055191 src=46:49:ef:fc:25:a1 dst=7a:f7:e0:60:55:3a path=[4, 3]
+RECV time=1005.53142595 src=46:49:ef:fc:25:a1 dst=7a:f7:e0:60:55:3a 
+SEND time=1005.53654003 src=92:d6:49:5f:27:32 dst=46:49:ef:fc:25:a1 path=[3, 4]
+RECV time=1005.53803802 src=92:d6:49:5f:27:32 dst=46:49:ef:fc:25:a1 
+SEND time=1005.539186 src=46:49:ef:fc:25:a1 dst=92:d6:49:5f:27:32 path=[4, 3]
+RECV time=1005.54005003 src=46:49:ef:fc:25:a1 dst=92:d6:49:5f:27:32 
+SEND time=1005.55192995 src=7a:f7:e0:60:55:3a dst=32:0e:0c:16:66:d9 path=[4]
+RECV time=1005.552001 src=7a:f7:e0:60:55:3a dst=32:0e:0c:16:66:d9 
+SEND time=1005.55416608 src=32:0e:0c:16:66:d9 dst=7a:f7:e0:60:55:3a path=[4]
+RECV time=1005.55420208 src=32:0e:0c:16:66:d9 dst=7a:f7:e0:60:55:3a 
+SEND time=1005.55819702 src=92:d6:49:5f:27:32 dst=32:0e:0c:16:66:d9 path=[4]
+RECV time=1005.55822706 src=92:d6:49:5f:27:32 dst=32:0e:0c:16:66:d9 
+SEND time=1005.55966687 src=32:0e:0c:16:66:d9 dst=92:d6:49:5f:27:32 path=[4]
+RECV time=1005.55969405 src=32:0e:0c:16:66:d9 dst=92:d6:49:5f:27:32 
+SEND time=1005.57205796 src=92:d6:49:5f:27:32 dst=7a:f7:e0:60:55:3a path=[4]
+RECV time=1005.57210398 src=92:d6:49:5f:27:32 dst=7a:f7:e0:60:55:3a 
+SEND time=1005.57495403 src=7a:f7:e0:60:55:3a dst=92:d6:49:5f:27:32 path=[4]
+RECV time=1005.57502508 src=7a:f7:e0:60:55:3a dst=92:d6:49:5f:27:32 
+SEND time=1030.73198009 src=76:22:64:0c:d6:72 dst=9a:00:81:ca:c3:05 path=[1, 2]
+RECV time=1030.73832703 src=76:22:64:0c:d6:72 dst=9a:00:81:ca:c3:05 
+SEND time=1030.74760294 src=9a:00:81:ca:c3:05 dst=76:22:64:0c:d6:72 path=[2, 1]
+RECV time=1030.75404191 src=9a:00:81:ca:c3:05 dst=76:22:64:0c:d6:72 
+SEND time=1030.76462197 src=86:2f:d1:6a:99:93 dst=9a:00:81:ca:c3:05 path=[1, 2, 3]
+RECV time=1030.76758599 src=86:2f:d1:6a:99:93 dst=9a:00:81:ca:c3:05 
+SEND time=1030.76862097 src=9a:00:81:ca:c3:05 dst=86:2f:d1:6a:99:93 path=[3, 2, 1]
+RECV time=1030.77108598 src=9a:00:81:ca:c3:05 dst=86:2f:d1:6a:99:93 
+SEND time=1030.77695298 src=ee:9f:f0:3b:68:8a dst=9a:00:81:ca:c3:05 path=[1, 2, 3]
+RECV time=1030.77887201 src=ee:9f:f0:3b:68:8a dst=9a:00:81:ca:c3:05 
+SEND time=1030.77981305 src=9a:00:81:ca:c3:05 dst=ee:9f:f0:3b:68:8a path=[3, 2, 1]
+RECV time=1030.78183603 src=9a:00:81:ca:c3:05 dst=ee:9f:f0:3b:68:8a 
+SEND time=1030.78752804 src=ea:a4:60:bb:84:4d dst=9a:00:81:ca:c3:05 path=[1, 2, 3, 4]
+RECV time=1030.79056787 src=ea:a4:60:bb:84:4d dst=9a:00:81:ca:c3:05 
+SEND time=1030.79151702 src=9a:00:81:ca:c3:05 dst=ea:a4:60:bb:84:4d path=[4, 3, 2, 1]
+RECV time=1030.79468703 src=9a:00:81:ca:c3:05 dst=ea:a4:60:bb:84:4d 
+SEND time=1030.80335402 src=86:3e:81:9c:87:dc dst=9a:00:81:ca:c3:05 path=[1, 2, 3, 4]
+RECV time=1030.80623698 src=86:3e:81:9c:87:dc dst=9a:00:81:ca:c3:05 
+SEND time=1030.80737996 src=9a:00:81:ca:c3:05 dst=86:3e:81:9c:87:dc path=[4, 3, 2, 1]
+RECV time=1030.81035995 src=9a:00:81:ca:c3:05 dst=86:3e:81:9c:87:dc 
+SEND time=1030.81811404 src=66:5a:dd:36:26:06 dst=9a:00:81:ca:c3:05 path=[1, 2, 3, 4]
+RECV time=1030.8210659 src=66:5a:dd:36:26:06 dst=9a:00:81:ca:c3:05 
+SEND time=1030.82201505 src=9a:00:81:ca:c3:05 dst=66:5a:dd:36:26:06 path=[4, 3, 2, 1]
+RECV time=1030.82486701 src=9a:00:81:ca:c3:05 dst=66:5a:dd:36:26:06 
+SEND time=1030.83271289 src=86:2f:d1:6a:99:93 dst=76:22:64:0c:d6:72 path=[2, 3]
+RECV time=1030.83455992 src=86:2f:d1:6a:99:93 dst=76:22:64:0c:d6:72 
+SEND time=1030.83551407 src=76:22:64:0c:d6:72 dst=86:2f:d1:6a:99:93 path=[3, 2]
+RECV time=1030.83640695 src=76:22:64:0c:d6:72 dst=86:2f:d1:6a:99:93 
+SEND time=1030.84459305 src=ee:9f:f0:3b:68:8a dst=76:22:64:0c:d6:72 path=[2, 3]
+RECV time=1030.84600592 src=ee:9f:f0:3b:68:8a dst=76:22:64:0c:d6:72 
+SEND time=1030.84699488 src=76:22:64:0c:d6:72 dst=ee:9f:f0:3b:68:8a path=[3, 2]
+RECV time=1030.84783006 src=76:22:64:0c:d6:72 dst=ee:9f:f0:3b:68:8a 
+SEND time=1030.85304499 src=ea:a4:60:bb:84:4d dst=76:22:64:0c:d6:72 path=[2, 3, 4]
+RECV time=1030.85497499 src=ea:a4:60:bb:84:4d dst=76:22:64:0c:d6:72 
+SEND time=1030.8559761 src=76:22:64:0c:d6:72 dst=ea:a4:60:bb:84:4d path=[4, 3, 2]
+RECV time=1030.85770988 src=76:22:64:0c:d6:72 dst=ea:a4:60:bb:84:4d 
+SEND time=1030.86534405 src=86:3e:81:9c:87:dc dst=76:22:64:0c:d6:72 path=[2, 3, 4]
+RECV time=1030.86742902 src=86:3e:81:9c:87:dc dst=76:22:64:0c:d6:72 
+SEND time=1030.86834097 src=76:22:64:0c:d6:72 dst=86:3e:81:9c:87:dc path=[4, 3, 2]
+RECV time=1030.87059903 src=76:22:64:0c:d6:72 dst=86:3e:81:9c:87:dc 
+SEND time=1030.87613702 src=66:5a:dd:36:26:06 dst=76:22:64:0c:d6:72 path=[2, 3, 4]
+RECV time=1030.87888098 src=66:5a:dd:36:26:06 dst=76:22:64:0c:d6:72 
+SEND time=1030.88034296 src=76:22:64:0c:d6:72 dst=66:5a:dd:36:26:06 path=[4, 3, 2]
+RECV time=1030.88245392 src=76:22:64:0c:d6:72 dst=66:5a:dd:36:26:06 
+SEND time=1030.88919306 src=ee:9f:f0:3b:68:8a dst=86:2f:d1:6a:99:93 path=[3]
+RECV time=1030.88922596 src=ee:9f:f0:3b:68:8a dst=86:2f:d1:6a:99:93 
+SEND time=1030.89090395 src=86:2f:d1:6a:99:93 dst=ee:9f:f0:3b:68:8a path=[3]
+RECV time=1030.89092898 src=86:2f:d1:6a:99:93 dst=ee:9f:f0:3b:68:8a 
+SEND time=1030.89558196 src=ea:a4:60:bb:84:4d dst=86:2f:d1:6a:99:93 path=[3, 4]
+RECV time=1030.89654398 src=ea:a4:60:bb:84:4d dst=86:2f:d1:6a:99:93 
+SEND time=1030.89828491 src=86:2f:d1:6a:99:93 dst=ea:a4:60:bb:84:4d path=[4, 3]
+RECV time=1030.90079808 src=86:2f:d1:6a:99:93 dst=ea:a4:60:bb:84:4d 
+SEND time=1030.90923095 src=86:3e:81:9c:87:dc dst=86:2f:d1:6a:99:93 path=[3, 4]
+RECV time=1030.91038394 src=86:3e:81:9c:87:dc dst=86:2f:d1:6a:99:93 
+SEND time=1030.91131902 src=86:2f:d1:6a:99:93 dst=86:3e:81:9c:87:dc path=[4, 3]
+RECV time=1030.91215301 src=86:2f:d1:6a:99:93 dst=86:3e:81:9c:87:dc 
+SEND time=1030.91700196 src=66:5a:dd:36:26:06 dst=86:2f:d1:6a:99:93 path=[3, 4]
+RECV time=1030.91789794 src=66:5a:dd:36:26:06 dst=86:2f:d1:6a:99:93 
+SEND time=1030.91875505 src=86:2f:d1:6a:99:93 dst=66:5a:dd:36:26:06 path=[4, 3]
+RECV time=1030.91959 src=86:2f:d1:6a:99:93 dst=66:5a:dd:36:26:06 
+SEND time=1030.92722106 src=ea:a4:60:bb:84:4d dst=ee:9f:f0:3b:68:8a path=[3, 4]
+RECV time=1030.93043089 src=ea:a4:60:bb:84:4d dst=ee:9f:f0:3b:68:8a 
+SEND time=1030.93405294 src=ee:9f:f0:3b:68:8a dst=ea:a4:60:bb:84:4d path=[4, 3]
+RECV time=1030.93573999 src=ee:9f:f0:3b:68:8a dst=ea:a4:60:bb:84:4d 
+SEND time=1030.94180489 src=86:3e:81:9c:87:dc dst=ee:9f:f0:3b:68:8a path=[3, 4]
+RECV time=1030.94283605 src=86:3e:81:9c:87:dc dst=ee:9f:f0:3b:68:8a 
+SEND time=1030.94412899 src=ee:9f:f0:3b:68:8a dst=86:3e:81:9c:87:dc path=[4, 3]
+RECV time=1030.94683909 src=ee:9f:f0:3b:68:8a dst=86:3e:81:9c:87:dc 
+SEND time=1030.95293808 src=66:5a:dd:36:26:06 dst=ee:9f:f0:3b:68:8a path=[3, 4]
+RECV time=1030.95395803 src=66:5a:dd:36:26:06 dst=ee:9f:f0:3b:68:8a 
+SEND time=1030.9548831 src=ee:9f:f0:3b:68:8a dst=66:5a:dd:36:26:06 path=[4, 3]
+RECV time=1030.95577598 src=ee:9f:f0:3b:68:8a dst=66:5a:dd:36:26:06 
+SEND time=1030.96688604 src=86:3e:81:9c:87:dc dst=ea:a4:60:bb:84:4d path=[4]
+RECV time=1030.96694207 src=86:3e:81:9c:87:dc dst=ea:a4:60:bb:84:4d 
+SEND time=1030.96943688 src=ea:a4:60:bb:84:4d dst=86:3e:81:9c:87:dc path=[4]
+RECV time=1030.96947289 src=ea:a4:60:bb:84:4d dst=86:3e:81:9c:87:dc 
+SEND time=1030.97345996 src=66:5a:dd:36:26:06 dst=ea:a4:60:bb:84:4d path=[4]
+RECV time=1030.97349191 src=66:5a:dd:36:26:06 dst=ea:a4:60:bb:84:4d 
+SEND time=1030.97487688 src=ea:a4:60:bb:84:4d dst=66:5a:dd:36:26:06 path=[4]
+RECV time=1030.97490287 src=ea:a4:60:bb:84:4d dst=66:5a:dd:36:26:06 
+SEND time=1030.98743701 src=66:5a:dd:36:26:06 dst=86:3e:81:9c:87:dc path=[4]
+RECV time=1030.98747206 src=66:5a:dd:36:26:06 dst=86:3e:81:9c:87:dc 
+SEND time=1030.98878789 src=86:3e:81:9c:87:dc dst=66:5a:dd:36:26:06 path=[4]
+RECV time=1030.98881388 src=86:3e:81:9c:87:dc dst=66:5a:dd:36:26:06 
+SEND time=1053.96869707 src=ba:cd:f6:03:30:18 dst=c2:e4:ef:3b:80:82 path=[1, 2]
+RECV time=1053.97426605 src=ba:cd:f6:03:30:18 dst=c2:e4:ef:3b:80:82 
+SEND time=1053.97787189 src=c2:e4:ef:3b:80:82 dst=ba:cd:f6:03:30:18 path=[2, 1]
+RECV time=1053.98175192 src=c2:e4:ef:3b:80:82 dst=ba:cd:f6:03:30:18 
+SEND time=1053.99498701 src=9a:2c:ee:80:c8:3b dst=c2:e4:ef:3b:80:82 path=[1, 2, 3]
+RECV time=1053.99767804 src=9a:2c:ee:80:c8:3b dst=c2:e4:ef:3b:80:82 
+SEND time=1053.99874306 src=c2:e4:ef:3b:80:82 dst=9a:2c:ee:80:c8:3b path=[3, 2, 1]
+RECV time=1054.001127 src=c2:e4:ef:3b:80:82 dst=9a:2c:ee:80:c8:3b 
+SEND time=1054.00990105 src=2a:19:c0:e5:5f:dc dst=c2:e4:ef:3b:80:82 path=[1, 2, 3]
+RECV time=1054.01194501 src=2a:19:c0:e5:5f:dc dst=c2:e4:ef:3b:80:82 
+SEND time=1054.012918 src=c2:e4:ef:3b:80:82 dst=2a:19:c0:e5:5f:dc path=[3, 2, 1]
+RECV time=1054.01502109 src=c2:e4:ef:3b:80:82 dst=2a:19:c0:e5:5f:dc 
+SEND time=1054.02077508 src=f6:77:72:20:92:43 dst=c2:e4:ef:3b:80:82 path=[1, 2, 3, 4]
+RECV time=1054.02544689 src=f6:77:72:20:92:43 dst=c2:e4:ef:3b:80:82 
+SEND time=1054.02706409 src=c2:e4:ef:3b:80:82 dst=f6:77:72:20:92:43 path=[4, 3, 2, 1]
+RECV time=1054.02974987 src=c2:e4:ef:3b:80:82 dst=f6:77:72:20:92:43 
+SEND time=1054.03540802 src=4a:b4:51:39:f0:8b dst=c2:e4:ef:3b:80:82 path=[1, 2, 3, 4]
+RECV time=1054.03838491 src=4a:b4:51:39:f0:8b dst=c2:e4:ef:3b:80:82 
+SEND time=1054.03931093 src=c2:e4:ef:3b:80:82 dst=4a:b4:51:39:f0:8b path=[4, 3, 2, 1]
+RECV time=1054.04216409 src=c2:e4:ef:3b:80:82 dst=4a:b4:51:39:f0:8b 
+SEND time=1054.04792309 src=16:5b:cd:30:56:b6 dst=c2:e4:ef:3b:80:82 path=[1, 2, 3, 4]
+RECV time=1054.05051494 src=16:5b:cd:30:56:b6 dst=c2:e4:ef:3b:80:82 
+SEND time=1054.05133009 src=c2:e4:ef:3b:80:82 dst=16:5b:cd:30:56:b6 path=[4, 3, 2, 1]
+RECV time=1054.05396104 src=c2:e4:ef:3b:80:82 dst=16:5b:cd:30:56:b6 
+SEND time=1054.06315804 src=9a:2c:ee:80:c8:3b dst=ba:cd:f6:03:30:18 path=[2, 3]
+RECV time=1054.06411695 src=9a:2c:ee:80:c8:3b dst=ba:cd:f6:03:30:18 
+SEND time=1054.06502104 src=ba:cd:f6:03:30:18 dst=9a:2c:ee:80:c8:3b path=[3, 2]
+RECV time=1054.06603599 src=ba:cd:f6:03:30:18 dst=9a:2c:ee:80:c8:3b 
+SEND time=1054.07100892 src=2a:19:c0:e5:5f:dc dst=ba:cd:f6:03:30:18 path=[2, 3]
+RECV time=1054.07243299 src=2a:19:c0:e5:5f:dc dst=ba:cd:f6:03:30:18 
+SEND time=1054.07371593 src=ba:cd:f6:03:30:18 dst=2a:19:c0:e5:5f:dc path=[3, 2]
+RECV time=1054.07464504 src=ba:cd:f6:03:30:18 dst=2a:19:c0:e5:5f:dc 
+SEND time=1054.08146191 src=f6:77:72:20:92:43 dst=ba:cd:f6:03:30:18 path=[2, 3, 4]
+RECV time=1054.08430409 src=f6:77:72:20:92:43 dst=ba:cd:f6:03:30:18 
+SEND time=1054.08532691 src=ba:cd:f6:03:30:18 dst=f6:77:72:20:92:43 path=[4, 3, 2]
+RECV time=1054.08706594 src=ba:cd:f6:03:30:18 dst=f6:77:72:20:92:43 
+SEND time=1054.09610987 src=4a:b4:51:39:f0:8b dst=ba:cd:f6:03:30:18 path=[2, 3, 4]
+RECV time=1054.09884191 src=4a:b4:51:39:f0:8b dst=ba:cd:f6:03:30:18 
+SEND time=1054.10040188 src=ba:cd:f6:03:30:18 dst=4a:b4:51:39:f0:8b path=[4, 3, 2]
+RECV time=1054.10293102 src=ba:cd:f6:03:30:18 dst=4a:b4:51:39:f0:8b 
+SEND time=1054.10853696 src=16:5b:cd:30:56:b6 dst=ba:cd:f6:03:30:18 path=[2, 3, 4]
+RECV time=1054.11049294 src=16:5b:cd:30:56:b6 dst=ba:cd:f6:03:30:18 
+SEND time=1054.11142206 src=ba:cd:f6:03:30:18 dst=16:5b:cd:30:56:b6 path=[4, 3, 2]
+RECV time=1054.11319709 src=ba:cd:f6:03:30:18 dst=16:5b:cd:30:56:b6 
+SEND time=1054.11988807 src=2a:19:c0:e5:5f:dc dst=9a:2c:ee:80:c8:3b path=[3]
+RECV time=1054.11992192 src=2a:19:c0:e5:5f:dc dst=9a:2c:ee:80:c8:3b 
+SEND time=1054.12136388 src=9a:2c:ee:80:c8:3b dst=2a:19:c0:e5:5f:dc path=[3]
+RECV time=1054.12138796 src=9a:2c:ee:80:c8:3b dst=2a:19:c0:e5:5f:dc 
+SEND time=1054.1284461 src=f6:77:72:20:92:43 dst=9a:2c:ee:80:c8:3b path=[3, 4]
+RECV time=1054.1297369 src=f6:77:72:20:92:43 dst=9a:2c:ee:80:c8:3b 
+SEND time=1054.13073707 src=9a:2c:ee:80:c8:3b dst=f6:77:72:20:92:43 path=[4, 3]
+RECV time=1054.13162804 src=9a:2c:ee:80:c8:3b dst=f6:77:72:20:92:43 
+SEND time=1054.13702798 src=4a:b4:51:39:f0:8b dst=9a:2c:ee:80:c8:3b path=[3, 4]
+RECV time=1054.13864708 src=4a:b4:51:39:f0:8b dst=9a:2c:ee:80:c8:3b 
+SEND time=1054.14041901 src=9a:2c:ee:80:c8:3b dst=4a:b4:51:39:f0:8b path=[4, 3]
+RECV time=1054.14190006 src=9a:2c:ee:80:c8:3b dst=4a:b4:51:39:f0:8b 
+SEND time=1054.14780998 src=16:5b:cd:30:56:b6 dst=9a:2c:ee:80:c8:3b path=[3, 4]
+RECV time=1054.14880991 src=16:5b:cd:30:56:b6 dst=9a:2c:ee:80:c8:3b 
+SEND time=1054.149822 src=9a:2c:ee:80:c8:3b dst=16:5b:cd:30:56:b6 path=[4, 3]
+RECV time=1054.15090108 src=9a:2c:ee:80:c8:3b dst=16:5b:cd:30:56:b6 
+SEND time=1054.1625309 src=f6:77:72:20:92:43 dst=2a:19:c0:e5:5f:dc path=[3, 4]
+RECV time=1054.16443706 src=f6:77:72:20:92:43 dst=2a:19:c0:e5:5f:dc 
+SEND time=1054.16596699 src=2a:19:c0:e5:5f:dc dst=f6:77:72:20:92:43 path=[4, 3]
+RECV time=1054.16680908 src=2a:19:c0:e5:5f:dc dst=f6:77:72:20:92:43 
+SEND time=1054.17418289 src=4a:b4:51:39:f0:8b dst=2a:19:c0:e5:5f:dc path=[3, 4]
+RECV time=1054.1757791 src=4a:b4:51:39:f0:8b dst=2a:19:c0:e5:5f:dc 
+SEND time=1054.17706108 src=2a:19:c0:e5:5f:dc dst=4a:b4:51:39:f0:8b path=[4, 3]
+RECV time=1054.17796493 src=2a:19:c0:e5:5f:dc dst=4a:b4:51:39:f0:8b 
+SEND time=1054.18299103 src=16:5b:cd:30:56:b6 dst=2a:19:c0:e5:5f:dc path=[3, 4]
+RECV time=1054.18391991 src=16:5b:cd:30:56:b6 dst=2a:19:c0:e5:5f:dc 
+SEND time=1054.18485808 src=2a:19:c0:e5:5f:dc dst=16:5b:cd:30:56:b6 path=[4, 3]
+RECV time=1054.1858871 src=2a:19:c0:e5:5f:dc dst=16:5b:cd:30:56:b6 
+SEND time=1054.19803596 src=4a:b4:51:39:f0:8b dst=f6:77:72:20:92:43 path=[4]
+RECV time=1054.198071 src=4a:b4:51:39:f0:8b dst=f6:77:72:20:92:43 
+SEND time=1054.199862 src=f6:77:72:20:92:43 dst=4a:b4:51:39:f0:8b path=[4]
+RECV time=1054.19994307 src=f6:77:72:20:92:43 dst=4a:b4:51:39:f0:8b 
+SEND time=1054.20553589 src=16:5b:cd:30:56:b6 dst=f6:77:72:20:92:43 path=[4]
+RECV time=1054.2055881 src=16:5b:cd:30:56:b6 dst=f6:77:72:20:92:43 
+SEND time=1054.20750904 src=f6:77:72:20:92:43 dst=16:5b:cd:30:56:b6 path=[4]
+RECV time=1054.20753908 src=f6:77:72:20:92:43 dst=16:5b:cd:30:56:b6 
+SEND time=1054.21712208 src=16:5b:cd:30:56:b6 dst=4a:b4:51:39:f0:8b path=[4]
+RECV time=1054.21715593 src=16:5b:cd:30:56:b6 dst=4a:b4:51:39:f0:8b 
+SEND time=1054.21858501 src=4a:b4:51:39:f0:8b dst=16:5b:cd:30:56:b6 path=[4]
+RECV time=1054.21862006 src=4a:b4:51:39:f0:8b dst=16:5b:cd:30:56:b6 
+SEND time=1076.08865309 src=5a:f8:24:a8:10:14 dst=b6:be:47:7e:c5:2b path=[1, 2]
+RECV time=1076.09073591 src=5a:f8:24:a8:10:14 dst=b6:be:47:7e:c5:2b 
+SEND time=1076.09404993 src=b6:be:47:7e:c5:2b dst=5a:f8:24:a8:10:14 path=[2, 1]
+RECV time=1076.09644103 src=b6:be:47:7e:c5:2b dst=5a:f8:24:a8:10:14 
+SEND time=1076.10561299 src=ae:73:56:45:ab:1c dst=b6:be:47:7e:c5:2b path=[1, 2, 3]
+RECV time=1076.10784292 src=ae:73:56:45:ab:1c dst=b6:be:47:7e:c5:2b 
+SEND time=1076.10880303 src=b6:be:47:7e:c5:2b dst=ae:73:56:45:ab:1c path=[3, 2, 1]
+RECV time=1076.11086392 src=b6:be:47:7e:c5:2b dst=ae:73:56:45:ab:1c 
+SEND time=1076.11634207 src=aa:f0:94:43:1f:84 dst=b6:be:47:7e:c5:2b path=[1, 2, 3]
+RECV time=1076.11828303 src=aa:f0:94:43:1f:84 dst=b6:be:47:7e:c5:2b 
+SEND time=1076.11929607 src=b6:be:47:7e:c5:2b dst=aa:f0:94:43:1f:84 path=[3, 2, 1]
+RECV time=1076.12353992 src=b6:be:47:7e:c5:2b dst=aa:f0:94:43:1f:84 
+SEND time=1076.12955189 src=ae:44:d7:6b:ad:76 dst=b6:be:47:7e:c5:2b path=[1, 2, 3, 4]
+RECV time=1076.13264394 src=ae:44:d7:6b:ad:76 dst=b6:be:47:7e:c5:2b 
+SEND time=1076.13359094 src=b6:be:47:7e:c5:2b dst=ae:44:d7:6b:ad:76 path=[4, 3, 2, 1]
+RECV time=1076.13646698 src=b6:be:47:7e:c5:2b dst=ae:44:d7:6b:ad:76 
+SEND time=1076.14613008 src=f2:50:eb:3f:fb:69 dst=b6:be:47:7e:c5:2b path=[1, 2, 3, 4]
+RECV time=1076.14937496 src=f2:50:eb:3f:fb:69 dst=b6:be:47:7e:c5:2b 
+SEND time=1076.15031195 src=b6:be:47:7e:c5:2b dst=f2:50:eb:3f:fb:69 path=[4, 3, 2, 1]
+RECV time=1076.15280795 src=b6:be:47:7e:c5:2b dst=f2:50:eb:3f:fb:69 
+SEND time=1076.15867591 src=c6:72:55:ea:8b:d0 dst=b6:be:47:7e:c5:2b path=[1, 2, 3, 4]
+RECV time=1076.16142297 src=c6:72:55:ea:8b:d0 dst=b6:be:47:7e:c5:2b 
+SEND time=1076.16252494 src=b6:be:47:7e:c5:2b dst=c6:72:55:ea:8b:d0 path=[4, 3, 2, 1]
+RECV time=1076.16492391 src=b6:be:47:7e:c5:2b dst=c6:72:55:ea:8b:d0 
+SEND time=1076.17202401 src=ae:73:56:45:ab:1c dst=5a:f8:24:a8:10:14 path=[2, 3]
+RECV time=1076.17334294 src=ae:73:56:45:ab:1c dst=5a:f8:24:a8:10:14 
+SEND time=1076.17441607 src=5a:f8:24:a8:10:14 dst=ae:73:56:45:ab:1c path=[3, 2]
+RECV time=1076.17606997 src=5a:f8:24:a8:10:14 dst=ae:73:56:45:ab:1c 
+SEND time=1076.1808939 src=aa:f0:94:43:1f:84 dst=5a:f8:24:a8:10:14 path=[2, 3]
+RECV time=1076.18206692 src=aa:f0:94:43:1f:84 dst=5a:f8:24:a8:10:14 
+SEND time=1076.18348598 src=5a:f8:24:a8:10:14 dst=aa:f0:94:43:1f:84 path=[3, 2]
+RECV time=1076.18440509 src=5a:f8:24:a8:10:14 dst=aa:f0:94:43:1f:84 
+SEND time=1076.18921494 src=ae:44:d7:6b:ad:76 dst=5a:f8:24:a8:10:14 path=[2, 3, 4]
+RECV time=1076.19095802 src=ae:44:d7:6b:ad:76 dst=5a:f8:24:a8:10:14 
+SEND time=1076.19183707 src=5a:f8:24:a8:10:14 dst=ae:44:d7:6b:ad:76 path=[4, 3, 2]
+RECV time=1076.19482303 src=5a:f8:24:a8:10:14 dst=ae:44:d7:6b:ad:76 
+SEND time=1076.20162702 src=f2:50:eb:3f:fb:69 dst=5a:f8:24:a8:10:14 path=[2, 3, 4]
+RECV time=1076.20425701 src=f2:50:eb:3f:fb:69 dst=5a:f8:24:a8:10:14 
+SEND time=1076.20673108 src=5a:f8:24:a8:10:14 dst=f2:50:eb:3f:fb:69 path=[4, 3, 2]
+RECV time=1076.20989799 src=5a:f8:24:a8:10:14 dst=f2:50:eb:3f:fb:69 
+SEND time=1076.21553493 src=c6:72:55:ea:8b:d0 dst=5a:f8:24:a8:10:14 path=[2, 3, 4]
+RECV time=1076.21751308 src=c6:72:55:ea:8b:d0 dst=5a:f8:24:a8:10:14 
+SEND time=1076.21848488 src=5a:f8:24:a8:10:14 dst=c6:72:55:ea:8b:d0 path=[4, 3, 2]
+RECV time=1076.220191 src=5a:f8:24:a8:10:14 dst=c6:72:55:ea:8b:d0 
+SEND time=1076.23053408 src=aa:f0:94:43:1f:84 dst=ae:73:56:45:ab:1c path=[3]
+RECV time=1076.23060608 src=aa:f0:94:43:1f:84 dst=ae:73:56:45:ab:1c 
+SEND time=1076.23231387 src=ae:73:56:45:ab:1c dst=aa:f0:94:43:1f:84 path=[3]
+RECV time=1076.2323401 src=ae:73:56:45:ab:1c dst=aa:f0:94:43:1f:84 
+SEND time=1076.23943305 src=ae:44:d7:6b:ad:76 dst=ae:73:56:45:ab:1c path=[3, 4]
+RECV time=1076.2408371 src=ae:44:d7:6b:ad:76 dst=ae:73:56:45:ab:1c 
+SEND time=1076.24218297 src=ae:73:56:45:ab:1c dst=ae:44:d7:6b:ad:76 path=[4, 3]
+RECV time=1076.24335504 src=ae:73:56:45:ab:1c dst=ae:44:d7:6b:ad:76 
+SEND time=1076.24840593 src=f2:50:eb:3f:fb:69 dst=ae:73:56:45:ab:1c path=[3, 4]
+RECV time=1076.24937105 src=f2:50:eb:3f:fb:69 dst=ae:73:56:45:ab:1c 
+SEND time=1076.25034809 src=ae:73:56:45:ab:1c dst=f2:50:eb:3f:fb:69 path=[4, 3]
+RECV time=1076.25125003 src=ae:73:56:45:ab:1c dst=f2:50:eb:3f:fb:69 
+SEND time=1076.256464 src=c6:72:55:ea:8b:d0 dst=ae:73:56:45:ab:1c path=[3, 4]
+RECV time=1076.25746107 src=c6:72:55:ea:8b:d0 dst=ae:73:56:45:ab:1c 
+SEND time=1076.25841999 src=ae:73:56:45:ab:1c dst=c6:72:55:ea:8b:d0 path=[4, 3]
+RECV time=1076.25936198 src=ae:73:56:45:ab:1c dst=c6:72:55:ea:8b:d0 
+SEND time=1076.26770401 src=ae:44:d7:6b:ad:76 dst=aa:f0:94:43:1f:84 path=[3, 4]
+RECV time=1076.26907396 src=ae:44:d7:6b:ad:76 dst=aa:f0:94:43:1f:84 
+SEND time=1076.27062702 src=aa:f0:94:43:1f:84 dst=ae:44:d7:6b:ad:76 path=[4, 3]
+RECV time=1076.27223706 src=aa:f0:94:43:1f:84 dst=ae:44:d7:6b:ad:76 
+SEND time=1076.27741098 src=f2:50:eb:3f:fb:69 dst=aa:f0:94:43:1f:84 path=[3, 4]
+RECV time=1076.27861905 src=f2:50:eb:3f:fb:69 dst=aa:f0:94:43:1f:84 
+SEND time=1076.27957702 src=aa:f0:94:43:1f:84 dst=f2:50:eb:3f:fb:69 path=[4, 3]
+RECV time=1076.28050089 src=aa:f0:94:43:1f:84 dst=f2:50:eb:3f:fb:69 
+SEND time=1076.28644896 src=c6:72:55:ea:8b:d0 dst=aa:f0:94:43:1f:84 path=[3, 4]
+RECV time=1076.28763795 src=c6:72:55:ea:8b:d0 dst=aa:f0:94:43:1f:84 
+SEND time=1076.28922105 src=aa:f0:94:43:1f:84 dst=c6:72:55:ea:8b:d0 path=[4, 3]
+RECV time=1076.29064488 src=aa:f0:94:43:1f:84 dst=c6:72:55:ea:8b:d0 
+SEND time=1076.29908705 src=f2:50:eb:3f:fb:69 dst=ae:44:d7:6b:ad:76 path=[4]
+RECV time=1076.29911995 src=f2:50:eb:3f:fb:69 dst=ae:44:d7:6b:ad:76 
+SEND time=1076.30071092 src=ae:44:d7:6b:ad:76 dst=f2:50:eb:3f:fb:69 path=[4]
+RECV time=1076.30073595 src=ae:44:d7:6b:ad:76 dst=f2:50:eb:3f:fb:69 
+SEND time=1076.30664897 src=c6:72:55:ea:8b:d0 dst=ae:44:d7:6b:ad:76 path=[4]
+RECV time=1076.3067131 src=c6:72:55:ea:8b:d0 dst=ae:44:d7:6b:ad:76 
+SEND time=1076.30833602 src=ae:44:d7:6b:ad:76 dst=c6:72:55:ea:8b:d0 path=[4]
+RECV time=1076.30836797 src=ae:44:d7:6b:ad:76 dst=c6:72:55:ea:8b:d0 
+SEND time=1076.32116199 src=c6:72:55:ea:8b:d0 dst=f2:50:eb:3f:fb:69 path=[4]
+RECV time=1076.32120609 src=c6:72:55:ea:8b:d0 dst=f2:50:eb:3f:fb:69 
+SEND time=1076.32301188 src=f2:50:eb:3f:fb:69 dst=c6:72:55:ea:8b:d0 path=[4]
+RECV time=1076.32308698 src=f2:50:eb:3f:fb:69 dst=c6:72:55:ea:8b:d0 
+SEND time=1101.86805296 src=86:b7:7a:8e:17:8b dst=12:db:7b:74:88:1e path=[1, 2]
+RECV time=1101.87355995 src=86:b7:7a:8e:17:8b dst=12:db:7b:74:88:1e 
+SEND time=1101.8788271 src=12:db:7b:74:88:1e dst=86:b7:7a:8e:17:8b path=[2, 1]
+RECV time=1101.88439107 src=12:db:7b:74:88:1e dst=86:b7:7a:8e:17:8b 
+SEND time=1101.89489198 src=fa:2c:a7:3f:5d:76 dst=12:db:7b:74:88:1e path=[1, 2, 3]
+RECV time=1101.90029693 src=fa:2c:a7:3f:5d:76 dst=12:db:7b:74:88:1e 
+SEND time=1101.90189791 src=12:db:7b:74:88:1e dst=fa:2c:a7:3f:5d:76 path=[3, 2, 1]
+RECV time=1101.90383601 src=12:db:7b:74:88:1e dst=fa:2c:a7:3f:5d:76 
+SEND time=1101.90941691 src=1e:40:25:bf:3e:bc dst=12:db:7b:74:88:1e path=[1, 2, 3]
+RECV time=1101.91146398 src=1e:40:25:bf:3e:bc dst=12:db:7b:74:88:1e 
+SEND time=1101.91243887 src=12:db:7b:74:88:1e dst=1e:40:25:bf:3e:bc path=[3, 2, 1]
+RECV time=1101.91429591 src=12:db:7b:74:88:1e dst=1e:40:25:bf:3e:bc 
+SEND time=1101.9236989 src=b2:26:64:5c:8e:56 dst=12:db:7b:74:88:1e path=[1, 2, 3, 4]
+RECV time=1101.92670393 src=b2:26:64:5c:8e:56 dst=12:db:7b:74:88:1e 
+SEND time=1101.9276011 src=12:db:7b:74:88:1e dst=b2:26:64:5c:8e:56 path=[4, 3, 2, 1]
+RECV time=1101.93051791 src=12:db:7b:74:88:1e dst=b2:26:64:5c:8e:56 
+SEND time=1101.93726397 src=56:ec:ee:fd:ea:d0 dst=12:db:7b:74:88:1e path=[1, 2, 3, 4]
+RECV time=1101.9402411 src=56:ec:ee:fd:ea:d0 dst=12:db:7b:74:88:1e 
+SEND time=1101.94128108 src=12:db:7b:74:88:1e dst=56:ec:ee:fd:ea:d0 path=[4, 3, 2, 1]
+RECV time=1101.94421387 src=12:db:7b:74:88:1e dst=56:ec:ee:fd:ea:d0 
+SEND time=1101.94983387 src=7e:61:6a:07:3b:e0 dst=12:db:7b:74:88:1e path=[1, 2, 3, 4]
+RECV time=1101.954597 src=7e:61:6a:07:3b:e0 dst=12:db:7b:74:88:1e 
+SEND time=1101.95548606 src=12:db:7b:74:88:1e dst=7e:61:6a:07:3b:e0 path=[4, 3, 2, 1]
+RECV time=1101.9583149 src=12:db:7b:74:88:1e dst=7e:61:6a:07:3b:e0 
+SEND time=1101.96523905 src=fa:2c:a7:3f:5d:76 dst=86:b7:7a:8e:17:8b path=[2, 3]
+RECV time=1101.96689391 src=fa:2c:a7:3f:5d:76 dst=86:b7:7a:8e:17:8b 
+SEND time=1101.96841192 src=86:b7:7a:8e:17:8b dst=fa:2c:a7:3f:5d:76 path=[3, 2]
+RECV time=1101.96988606 src=86:b7:7a:8e:17:8b dst=fa:2c:a7:3f:5d:76 
+SEND time=1101.97706604 src=1e:40:25:bf:3e:bc dst=86:b7:7a:8e:17:8b path=[2, 3]
+RECV time=1101.97874594 src=1e:40:25:bf:3e:bc dst=86:b7:7a:8e:17:8b 
+SEND time=1101.9799211 src=86:b7:7a:8e:17:8b dst=1e:40:25:bf:3e:bc path=[3, 2]
+RECV time=1101.98077607 src=86:b7:7a:8e:17:8b dst=1e:40:25:bf:3e:bc 
+SEND time=1101.98945594 src=b2:26:64:5c:8e:56 dst=86:b7:7a:8e:17:8b path=[2, 3, 4]
+RECV time=1101.99141502 src=b2:26:64:5c:8e:56 dst=86:b7:7a:8e:17:8b 
+SEND time=1101.99237108 src=86:b7:7a:8e:17:8b dst=b2:26:64:5c:8e:56 path=[4, 3, 2]
+RECV time=1101.99413705 src=86:b7:7a:8e:17:8b dst=b2:26:64:5c:8e:56 
+SEND time=1101.9994421 src=56:ec:ee:fd:ea:d0 dst=86:b7:7a:8e:17:8b path=[2, 3, 4]
+RECV time=1102.00129604 src=56:ec:ee:fd:ea:d0 dst=86:b7:7a:8e:17:8b 
+SEND time=1102.00223207 src=86:b7:7a:8e:17:8b dst=56:ec:ee:fd:ea:d0 path=[4, 3, 2]
+RECV time=1102.00416899 src=86:b7:7a:8e:17:8b dst=56:ec:ee:fd:ea:d0 
+SEND time=1102.00962305 src=7e:61:6a:07:3b:e0 dst=86:b7:7a:8e:17:8b path=[2, 3, 4]
+RECV time=1102.011482 src=7e:61:6a:07:3b:e0 dst=86:b7:7a:8e:17:8b 
+SEND time=1102.01239991 src=86:b7:7a:8e:17:8b dst=7e:61:6a:07:3b:e0 path=[4, 3, 2]
+RECV time=1102.0141871 src=86:b7:7a:8e:17:8b dst=7e:61:6a:07:3b:e0 
+SEND time=1102.02357793 src=1e:40:25:bf:3e:bc dst=fa:2c:a7:3f:5d:76 path=[3]
+RECV time=1102.02361703 src=1e:40:25:bf:3e:bc dst=fa:2c:a7:3f:5d:76 
+SEND time=1102.02540493 src=fa:2c:a7:3f:5d:76 dst=1e:40:25:bf:3e:bc path=[3]
+RECV time=1102.02543592 src=fa:2c:a7:3f:5d:76 dst=1e:40:25:bf:3e:bc 
+SEND time=1102.03061604 src=b2:26:64:5c:8e:56 dst=fa:2c:a7:3f:5d:76 path=[3, 4]
+RECV time=1102.03158498 src=b2:26:64:5c:8e:56 dst=fa:2c:a7:3f:5d:76 
+SEND time=1102.0324831 src=fa:2c:a7:3f:5d:76 dst=b2:26:64:5c:8e:56 path=[4, 3]
+RECV time=1102.03348899 src=fa:2c:a7:3f:5d:76 dst=b2:26:64:5c:8e:56 
+SEND time=1102.04097795 src=56:ec:ee:fd:ea:d0 dst=fa:2c:a7:3f:5d:76 path=[3, 4]
+RECV time=1102.04281092 src=56:ec:ee:fd:ea:d0 dst=fa:2c:a7:3f:5d:76 
+SEND time=1102.04478908 src=fa:2c:a7:3f:5d:76 dst=56:ec:ee:fd:ea:d0 path=[4, 3]
+RECV time=1102.04633403 src=fa:2c:a7:3f:5d:76 dst=56:ec:ee:fd:ea:d0 
+SEND time=1102.05558991 src=7e:61:6a:07:3b:e0 dst=fa:2c:a7:3f:5d:76 path=[3, 4]
+RECV time=1102.05754089 src=7e:61:6a:07:3b:e0 dst=fa:2c:a7:3f:5d:76 
+SEND time=1102.05847907 src=fa:2c:a7:3f:5d:76 dst=7e:61:6a:07:3b:e0 path=[4, 3]
+RECV time=1102.05936098 src=fa:2c:a7:3f:5d:76 dst=7e:61:6a:07:3b:e0 
+SEND time=1102.0692451 src=b2:26:64:5c:8e:56 dst=1e:40:25:bf:3e:bc path=[3, 4]
+RECV time=1102.07115388 src=b2:26:64:5c:8e:56 dst=1e:40:25:bf:3e:bc 
+SEND time=1102.07252908 src=1e:40:25:bf:3e:bc dst=b2:26:64:5c:8e:56 path=[4, 3]
+RECV time=1102.07353091 src=1e:40:25:bf:3e:bc dst=b2:26:64:5c:8e:56 
+SEND time=1102.07883096 src=56:ec:ee:fd:ea:d0 dst=1e:40:25:bf:3e:bc path=[3, 4]
+RECV time=1102.07976294 src=56:ec:ee:fd:ea:d0 dst=1e:40:25:bf:3e:bc 
+SEND time=1102.08094692 src=1e:40:25:bf:3e:bc dst=56:ec:ee:fd:ea:d0 path=[4, 3]
+RECV time=1102.08199501 src=1e:40:25:bf:3e:bc dst=56:ec:ee:fd:ea:d0 
+SEND time=1102.08990288 src=7e:61:6a:07:3b:e0 dst=1e:40:25:bf:3e:bc path=[3, 4]
+RECV time=1102.09120703 src=7e:61:6a:07:3b:e0 dst=1e:40:25:bf:3e:bc 
+SEND time=1102.0921731 src=1e:40:25:bf:3e:bc dst=7e:61:6a:07:3b:e0 path=[4, 3]
+RECV time=1102.09316492 src=1e:40:25:bf:3e:bc dst=7e:61:6a:07:3b:e0 
+SEND time=1102.10567093 src=56:ec:ee:fd:ea:d0 dst=b2:26:64:5c:8e:56 path=[4]
+RECV time=1102.10570788 src=56:ec:ee:fd:ea:d0 dst=b2:26:64:5c:8e:56 
+SEND time=1102.10708308 src=b2:26:64:5c:8e:56 dst=56:ec:ee:fd:ea:d0 path=[4]
+RECV time=1102.10712099 src=b2:26:64:5c:8e:56 dst=56:ec:ee:fd:ea:d0 
+SEND time=1102.11100698 src=7e:61:6a:07:3b:e0 dst=b2:26:64:5c:8e:56 path=[4]
+RECV time=1102.11103892 src=7e:61:6a:07:3b:e0 dst=b2:26:64:5c:8e:56 
+SEND time=1102.11233091 src=b2:26:64:5c:8e:56 dst=7e:61:6a:07:3b:e0 path=[4]
+RECV time=1102.11236095 src=b2:26:64:5c:8e:56 dst=7e:61:6a:07:3b:e0 
+SEND time=1102.12592506 src=7e:61:6a:07:3b:e0 dst=56:ec:ee:fd:ea:d0 path=[4]
+RECV time=1102.12595987 src=7e:61:6a:07:3b:e0 dst=56:ec:ee:fd:ea:d0 
+SEND time=1102.12806606 src=56:ec:ee:fd:ea:d0 dst=7e:61:6a:07:3b:e0 path=[4]
+RECV time=1102.1281271 src=56:ec:ee:fd:ea:d0 dst=7e:61:6a:07:3b:e0 
+SEND time=1127.46422791 src=d2:00:2a:87:cf:16 dst=32:4a:49:73:fc:2f path=[1, 2]
+RECV time=1127.46843505 src=d2:00:2a:87:cf:16 dst=32:4a:49:73:fc:2f 
+SEND time=1127.47153997 src=32:4a:49:73:fc:2f dst=d2:00:2a:87:cf:16 path=[2, 1]
+RECV time=1127.47596097 src=32:4a:49:73:fc:2f dst=d2:00:2a:87:cf:16 
+SEND time=1127.49783993 src=c6:5d:9f:5b:f2:c9 dst=32:4a:49:73:fc:2f path=[1, 2, 3]
+RECV time=1127.50208807 src=c6:5d:9f:5b:f2:c9 dst=32:4a:49:73:fc:2f 
+SEND time=1127.50379896 src=32:4a:49:73:fc:2f dst=c6:5d:9f:5b:f2:c9 path=[3, 2, 1]
+RECV time=1127.50697207 src=32:4a:49:73:fc:2f dst=c6:5d:9f:5b:f2:c9 
+SEND time=1127.51638603 src=ce:56:b5:33:30:e8 dst=32:4a:49:73:fc:2f path=[1, 2, 3]
+RECV time=1127.5186379 src=ce:56:b5:33:30:e8 dst=32:4a:49:73:fc:2f 
+SEND time=1127.51966691 src=32:4a:49:73:fc:2f dst=ce:56:b5:33:30:e8 path=[3, 2, 1]
+RECV time=1127.52161598 src=32:4a:49:73:fc:2f dst=ce:56:b5:33:30:e8 
+SEND time=1127.52779293 src=72:6c:b4:8d:a7:a7 dst=32:4a:49:73:fc:2f path=[1, 2, 3, 4]
+RECV time=1127.530936 src=72:6c:b4:8d:a7:a7 dst=32:4a:49:73:fc:2f 
+SEND time=1127.53194308 src=32:4a:49:73:fc:2f dst=72:6c:b4:8d:a7:a7 path=[4, 3, 2, 1]
+RECV time=1127.53720403 src=32:4a:49:73:fc:2f dst=72:6c:b4:8d:a7:a7 
+SEND time=1127.54337096 src=06:bf:4f:a0:ed:dd dst=32:4a:49:73:fc:2f path=[1, 2, 3, 4]
+RECV time=1127.54651189 src=06:bf:4f:a0:ed:dd dst=32:4a:49:73:fc:2f 
+SEND time=1127.55009294 src=32:4a:49:73:fc:2f dst=06:bf:4f:a0:ed:dd path=[4, 3, 2, 1]
+RECV time=1127.55317688 src=32:4a:49:73:fc:2f dst=06:bf:4f:a0:ed:dd 
+SEND time=1127.558887 src=ba:c5:f3:3d:0a:25 dst=32:4a:49:73:fc:2f path=[1, 2, 3, 4]
+RECV time=1127.5618701 src=ba:c5:f3:3d:0a:25 dst=32:4a:49:73:fc:2f 
+SEND time=1127.5628159 src=32:4a:49:73:fc:2f dst=ba:c5:f3:3d:0a:25 path=[4, 3, 2, 1]
+RECV time=1127.56560707 src=32:4a:49:73:fc:2f dst=ba:c5:f3:3d:0a:25 
+SEND time=1127.57414508 src=c6:5d:9f:5b:f2:c9 dst=d2:00:2a:87:cf:16 path=[2, 3]
+RECV time=1127.575248 src=c6:5d:9f:5b:f2:c9 dst=d2:00:2a:87:cf:16 
+SEND time=1127.5762701 src=d2:00:2a:87:cf:16 dst=c6:5d:9f:5b:f2:c9 path=[3, 2]
+RECV time=1127.57766294 src=d2:00:2a:87:cf:16 dst=c6:5d:9f:5b:f2:c9 
+SEND time=1127.58388495 src=ce:56:b5:33:30:e8 dst=d2:00:2a:87:cf:16 path=[2, 3]
+RECV time=1127.58506203 src=ce:56:b5:33:30:e8 dst=d2:00:2a:87:cf:16 
+SEND time=1127.5861299 src=d2:00:2a:87:cf:16 dst=ce:56:b5:33:30:e8 path=[3, 2]
+RECV time=1127.58711696 src=d2:00:2a:87:cf:16 dst=ce:56:b5:33:30:e8 
+SEND time=1127.59262705 src=72:6c:b4:8d:a7:a7 dst=d2:00:2a:87:cf:16 path=[2, 3, 4]
+RECV time=1127.59461308 src=72:6c:b4:8d:a7:a7 dst=d2:00:2a:87:cf:16 
+SEND time=1127.59654403 src=d2:00:2a:87:cf:16 dst=72:6c:b4:8d:a7:a7 path=[4, 3, 2]
+RECV time=1127.60111594 src=d2:00:2a:87:cf:16 dst=72:6c:b4:8d:a7:a7 
+SEND time=1127.60690093 src=06:bf:4f:a0:ed:dd dst=d2:00:2a:87:cf:16 path=[2, 3, 4]
+RECV time=1127.60874104 src=06:bf:4f:a0:ed:dd dst=d2:00:2a:87:cf:16 
+SEND time=1127.60981798 src=d2:00:2a:87:cf:16 dst=06:bf:4f:a0:ed:dd path=[4, 3, 2]
+RECV time=1127.61173391 src=d2:00:2a:87:cf:16 dst=06:bf:4f:a0:ed:dd 
+SEND time=1127.61922908 src=ba:c5:f3:3d:0a:25 dst=d2:00:2a:87:cf:16 path=[2, 3, 4]
+RECV time=1127.6213429 src=ba:c5:f3:3d:0a:25 dst=d2:00:2a:87:cf:16 
+SEND time=1127.62231588 src=d2:00:2a:87:cf:16 dst=ba:c5:f3:3d:0a:25 path=[4, 3, 2]
+RECV time=1127.62411308 src=d2:00:2a:87:cf:16 dst=ba:c5:f3:3d:0a:25 
+SEND time=1127.63116002 src=ce:56:b5:33:30:e8 dst=c6:5d:9f:5b:f2:c9 path=[3]
+RECV time=1127.63119388 src=ce:56:b5:33:30:e8 dst=c6:5d:9f:5b:f2:c9 
+SEND time=1127.63524508 src=c6:5d:9f:5b:f2:c9 dst=ce:56:b5:33:30:e8 path=[3]
+RECV time=1127.63531494 src=c6:5d:9f:5b:f2:c9 dst=ce:56:b5:33:30:e8 
+SEND time=1127.64230895 src=72:6c:b4:8d:a7:a7 dst=c6:5d:9f:5b:f2:c9 path=[3, 4]
+RECV time=1127.64327693 src=72:6c:b4:8d:a7:a7 dst=c6:5d:9f:5b:f2:c9 
+SEND time=1127.64419007 src=c6:5d:9f:5b:f2:c9 dst=72:6c:b4:8d:a7:a7 path=[4, 3]
+RECV time=1127.64516497 src=c6:5d:9f:5b:f2:c9 dst=72:6c:b4:8d:a7:a7 
+SEND time=1127.653162 src=06:bf:4f:a0:ed:dd dst=c6:5d:9f:5b:f2:c9 path=[3, 4]
+RECV time=1127.65415597 src=06:bf:4f:a0:ed:dd dst=c6:5d:9f:5b:f2:c9 
+SEND time=1127.65509105 src=c6:5d:9f:5b:f2:c9 dst=06:bf:4f:a0:ed:dd path=[4, 3]
+RECV time=1127.65602398 src=c6:5d:9f:5b:f2:c9 dst=06:bf:4f:a0:ed:dd 
+SEND time=1127.66123104 src=ba:c5:f3:3d:0a:25 dst=c6:5d:9f:5b:f2:c9 path=[3, 4]
+RECV time=1127.6621511 src=ba:c5:f3:3d:0a:25 dst=c6:5d:9f:5b:f2:c9 
+SEND time=1127.66304207 src=c6:5d:9f:5b:f2:c9 dst=ba:c5:f3:3d:0a:25 path=[4, 3]
+RECV time=1127.66411996 src=c6:5d:9f:5b:f2:c9 dst=ba:c5:f3:3d:0a:25 
+SEND time=1127.67245102 src=72:6c:b4:8d:a7:a7 dst=ce:56:b5:33:30:e8 path=[3, 4]
+RECV time=1127.67384505 src=72:6c:b4:8d:a7:a7 dst=ce:56:b5:33:30:e8 
+SEND time=1127.67476487 src=ce:56:b5:33:30:e8 dst=72:6c:b4:8d:a7:a7 path=[4, 3]
+RECV time=1127.67563891 src=ce:56:b5:33:30:e8 dst=72:6c:b4:8d:a7:a7 
+SEND time=1127.68213892 src=06:bf:4f:a0:ed:dd dst=ce:56:b5:33:30:e8 path=[3, 4]
+RECV time=1127.68320608 src=06:bf:4f:a0:ed:dd dst=ce:56:b5:33:30:e8 
+SEND time=1127.68414307 src=ce:56:b5:33:30:e8 dst=06:bf:4f:a0:ed:dd path=[4, 3]
+RECV time=1127.68512702 src=ce:56:b5:33:30:e8 dst=06:bf:4f:a0:ed:dd 
+SEND time=1127.69033599 src=ba:c5:f3:3d:0a:25 dst=ce:56:b5:33:30:e8 path=[3, 4]
+RECV time=1127.69133401 src=ba:c5:f3:3d:0a:25 dst=ce:56:b5:33:30:e8 
+SEND time=1127.69231009 src=ce:56:b5:33:30:e8 dst=ba:c5:f3:3d:0a:25 path=[4, 3]
+RECV time=1127.69327903 src=ce:56:b5:33:30:e8 dst=ba:c5:f3:3d:0a:25 
+SEND time=1127.7048111 src=06:bf:4f:a0:ed:dd dst=72:6c:b4:8d:a7:a7 path=[4]
+RECV time=1127.70484591 src=06:bf:4f:a0:ed:dd dst=72:6c:b4:8d:a7:a7 
+SEND time=1127.70638704 src=72:6c:b4:8d:a7:a7 dst=06:bf:4f:a0:ed:dd path=[4]
+RECV time=1127.70641899 src=72:6c:b4:8d:a7:a7 dst=06:bf:4f:a0:ed:dd 
+SEND time=1127.7103591 src=ba:c5:f3:3d:0a:25 dst=72:6c:b4:8d:a7:a7 path=[4]
+RECV time=1127.710392 src=ba:c5:f3:3d:0a:25 dst=72:6c:b4:8d:a7:a7 
+SEND time=1127.71171403 src=72:6c:b4:8d:a7:a7 dst=ba:c5:f3:3d:0a:25 path=[4]
+RECV time=1127.71174002 src=72:6c:b4:8d:a7:a7 dst=ba:c5:f3:3d:0a:25 
+SEND time=1127.72461295 src=ba:c5:f3:3d:0a:25 dst=06:bf:4f:a0:ed:dd path=[4]
+RECV time=1127.72464895 src=ba:c5:f3:3d:0a:25 dst=06:bf:4f:a0:ed:dd 
+SEND time=1127.72719407 src=06:bf:4f:a0:ed:dd dst=ba:c5:f3:3d:0a:25 path=[4]
+RECV time=1127.7272501 src=06:bf:4f:a0:ed:dd dst=ba:c5:f3:3d:0a:25 
+SEND time=1152.32674098 src=b6:8d:f6:e2:78:f6 dst=d6:c9:91:12:13:c4 path=[1, 2]
+RECV time=1152.33146596 src=b6:8d:f6:e2:78:f6 dst=d6:c9:91:12:13:c4 
+SEND time=1152.33611608 src=d6:c9:91:12:13:c4 dst=b6:8d:f6:e2:78:f6 path=[2, 1]
+RECV time=1152.33977604 src=d6:c9:91:12:13:c4 dst=b6:8d:f6:e2:78:f6 
+SEND time=1152.36071205 src=3a:df:78:5a:b6:ee dst=d6:c9:91:12:13:c4 path=[1, 2, 3]
+RECV time=1152.36430001 src=3a:df:78:5a:b6:ee dst=d6:c9:91:12:13:c4 
+SEND time=1152.36570501 src=d6:c9:91:12:13:c4 dst=3a:df:78:5a:b6:ee path=[3, 2, 1]
+RECV time=1152.36856699 src=d6:c9:91:12:13:c4 dst=3a:df:78:5a:b6:ee 
+SEND time=1152.37494588 src=e2:ad:cb:c9:3a:3a dst=d6:c9:91:12:13:c4 path=[1, 2, 3]
+RECV time=1152.37739992 src=e2:ad:cb:c9:3a:3a dst=d6:c9:91:12:13:c4 
+SEND time=1152.37937403 src=d6:c9:91:12:13:c4 dst=e2:ad:cb:c9:3a:3a path=[3, 2, 1]
+RECV time=1152.38150001 src=d6:c9:91:12:13:c4 dst=e2:ad:cb:c9:3a:3a 
+SEND time=1152.3884511 src=96:ef:8f:ad:44:2b dst=d6:c9:91:12:13:c4 path=[1, 2, 3, 4]
+RECV time=1152.39140296 src=96:ef:8f:ad:44:2b dst=d6:c9:91:12:13:c4 
+SEND time=1152.39228392 src=d6:c9:91:12:13:c4 dst=96:ef:8f:ad:44:2b path=[4, 3, 2, 1]
+RECV time=1152.39527392 src=d6:c9:91:12:13:c4 dst=96:ef:8f:ad:44:2b 
+SEND time=1152.40097904 src=0a:d3:85:ca:f1:3b dst=d6:c9:91:12:13:c4 path=[1, 2, 3, 4]
+RECV time=1152.40412307 src=0a:d3:85:ca:f1:3b dst=d6:c9:91:12:13:c4 
+SEND time=1152.40533495 src=d6:c9:91:12:13:c4 dst=0a:d3:85:ca:f1:3b path=[4, 3, 2, 1]
+RECV time=1152.40795302 src=d6:c9:91:12:13:c4 dst=0a:d3:85:ca:f1:3b 
+SEND time=1152.41504598 src=6e:ce:85:c6:e3:44 dst=d6:c9:91:12:13:c4 path=[1, 2, 3, 4]
+RECV time=1152.41788793 src=6e:ce:85:c6:e3:44 dst=d6:c9:91:12:13:c4 
+SEND time=1152.4188261 src=d6:c9:91:12:13:c4 dst=6e:ce:85:c6:e3:44 path=[4, 3, 2, 1]
+RECV time=1152.42161298 src=d6:c9:91:12:13:c4 dst=6e:ce:85:c6:e3:44 
+SEND time=1152.42812896 src=3a:df:78:5a:b6:ee dst=b6:8d:f6:e2:78:f6 path=[2, 3]
+RECV time=1152.4290359 src=3a:df:78:5a:b6:ee dst=b6:8d:f6:e2:78:f6 
+SEND time=1152.43003988 src=b6:8d:f6:e2:78:f6 dst=3a:df:78:5a:b6:ee path=[3, 2]
+RECV time=1152.43090987 src=b6:8d:f6:e2:78:f6 dst=3a:df:78:5a:b6:ee 
+SEND time=1152.43762994 src=e2:ad:cb:c9:3a:3a dst=b6:8d:f6:e2:78:f6 path=[2, 3]
+RECV time=1152.43906593 src=e2:ad:cb:c9:3a:3a dst=b6:8d:f6:e2:78:f6 
+SEND time=1152.44023204 src=b6:8d:f6:e2:78:f6 dst=e2:ad:cb:c9:3a:3a path=[3, 2]
+RECV time=1152.44137001 src=b6:8d:f6:e2:78:f6 dst=e2:ad:cb:c9:3a:3a 
+SEND time=1152.4492321 src=96:ef:8f:ad:44:2b dst=b6:8d:f6:e2:78:f6 path=[2, 3, 4]
+RECV time=1152.45187902 src=96:ef:8f:ad:44:2b dst=b6:8d:f6:e2:78:f6 
+SEND time=1152.452847 src=b6:8d:f6:e2:78:f6 dst=96:ef:8f:ad:44:2b path=[4, 3, 2]
+RECV time=1152.45473909 src=b6:8d:f6:e2:78:f6 dst=96:ef:8f:ad:44:2b 
+SEND time=1152.460253 src=0a:d3:85:ca:f1:3b dst=b6:8d:f6:e2:78:f6 path=[2, 3, 4]
+RECV time=1152.46217394 src=0a:d3:85:ca:f1:3b dst=b6:8d:f6:e2:78:f6 
+SEND time=1152.46308589 src=b6:8d:f6:e2:78:f6 dst=0a:d3:85:ca:f1:3b path=[4, 3, 2]
+RECV time=1152.46501088 src=b6:8d:f6:e2:78:f6 dst=0a:d3:85:ca:f1:3b 
+SEND time=1152.4703269 src=6e:ce:85:c6:e3:44 dst=b6:8d:f6:e2:78:f6 path=[2, 3, 4]
+RECV time=1152.47260094 src=6e:ce:85:c6:e3:44 dst=b6:8d:f6:e2:78:f6 
+SEND time=1152.47371697 src=b6:8d:f6:e2:78:f6 dst=6e:ce:85:c6:e3:44 path=[4, 3, 2]
+RECV time=1152.47598195 src=b6:8d:f6:e2:78:f6 dst=6e:ce:85:c6:e3:44 
+SEND time=1152.48520303 src=e2:ad:cb:c9:3a:3a dst=3a:df:78:5a:b6:ee path=[3]
+RECV time=1152.48523903 src=e2:ad:cb:c9:3a:3a dst=3a:df:78:5a:b6:ee 
+SEND time=1152.48673201 src=3a:df:78:5a:b6:ee dst=e2:ad:cb:c9:3a:3a path=[3]
+RECV time=1152.48676109 src=3a:df:78:5a:b6:ee dst=e2:ad:cb:c9:3a:3a 
+SEND time=1152.4916749 src=96:ef:8f:ad:44:2b dst=3a:df:78:5a:b6:ee path=[3, 4]
+RECV time=1152.49260998 src=96:ef:8f:ad:44:2b dst=3a:df:78:5a:b6:ee 
+SEND time=1152.49356103 src=3a:df:78:5a:b6:ee dst=96:ef:8f:ad:44:2b path=[4, 3]
+RECV time=1152.49530101 src=3a:df:78:5a:b6:ee dst=96:ef:8f:ad:44:2b 
+SEND time=1152.50337291 src=0a:d3:85:ca:f1:3b dst=3a:df:78:5a:b6:ee path=[3, 4]
+RECV time=1152.50471497 src=0a:d3:85:ca:f1:3b dst=3a:df:78:5a:b6:ee 
+SEND time=1152.50592995 src=3a:df:78:5a:b6:ee dst=0a:d3:85:ca:f1:3b path=[4, 3]
+RECV time=1152.506814 src=3a:df:78:5a:b6:ee dst=0a:d3:85:ca:f1:3b 
+SEND time=1152.514148 src=6e:ce:85:c6:e3:44 dst=3a:df:78:5a:b6:ee path=[3, 4]
+RECV time=1152.51532507 src=6e:ce:85:c6:e3:44 dst=3a:df:78:5a:b6:ee 
+SEND time=1152.51631188 src=3a:df:78:5a:b6:ee dst=6e:ce:85:c6:e3:44 path=[4, 3]
+RECV time=1152.51729488 src=3a:df:78:5a:b6:ee dst=6e:ce:85:c6:e3:44 
+SEND time=1152.52617908 src=96:ef:8f:ad:44:2b dst=e2:ad:cb:c9:3a:3a path=[3, 4]
+RECV time=1152.52808189 src=96:ef:8f:ad:44:2b dst=e2:ad:cb:c9:3a:3a 
+SEND time=1152.52938008 src=e2:ad:cb:c9:3a:3a dst=96:ef:8f:ad:44:2b path=[4, 3]
+RECV time=1152.53041291 src=e2:ad:cb:c9:3a:3a dst=96:ef:8f:ad:44:2b 
+SEND time=1152.53618789 src=0a:d3:85:ca:f1:3b dst=e2:ad:cb:c9:3a:3a path=[3, 4]
+RECV time=1152.53717208 src=0a:d3:85:ca:f1:3b dst=e2:ad:cb:c9:3a:3a 
+SEND time=1152.53816295 src=e2:ad:cb:c9:3a:3a dst=0a:d3:85:ca:f1:3b path=[4, 3]
+RECV time=1152.53913403 src=e2:ad:cb:c9:3a:3a dst=0a:d3:85:ca:f1:3b 
+SEND time=1152.5453701 src=6e:ce:85:c6:e3:44 dst=e2:ad:cb:c9:3a:3a path=[3, 4]
+RECV time=1152.54731798 src=6e:ce:85:c6:e3:44 dst=e2:ad:cb:c9:3a:3a 
+SEND time=1152.54872894 src=e2:ad:cb:c9:3a:3a dst=6e:ce:85:c6:e3:44 path=[4, 3]
+RECV time=1152.54972887 src=e2:ad:cb:c9:3a:3a dst=6e:ce:85:c6:e3:44 
+SEND time=1152.55994797 src=0a:d3:85:ca:f1:3b dst=96:ef:8f:ad:44:2b path=[4]
+RECV time=1152.56001306 src=0a:d3:85:ca:f1:3b dst=96:ef:8f:ad:44:2b 
+SEND time=1152.56185699 src=96:ef:8f:ad:44:2b dst=0a:d3:85:ca:f1:3b path=[4]
+RECV time=1152.56189394 src=96:ef:8f:ad:44:2b dst=0a:d3:85:ca:f1:3b 
+SEND time=1152.56708598 src=6e:ce:85:c6:e3:44 dst=96:ef:8f:ad:44:2b path=[4]
+RECV time=1152.56711888 src=6e:ce:85:c6:e3:44 dst=96:ef:8f:ad:44:2b 
+SEND time=1152.568398 src=96:ef:8f:ad:44:2b dst=6e:ce:85:c6:e3:44 path=[4]
+RECV time=1152.56842303 src=96:ef:8f:ad:44:2b dst=6e:ce:85:c6:e3:44 
+SEND time=1152.58077002 src=6e:ce:85:c6:e3:44 dst=0a:d3:85:ca:f1:3b path=[4]
+RECV time=1152.58084607 src=6e:ce:85:c6:e3:44 dst=0a:d3:85:ca:f1:3b 
+SEND time=1152.58301306 src=0a:d3:85:ca:f1:3b dst=6e:ce:85:c6:e3:44 path=[4]
+RECV time=1152.58305192 src=0a:d3:85:ca:f1:3b dst=6e:ce:85:c6:e3:44 

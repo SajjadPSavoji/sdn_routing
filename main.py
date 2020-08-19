@@ -164,7 +164,7 @@ class SimpleSwitch(app_manager.RyuApp):
 			self.mymac[src] = (dpid, msg.in_port)
 
 		if dst in self.mymac and self.mymac[dst][0] == dpid:
-			print '_______ONE HUP__________'
+			# print '_______ONE HUP__________'
 			# self.logger.info("packet in %s %s %s %s", dpid, src, dst, msg.in_port)
 			# print 'my mac', self.mymac
 			out_port = self.mymac[dst][1]
@@ -180,7 +180,7 @@ class SimpleSwitch(app_manager.RyuApp):
 				f.write(rep)
 
 		elif dst in self.mymac:
-			print '___________ perform dijkestra ___________'
+			# print '___________ perform dijkestra ___________'
 			# self.logger.info("packet in %s %s %s %s", dpid, src, dst, msg.in_port)
 			# print 'my mac', self.mymac
 			# sw_src = self.mymac[src][0]
@@ -236,7 +236,7 @@ class SimpleSwitch(app_manager.RyuApp):
 	def get_topology_data(self, ev):
 		print 'entered event.EvnetSwitchEnter'
 		temp_dict = load_wights()
-		print 'temp_dict', temp_dict
+		# print 'temp_dict', temp_dict
 		self.weights = {}
 		for key1 in temp_dict:
 			self.weights[int(key1)] = {}

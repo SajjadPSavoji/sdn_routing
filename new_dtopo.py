@@ -14,7 +14,12 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-# import pickle
+# create trace files
+with open ('flowtable.trace', 'w') as f:
+	pass
+with open ('path.trace', 'w') as f:
+	pass
+
 
 class DataPacket(dict):
 	def __init__(self, host, dest, rtt, time):
@@ -43,16 +48,15 @@ def draw_plot(history, index):
 					x.append(float(data.time))
 			
 			if y != []:
-				# print(y)
-				# ax.scatter(x, y, label=i)
 				x, y = zip(*sorted(zip(x, y)))
+				# ax.scatter(x, y, label=i+1)
 				ax.plot(x, y, label=i+1)
 
-
+	plt.title(str(index + 1))
 	plt.xlabel('time s')	
 	plt.ylabel('rtt ms')
 	ax.legend()
-	plt.savefig("pics/plt" + str(index) + ".png")
+	plt.savefig("./pics/plt" + str(index + 1) + ".png")
 	plt.close() 
 
 c0 = RemoteController( 'c0', ip='127.0.0.1', port=6633 )
@@ -169,14 +173,15 @@ for i in range(num_runs):
 			# seding tcp packets with size 100000 bytes for 100 ms
 			while time.time() - start_time < 0.1:
 				for host_num in range(num_hosts):
-					log = hosts[host_num].cmd('hping3 -d 100000 -c 1', hosts[rand_index[host_num]].IP())
+					log = hosts[host_num].cmd('hping3 -d 100000 -c 3', hosts[rand_index[host_num]].IP())
 					log_split =  log.split()
 					rtt = log_split[23]
 					if (rtt[0:3] == 'rtt'):
 						rtt_number = rtt[4:]
-						history[host_num].append(DataPacket(host_num, rand_index[host_num], float(rtt_number)/ 2, float(time.time() - base_time)))
+						history[host_num].append(DataPacket(host_num, rand_index[host_num], float(rtt_number)/ 2, float(time.time() - start_time)))
 						
-
+					# else:
+					# 	print(log_split)
 
 		# CLI(net)  # Bring up the mininet CLI
 		net.stop()	
@@ -184,4 +189,3 @@ for i in range(num_runs):
 for i in range(num_hosts):
 	print('creating plot #' + str(i+1))
 	draw_plot(history[i], i)
-
